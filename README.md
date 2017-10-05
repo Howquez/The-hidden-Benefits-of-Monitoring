@@ -9,13 +9,13 @@ In addition to the R scripts, I'll provide a simulated data set to illustrate th
 Since I splitted the analysis in several parts/ scripts, it is important to follow the designated order. More precisely, you'll have to start by installing a working directory which resembles mine. Subsequently, you'll have to store the data into the "01_Raw Data" folder and run the second script to read the raw (.xml) data. You'll end up having a .csv file stored in your "02_Processed Data" folder, which will be used in the subsequent scripts. The analysis will proceed with the data manipulation before the actual analysis can be performed. Afterwards, you'll have to run the "graphs and tables" script to visualize the data. In short, you should run the R scripts in the following order to replicate my analysis:
 
 ### How to reproduce the analysis:
-1. [00_YourWorkingDirectory.R](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/00_YourWorkingDirectory.R)
+1. [Create your working directory](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/00_YourWorkingDirectory.R)
     1. Run the script first
     2. Download the data and scripts
     3. Store the data in the "01_Raw_Data" folder
     4. Store the R scripts in the "03_RCodes" folder
     5. Take a look into the scripts and adjust the wp path wherever necessary
-2. [01_Read_XML_Data.R](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/01_Read_XML_Data.R)
-3. [02_Data_Manipulation.R](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/02_Data_Manipulation.R)
-4. [03_Data_Analysis.R](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/03_Data_Analysis.R)
-5. [04_Graphs&Tables.R](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/04_Graphs%26Tables.R)
+2. [Read the raw data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/01_Read_XML_Data.R)
+3. [Manipulate the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/02_Data_Manipulation.R)
+4. [Run the analysis](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/03_Data_Analysis.R)
+5. [Visualize the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/04_Graphs%26Tables.R)
