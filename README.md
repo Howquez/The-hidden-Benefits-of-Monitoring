@@ -15,7 +15,7 @@ Since I splitted the analysis in several parts/ scripts, it is important to foll
     2. Download the data and scripts
     3. Store the data in the "01_Raw_Data" folder
     4. Store the R scripts in the "03_RCodes" folder
-    5. Take a look into the scripts and adjust the wp path wherever necessary
+    5. Take a look into the scripts and adjust the wd path wherever necessary
 2. [Read the raw data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/01_Read_XML_Data.R)
 3. [Manipulate the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/02_Data_Manipulation.R)
 4. [Run the analysis](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/03_Data_Analysis.R)
