@@ -26,5 +26,5 @@ Since I splitted the analysis in several parts/ scripts, it is important to foll
 5. [Visualize the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/04_Graphs%26Tables.R)
 
 #### Acknowledgments
-A special thanks goes to Andreas Gotfredsen, who not only shared his software with me but also spent a lot of time on adjusting it to our needs.
+A special thanks goes to Andreas Gotfredsen, who not only shared his software with me but also spent a lot of time adjusting it to our needs.
 
