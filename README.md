@@ -2,7 +2,7 @@
 
 Together with Alexander Sebald and Georg Kirchsteiger, I ran an experiment investigating agents' reactions to monitoring decisions of their supervisors (principals) in a real-effort task. We hypothesize that the agents' productivity crucial to understand whether agents like or dislike to be monitored and that agents act reciprocal. That is, agents pass back kindness if they perceive the principals' decisions as kind. Likewise, we expect them to be unkind towards the principals if they feel treated unjustly. The experiment we designed allows the agents to form second-order beliefs (*i.e. what the agents believes the principals believes the agent would do*) and to punish or reward the principal as a response to her monitoring decision by exerting more effort in the agents' working task. We do *not* hypothesize that agents like or dislike to be monitored per se. Instead, we expect productive agents to prefer to be monitored while unproductive agents dislike to be monitored.
 
-###Overview
+### Overview
 
 You'll find several R scripts to replicate the analyses I ran for the experiment which was designed by Alexander Sebald, Georg Kirchsteiger and myself. Even though the analysis of the experiment is in this repository's focus, I'll also provide some information about its design, the key variables, how they are encoded and so on such that the reader can comprehend the R scripts and interpret the results more easily. If you want to run the experiment yourself, you can follow [this link](https://applications.econ.ku.dk/ceevirtuallaboratory/experiment_7/). Note that you'll have to run it on two browsers (or one incognito browser) or on different machines as you need two players to run through the whole experiment. I uploaded an [R script](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Write_DataBase.R) that writes the log in data (i.e. usernames and passwords). Contact me for the necessary information to reproduce the log in data.
 
@@ -24,3 +24,7 @@ Since I splitted the analysis in several parts/ scripts, it is important to foll
 3. [Manipulate the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/02_Data_Manipulation.R)
 4. [Run the analysis](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/03_Data_Analysis.R)
 5. [Visualize the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/04_Graphs%26Tables.R)
+
+#### Acknowledgments
+A special thanks goes to Andreas Gotfredsen, who not only shared his program with me but also spent a lot of time on adjusting it to our needs.
+
