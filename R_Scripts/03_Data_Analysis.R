@@ -5,39 +5,101 @@ library(VGAM)
 library(censReg)
 
 
-# Analysis ----------------------------------------------------------------
-names(experimentData)
-#experimentData$Session <- rep(c(1:3), 50)
-# Multiple Linear Regression Example 
+
+
+# OLS ---------------------------------------------------------------------
+# In what follows, I'll more or less run the same three specifications over and over again:
+# I'll either estimate the performance or the agent's workload and start with the Productivity as 
+# the only independent variable. I'll then add IT and its interaction term with productivity and 
+# subseqently, the principal's productivity. Afterward, I repeat these specifications but add sessions effects.
+# I finally do the same thing running censored regressions instead of OLS.
+
+# estimate the performance
 OLS1   <- lm(Performance ~ Productivity, data=experimentData)
 OLS2   <- lm(Performance ~ IT + Productivity + IT*Productivity,  data=experimentData)
-Tobit1 <- censReg(Performance ~ Productivity, left = 0, right = 1, data = experimentData)
-Tobit2 <- censReg(Performance ~ IT + Productivity + IT*Productivity, left = 0, right = 1, data = experimentData)
-
-FEOLS1   <- lm(Performance ~ Productivity + factor(Session),  data=experimentData)
-FETobit1 <- censReg(Performance ~ Productivity + factor(Session), left = 0, right = 1, 
-                    data = experimentData)
-FEOLS2   <- lm(Performance ~ IT + Productivity + IT*Productivity + factor(Session),  data=experimentData)
-FETobit2 <- censReg(Performance ~ IT + Productivity + IT*Productivity + factor(Session), left = 0, right = 1, 
-                    data = experimentData)
-
+OLS3   <- lm(Performance ~ IT + Productivity + IT*Productivity + PrinProd,  data=experimentData)
+# estimate the agent's workload
 OLS6   <- lm(screenChoice ~ Productivity, data=experimentData)
 OLS7   <- lm(screenChoice ~ IT + Productivity + IT*Productivity,  data=experimentData)
-Tobit6 <- censReg(screenChoice ~ Productivity, left = 1, right = maxScreens, data = experimentData)
-Tobit7 <- censReg(screenChoice ~ IT + Productivity + IT*Productivity, left = 1, right = maxScreens, data = experimentData)
+OLS8   <- lm(screenChoice ~ IT + Productivity + IT*Productivity + PrinProd,  data=experimentData)
 
+
+# Add fixed effects/session effects to estimate both outcome variables
+#experimentData$Session <- rep(c(1:3), 50) # the simulated data consists of one session
+FEOLS1   <- lm(Performance ~ Productivity + factor(Session),  data=experimentData)
+FEOLS2   <- lm(Performance ~ IT + Productivity + IT*Productivity + factor(Session),  data=experimentData)
+FEOLS3   <- lm(Performance ~ IT + Productivity + IT*Productivity + PrinProd + factor(Session),  data=experimentData)
+#
 FEOLS6   <- lm(screenChoice ~ Productivity + factor(Session), data=experimentData)
-FETobit6 <- censReg(screenChoice ~ Productivity + factor(Session), left = 1, right = maxScreens,
-                    data = experimentData)
 FEOLS7   <- lm(screenChoice ~ IT + Productivity + IT*Productivity + factor(Session),
                data=experimentData)
+FEOLS8   <- lm(screenChoice ~ IT + Productivity + IT*Productivity + PrinProd + factor(Session),
+               data=experimentData)
+
+
+# Censored Regressions ----------------------------------------------------
+# The two outcome variables are censored by design. The Performance can neither be negative nor higher than 1
+# because it is not possible to click on more than 100% of the boxes that are displayed. Likewise,
+# the workload cannot be lower than 1 (a boundary of 0 was not possible to program) and not higher than
+# a maximum we defined as maxScreens. Even though the models are called TobitX, the specifications here
+# consider that the data is left- AND right-censored. I therefore use the censreg package and follow the
+# same procedure as above.
+
+# estimate the performance
+Tobit1 <- censReg(Performance ~ Productivity, left = 0, right = 1, data = experimentData)
+Tobit2 <- censReg(Performance ~ IT + Productivity + IT*Productivity, left = 0, right = 1, data = experimentData)
+Tobit3 <- censReg(Performance ~ IT + Productivity + IT*Productivity + PrinProd, 
+                  left = 0, right = 1, data = experimentData)
+# estimate the agent's workload
+Tobit6 <- censReg(screenChoice ~ Productivity, left = 1, right = maxScreens, data = experimentData)
+Tobit7 <- censReg(screenChoice ~ IT + Productivity + IT*Productivity, left = 1, right = maxScreens, data = experimentData)
+Tobit8 <- censReg(screenChoice ~ IT + Productivity + IT*Productivity + PrinProd, 
+                  left = 1, right = maxScreens, data = experimentData)
+
+# Add fixed effects/session effects to estimate both outcome variables
+FETobit1 <- censReg(Performance ~ Productivity + factor(Session), left = 0, right = 1, 
+                    data = experimentData)
+FETobit2 <- censReg(Performance ~ IT + Productivity + IT*Productivity + factor(Session), left = 0, right = 1, 
+                    data = experimentData)
+FETobit3 <- censReg(Performance ~ IT + Productivity + IT*Productivity + PrinProd + factor(Session), 
+                    left = 0, right = 1, data = experimentData)
+#
+FETobit6 <- censReg(screenChoice ~ Productivity + factor(Session), left = 1, right = maxScreens,
+                    data = experimentData)
 FETobit7 <- censReg(screenChoice ~ IT + Productivity + IT*Productivity + factor(Session), left = 1, right = maxScreens,
                     data = experimentData)
+FETobit8 <- censReg(screenChoice ~ IT + Productivity + IT*Productivity + PrinProd + factor(Session), 
+                    left = 1, right = maxScreens, data = experimentData)
 
 
+# Censored Regression with Sensitivity Parameter Y ------------------------
+# These regression can later be used as a robustness check. Since they are, however,
+# hard to interpret and because these specifications rely on many independent variables
+# I prefer to generate a subsample that contains the most reciprocal observations, that is,
+# the highest values of YAgent, to run the specifications from above. I can then compare
+# the coefficients of the whole sample with those of the subsample.
+
+Tobit3 <- censReg(Performance ~ IT + Productivity + IT*Productivity + PrinProd, 
+                  left = 0, right = 1, data = experimentData)
+Tobit4 <- censReg(Performance ~ IT + Productivity + YAgent + IT*Productivity + IT*YAgent + Productivity*YAgent + 
+                          IT*Productivity*YAgent + PrinProd, left = 0, right = 1, data = experimentData)
+FETobit4 <- censReg(Performance ~ IT + Productivity + YAgent + IT*Productivity + IT*YAgent + Productivity*YAgent + 
+                            IT*Productivity*YAgent + PrinProd + factor(Session), 
+                    left = 0, right = 1, data = experimentData)
+
+Tobit8 <- censReg(screenChoice ~ IT + Productivity + IT*Productivity + PrinProd, 
+                  left = 1, right = maxScreens, data = experimentData)
+Tobit9 <- censReg(screenChoice ~ IT + Productivity + YAgent + IT*Productivity + IT*YAgent + Productivity*YAgent + 
+                          IT*Productivity*YAgent + PrinProd, left = 1, right = maxScreens, data = experimentData)
+FETobit9 <- censReg(screenChoice ~ IT + Productivity + YAgent + IT*Productivity + IT*YAgent + Productivity*YAgent + 
+                            IT*Productivity*YAgent + PrinProd + factor(Session), 
+                    left = 1, right = maxScreens, data = experimentData)
 
 
-# Fisher test for choosing low screenChoice contingent on IT and Productivity
+# Run fisher’s exact test -------------------------------------------------
+# Fisher test for choosing low screenChoice contingent on IT and Productivity.
+# Because I do not know how many instances each cell will have, I chose to run 
+# fisher's exact test because few cases suffice.
 # The matrix looks as follows
 matrix(c("HiBad", "LOBad", "HiGood", "LOGood"), nrow =2)
 
