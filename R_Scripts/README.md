@@ -12,4 +12,5 @@ To reproduce my analysis you have to run the scripts listed here in the followin
 4. [Run the analysis](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/03_Data_Analysis.R)
 5. [Visualize the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/04_Graphs&Tables.R)
     * You can find plots stemming from this file (using simulated data) [here](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures)
-Other scripts, such as [WriteDataBase]https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/Write_DataBase.R were used for different purposes and are not part of the anaylysis. I nevertheless uploaded them because they might help to replicate the experiment.
+    
+Other scripts, such as [WriteDataBase](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/Write_DataBase.R) were used for different purposes and are not part of the anaylysis. I nevertheless uploaded them because they might help to replicate the experiment.
