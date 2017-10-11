@@ -282,19 +282,19 @@
                 
         Imagine you choose to work on half the number of screens (number of screens).
         What will your performance be if you manage to click away every box that is 
-	displayed to you on these screens?&lt;br/&gt;
+	displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 	var="Control2.1" defaultinput="" textbox="true" number="int" min="50" max="50"/>
 
        <question text="Imagine again you choose to work on half the number of screens (number of screens). 
 	What will your performance be if you manage to click away every second box that is 
-        displayed to you on these screens?&lt;br/&gt;
+        displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
         var="Control2.2" defaultinput="" textbox="true" number="int" min="25" max="25"/>
 
       <question text="Imagine you clicked away 75% of the boxes on each screen in Stage 1. Remember that this would translate
         into a performance of 75%. Imagine further, that you expect to click the same amount of boxes per screen in Stage 2 and
-        that you choose to work on 5 out of 25 screens (20% of the Screens), what would your performance in Stage 2 be in that case?&lt;br/&gt;
+        that you choose to work on 5 out of 25 screens (20% of the Screens), what would your performance in Stage 2 be in that case? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
         var="Control2.3" defaultinput="" textbox="true" number="int" min="15" max="15"/>
 
@@ -305,7 +305,7 @@
       <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
           
         Think about the differences between Stage 1 and Stage 2. 
-	Considering your payment resulting from that stage, what is a major difference?&lt;br/&gt;
+	Considering your payment resulting from that stage, what is a major difference? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) The payment in Stage 1 was performance-based, in Stage 2 it is not. &lt;br/&gt;
         2) Person A can choose the likelihood with which I receive the higher payment. &lt;br/&gt;
@@ -318,7 +318,7 @@
       
        <question text="Assume you expect to click away less than 50% of the boxes in Stage 2. 
          Which of the following statements is true? &lt;br/&gt;
-         Hint: In this experiment, we understand a payoff as the mechniasm that determines your earnings in a given stage. &lt;br/&gt;
+         Hint: In this experiment, we understand a payoff as the mechanism that determines your earnings in a given stage. &lt;br/&gt;
          Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
          1) The performance-based payoff gives me higher expected earnings in Stage 2. &lt;br/&gt;
          2) The random payoff gives me higher expected earnings in Stage 2. &lt;br/&gt;
@@ -335,7 +335,7 @@
 
 
       <question text="Imagine you expect to click away 30% of the boxes. Do you recieve a higher expected payoff if
-	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff. &lt;br/&gt;
+	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
 	1) 75% &lt;br/&gt;
 	2) Both yield the same expected payoff. &lt;br/&gt;
@@ -344,7 +344,7 @@
 
 
        <question text="Imagine you expect to click away 60% of the boxes. Do you recieve a higher expected payoff if
-	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff. &lt;br/&gt;
+	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
 	1) 75% &lt;br/&gt;
 	2) Both yield the same expected payoff. &lt;br/&gt;
@@ -415,7 +415,7 @@
 	have to pay. Specifically, your costs are as follows. If you decide that the likelihhod with 
 	which Person B's payoff in Stage 2 is performance-based is 25%, you have to pay 5 DKK. 
 	If you decide that the likelihhod with which Person B's payoff in Stage 2 is performance-based is 75%, 
-	you have to pay 30 DKK. In addition to these costs, you pays Person B's earnings but also receive the 
+	you have to pay 30 DKK. In addition to these costs, you pay Person B's earnings but also receive the 
 	profit generated from Person B's work on the task in Stage 2. Specifically, your earnings are as follows.&lt;br/&gt;&lt;br/&gt;
         
 	Your earnings = 200 + 0.5 * Percentage of boxes you clicked away - Your payoff - Your costs&lt;br/&gt;&lt;br/&gt;
@@ -456,19 +456,19 @@
                 
         Imagine Person B chooses to work on half the number of screens (number of screens).
         What will his performance be if he manages to click away every box that is 
-	displayed to him/her on these screens?&lt;br/&gt;
+	displayed to him/her on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 	var="Control2.1" defaultinput="" textbox="true" number="int" min="50" max="50"/>
 
       <question text="Imagine Person B chooses to work on half the number of screens (number of screens).
         What will his  performance be if he manages to click away every second box that is 
-	displayed to him/her on these screens?&lt;br/&gt;
+	displayed to him/her on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
         var="Control2.2" defaultinput="" textbox="true" number="int" min="25" max="25"/>
 
       <question text="Imagine Person B clicked away 75% of the boxes on each screen in Stage 1. Remember that this would translate
         into a performance of 75%. Imagine further, that he expects to click the same amount of boxes per screen in Stage 2 and
-        that he chooses to work on 5 out of 25 screens (20% of the Screens), what would Person B's performance in Stage 2 be in that case?&lt;br/&gt;
+        that he chooses to work on 5 out of 25 screens (20% of the Screens), what would Person B's performance in Stage 2 be in that case? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
         var="Control2.3" defaultinput="" textbox="true" number="int" min="15" max="15"/>
 
@@ -479,7 +479,7 @@
       <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
           
         Think about the differences between Stage 1 and Stage 2. 
-	Considering Person B's payment resulting from that stage, what is a major difference?&lt;br/&gt;
+	Considering Person B's payment resulting from that stage, what is a major difference? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) The payment in Stage 1 was performance-based, in Stage 2 it is not. &lt;br/&gt;
         2) I can choose the likelihood with which Person B receives the higher payment. &lt;br/&gt;
@@ -492,7 +492,7 @@
 
       <question text="Assume Person B expects to click away less than 50% of the boxes in Stage 2. 
         Which of the following statements is true? &lt;br/&gt;
-        Hint: In this experiment, we understand a payoff as the mechniasm that determines your earnings in a given stage. &lt;br/&gt;
+        Hint: In this experiment, we understand a payoff as the mechanism that determines your earnings in a given stage. &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) The performance-based payoff gives him/her higher expected earnings in Stage 2. &lt;br/&gt;
         2) The random payoff gives him/her higher expected earnings in Stage 2. &lt;br/&gt;
@@ -509,7 +509,7 @@
 
 
       <question text="Imagine Person B expects to click away 30% of the boxes. Does he recieve higher expected earnings from Stage 2 if
-	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff. &lt;br/&gt;
+	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) 75% &lt;br/&gt;
         2) Both yield the same expected payoff. &lt;br/&gt;
@@ -518,7 +518,7 @@
 
 
       <question text="Imagine Person B expects to click away 60% of the boxes. Does he recieve higher expected earnings from Stage 2 if
-	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff. &lt;br/&gt;
+	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) 75% &lt;br/&gt;
         2) Both yield the same expected payoff. &lt;br/&gt;
@@ -683,7 +683,7 @@
         <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Final Questionnaire&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 				
             Imagine the following situation: you are shopping in an unfamiliar city and realize you lost your way. 
-			You ask a stranger for directions. The stranger offers to take you with their car to your destination. 
+			You ask a stranger for directions. The stranger offers to take you with his car to your destination. 
 			The ride takes about 20 minutes and costs the stranger about 200 DKK in total. 
 			The stranger does not want money for it. You carry six bottles of wine with you. 
 			The cheapest bottle costs 50 DKK, the most expensive one 300 DKK. 
