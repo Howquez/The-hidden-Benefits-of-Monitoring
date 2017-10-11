@@ -47,7 +47,7 @@
 
 	In Stage 1 you can decide how many boxes you want to click away in a box-clicking task.&lt;br/&gt;&lt;br/&gt; 
 
-	The task consists of a series of screens with black boxes. When you click on a black box it disappears. 
+	The task consists of a series of &lt;b/&gt;screens&lt;b/&gt; with black boxes. When you click on a black box it disappears. 
 	After some seconds the whole screen disappears together with the remaining boxes and a new screen with new black boxes comes up. 
         Your performance on the task is measured by the percentage of black boxes you click away. 
 	It is between 0% (you do not click away any black box) and 100% (you click away all black boxes that appear on each screen).&lt;br/&gt;&lt;br/&gt;
@@ -87,7 +87,7 @@
 	&lt;b/&gt;What are your earnings in Stage 1?&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             
 	At the end of the actual task you will be informed about the percentage of boxes that you clicked away.
-	Your payoff in Stage 1 is performance-based. That is, your earnings in this stage depend on the percentage of boxes you clicked away.&lt;br/&gt;&lt;br/&gt;
+	Your payoff in Stage 1 is &lt;b/&gt;performance-based&lt;b/&gt;. That is, your earnings in this stage depend on the percentage of boxes you clicked away.&lt;br/&gt;&lt;br/&gt;
             
 	You can either earn 75 DKK or 125 DKK in Stage 1. 
 	The likelihood with which you earn 125 DKK is given by the percentage of boxes you clicked away. 
@@ -188,33 +188,67 @@
           
 	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Remember&lt;/b&gt;: You are Person B.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
                
-	In Stage 2 you are paired with another person, Person A, and you will be confronted 
-	with the same box-clicking task as in Stage 1. The difficulty of the task is exactly the same as before.&lt;br/&gt;&lt;br/&gt;
-               
-	However, in this stage your performance will generate income for Person A (the Person that you are paired with) and he will pay you from 
-	his income for your work on the task.&lt;br/&gt;&lt;br/&gt;
-                              
-	Specifically, you will either receive a random payoff unrelated to your work effort or a performance-based payoff from Person A.&lt;br/&gt; &lt;br/&gt; 
+	In Stage 2 you are paired with another person, Person A. You will be confronted 
+	with the same box-clicking task as in Stage 1. The difficulty of the task is exactly the same as before. 
+	&lt;br/&gt;&lt;br/&gt;
+        
+	This stage is different from the first stage. Person A (the person you are paired with) 
+	will not work on the task again. Your performance will generate income for Person A and he will pay you 
+	for your work on the task from his income. Another difference is that the payoff you will 
+	receive from Person A will either be random or performance-based. &lt;br/&gt;&lt;br/&gt;
+	
+	The next screens will explain, what 'random' as well as 'performance-based' means and how this affects your earnings
+	as well as the earnings of the person you are paired with."/>
+    </screen>
 		       
-	A random payoff simply means that you have a 50% chance to earn 75 DKK and a 50% chance to earn 125 DKK.&lt;br/&gt;&lt;br/&gt;  
-	A performance-based payoff means that your payoff is determined as in Stage 1. That is, the likelihood with which you earn 125 DKK 
-	is given by the percentage of boxes you clicked away. The higher the percentage of boxes you clicked away during the box-clicking task,
-	the more likely it is that you earn 125 DKK.&lt;br/&gt;&lt;br/&gt;
+                              
+    <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
+        <message text="
+	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
+          
+	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Remember&lt;/b&gt;: You are Person B.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+		       
+	A random payoff simply means that you have a 50% chance to earn 75 DKK and a 50% chance to earn 125 DKK. 
+	You can therefore imagine that a random payoff is like a fair con flip: whenever heads is up,
+	you will receive 125 DKK, otherwise you will receive 75 DKK in this stage. &lt;br/&gt;&lt;br/&gt;  
+	
+	A performance-based payoff means that your payoff is determined as in Stage 1. 
+	That is, the likelihood with which you earn 125 DKK is given by the percentage of boxes you clicked away. 
+	The higher the percentage of boxes you clicked away during the box-clicking task,
+	the more likely it is that you earn 125 DKK. "/>
+    </screen>
+		       
+                              
+    <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
+        <message text="
+	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
+          
+	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Remember&lt;/b&gt;: You are Person B.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
                
-	Whether you will receive a random payoff or a performance-based payoff is influenced by Person A (the person you are paired with).  
-	More precisely, Person A will be informed about the percentage of boxes you clicked away in Stage 1 before he has to choose the likelihood 
-	with which you receive a performance-based payoff in Stage 2. 
-	Person A can choose a likelihood of either 25% or 75% where 25% means that there is a 25% chance that you receive a performance-based payoff and 
-	75% means that there is a 75% chance that you receive a performance-based payoff.&lt;br/&gt;&lt;br/&gt; 
+	Person A (the person you are paired with) cannot &lt;b/&gt;choose&lt;b/&gt; whether you receive a performance-based
+	or a random payment. However, he can &lt;b/&gt;influence&lt;b/&gt; it. More precisely, he has to choose the likelihood 
+	with which you receive a performance-based payoff in Stage 2.
+	Person A can choose a likelihood of either 25% or 75%. 25% means that there is a 25% chance that you receive a 
+	performance-based payoff and 75% means that there is a 75% chance that you receive a performance-based payoff.&lt;br/&gt;&lt;br/&gt; 
                
 	In a nutshell, the higher the likelihood that Person A chooses, the more likely it is that your earnings in Stage 2 
-	will depend on your performance during the task.&lt;br/&gt;&lt;br/&gt; 
-               
+	will depend on your performance during the task. &lt;br/&gt;&lt;br/&gt; 
+	               
+	Person A will be informed about the percentage of boxes you clicked away in Stage 1 before he decides which payoff
+	will be more likely to determine your earnings.
 	You will be informed about Person A's choice before you decide how many boxes you want to click away in the box-clicking task in Stage 2.
 	However, neither you nor Person A will be informed about whether your payoff will actually be random or performance-based. 
 	You will only be informed about the likelihood chosen by Person A, i.e. the likelihood with which your earnings in Stage 2 
-	will depend on your performance.&lt;br/&gt;&lt;br/&gt;
-               
+	will depend on your performance. "/>
+    </screen>
+		       
+                              
+    <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
+        <message text="
+	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
+          
+	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Remember&lt;/b&gt;: You are Person B.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+
 	Following this, you have to make a decision on how much effort to put into the box-clicking task in Stage 2. 
 	Importantly, you will make this decision in two steps: First, you can choose your workload. That is, you can choose
 	the number of screens you intend to work on. You can thereby choose any number between 0 and 25 where 25 is 
@@ -241,8 +275,9 @@
 	A has to pay. Specifically, Person A's costs are as follows. If Person A decides that the likelihhod with 
 	which your payoff in Stage 2 is performance-based is 25%, he has to pay 5 DKK. 
 	If Person A decides that the likelihhod with which your payoff in Stage 2 is performance-based is 75%, 
-	he has to pay 30 DKK. In addition to these costs, Person A pays your earnings but also receives the 
-	profit generated from your work on the task in Stage 2. Specifically, his earnings are as follows.&lt;br/&gt;&lt;br/&gt;
+	he has to pay 30 DKK. In addition to these costs, Person A pays your earnings. However, he also receives a 
+	a flat payment of 200 DKK as well as a profit generated from your work on the task in Stage 2. 
+	Specifically, his earnings are as follows.&lt;br/&gt;&lt;br/&gt;
                
 	Person A's earnings = 200 + 0.5 * Percentage of boxes you clicked away - Your payoff - Person A's costs&lt;br/&gt;&lt;br/&gt;
                
