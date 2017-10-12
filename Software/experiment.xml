@@ -369,7 +369,7 @@
          var="Control2.6" defaultinput="" textbox="true" number="int" min="1" max="1"/>
 
 
-      <question text="Imagine you expect to click away 30% of the boxes. Do you recieve a higher expected payoff if
+      <question text="Imagine you expect to click away 30% of the boxes. Do you receive a higher expected payoff if
 	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
 	1) 75%. &lt;br/&gt;
@@ -378,7 +378,7 @@
 	var="Control2.7" defaultinput="" textbox="true" number="int" min="3" max="3"/>
 
 
-       <question text="Imagine you expect to click away 60% of the boxes. Do you recieve a higher expected payoff if
+       <question text="Imagine you expect to click away 60% of the boxes. Do you receive a higher expected payoff if
 	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
 	1) 75%. &lt;br/&gt;
@@ -543,7 +543,7 @@
 	var="Control2.6" defaultinput="" textbox="true" number="int" min="1" max="1"/>
 
 
-      <question text="Imagine Person B expects to click away 30% of the boxes. Does he recieve higher expected earnings from Stage 2 if
+      <question text="Imagine Person B expects to click away 30% of the boxes. Does he receive higher expected earnings from Stage 2 if
 	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) 75%. &lt;br/&gt;
@@ -552,7 +552,7 @@
         var="Control2.7" defaultinput="" textbox="true" number="int" min="3" max="3"/>
 
 
-      <question text="Imagine Person B expects to click away 60% of the boxes. Does he recieve higher expected earnings from Stage 2 if
+      <question text="Imagine Person B expects to click away 60% of the boxes. Does he receive higher expected earnings from Stage 2 if
 	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
         1) 75%. &lt;br/&gt;
