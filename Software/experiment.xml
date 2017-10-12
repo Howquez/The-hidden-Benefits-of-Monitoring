@@ -372,7 +372,7 @@
       <question text="Imagine you expect to click away 30% of the boxes. Do you recieve a higher expected payoff if
 	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
-	1) 75% &lt;br/&gt;
+	1) 75%. &lt;br/&gt;
 	2) Both yield the same expected payoff. &lt;br/&gt;
 	3) 25%. &lt;br/&gt;" 
 	var="Control2.7" defaultinput="" textbox="true" number="int" min="3" max="3"/>
@@ -381,7 +381,7 @@
        <question text="Imagine you expect to click away 60% of the boxes. Do you recieve a higher expected payoff if
 	Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
-	1) 75% &lt;br/&gt;
+	1) 75%. &lt;br/&gt;
 	2) Both yield the same expected payoff. &lt;br/&gt;
 	3) 25%. &lt;br/&gt;" 
 	var="Control2.8" defaultinput="" textbox="true" number="int" min="1" max="1"/>
@@ -546,7 +546,7 @@
       <question text="Imagine Person B expects to click away 30% of the boxes. Does he recieve higher expected earnings from Stage 2 if
 	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
-        1) 75% &lt;br/&gt;
+        1) 75%. &lt;br/&gt;
         2) Both yield the same expected payoff. &lt;br/&gt;
         3) 25%. &lt;br/&gt;"
         var="Control2.7" defaultinput="" textbox="true" number="int" min="3" max="3"/>
@@ -555,7 +555,7 @@
       <question text="Imagine Person B expects to click away 60% of the boxes. Does he recieve higher expected earnings from Stage 2 if
 	you choose a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
         Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
-        1) 75% &lt;br/&gt;
+        1) 75%. &lt;br/&gt;
         2) Both yield the same expected payoff. &lt;br/&gt;
         3) 25%. &lt;br/&gt;"
         var="Control2.8" defaultinput="" textbox="true" number="int" min="1" max="1"/>
@@ -585,7 +585,7 @@
             &lt;b/&gt;Your Choice:&lt;/b&gt;&lt;br/&gt;
             You have to choose the likelihood with which Person B receives a performance-based payoff:&lt;br/&gt;
 				
-			      You can choose either 25 or 75. If you choose, for instance, 25 there is a 25% chance that Person B receives a performance-based payment.&lt;br/&gt;&lt;br/&gt;
+	    You can choose either 25 or 75. If you choose, for instance, 25 there is a 25% chance that Person B receives a performance-based payment.&lt;br/&gt;&lt;br/&gt;
         
             Remember your costs associated with this choice are 5 DKK for the low likelihood of 25% and 30 for the high
             likelihood of 75%.&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;        
