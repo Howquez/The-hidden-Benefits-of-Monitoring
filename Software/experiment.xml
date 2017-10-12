@@ -112,7 +112,7 @@
             Please answer by choosing a number between 0 and 100 where 0 means 0%, 2 means 2% etc.&lt;br/&gt;"
         var="Control1.1" defaultinput="#[ Self.Answers['control1'] if 'control1' in Self.Answers else '' ]#" textbox="true" number="int" min="75" max="75" />
 
-        <question text="&lt;b/&gt;Question 3&lt;/b&gt;: Imagine you click away 50% of the boxes, what is the likelihood with which you earn &lt;b/&gt;125 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
+        <question text="&lt;b/&gt;Question 2&lt;/b&gt;: Imagine you click away 50% of the boxes, what is the likelihood with which you earn &lt;b/&gt;125 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
             Please answer by choosing a number between 0 and 100 where 0 means 0%, 2 means 2% etc.&lt;br/&gt;"
         var="Control1.2" defaultinput="#[ Self.Answers['control3'] if 'control3' in Self.Answers else '' ]#" textbox="true" number="int" min="50" max="50" />
 
