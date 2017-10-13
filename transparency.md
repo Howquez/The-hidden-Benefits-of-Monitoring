@@ -1,4 +1,7 @@
+## Purpose
+
 As I aim to do transparent and reprocible research, I try to meet the requirements propsed by Simmons et al. (2011). On top of that, I want to obviate any suspicions concerning HARKing — hypothesizing after the results are known. This is why I report information about the data collection and it's termination rule, the hypotheses and previously conducted experiments in this document.
+
 
 ### Data Collection
 
@@ -22,6 +25,11 @@ Where *'performance'* is an agent's effort provision in Stage 2, *'productivity'
 
 Prior to running the experiment outlined in this repository, my supervisors ran a very similar experiment consisting of the same first stage and a similar second stage which is depicted on the second page of the [game tree .pdf](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/20170920_GameTree.pdf). They ran the experiment with the same expectations as I outlined above. The data, which I have not seen at this point, did not reject their null hypothesis. As a consequence, we changed a few elements of the game. First, the principal's decision became binary -- she can either choose a high or a low IT in out design. Second, the game added a decision knot for the agent -- she can now choose her workload prior to exerting effort. Finally, the principal is informed about the agent's productivity in Stage 1.
 
+
+### Notes
+
+1. Remember that you can find the codebook, which lists all the generated variables [here](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Codebook.pdf).
+2. The codebook does not contain any summary statistics, nor does is provide detailed information about the structure of the data set. I'll try to upload the output of the `str()` function.
 
 - - - -
 Simmons, J. P., Nelson, L. D. and Simonsohn, U. (2011). False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant, Psychological science 22(11): 1359–1366.
