@@ -212,9 +212,9 @@ fishersData <- matrix(c(fewScreensHiBad, fewScreensLOBad, fewScreensHiGood, fewS
 fishersData <- as.data.frame(fishersData)
 fishersData[3,]   <- c(sum(fishersData$V1), sum(fishersData$V2))
 fishersData$Total <- c(sum(fishersData[1,]), sum(fishersData[2,]), sum(fishersData[3,]))
-row.names(fishersData) <- c("High Likelihood", "Low Likelihood", "Total")
-names(fishersData)[1]  <- "Weak Incentives"
-names(fishersData)[2]  <- "Semi-Strong Incentives"
+row.names(fishersData) <- c("Semi-Strong Incentives", "Weak Incentives", "Total")
+names(fishersData)[1]  <- "Unproductive"
+names(fishersData)[2]  <- "Productive"
 
 # Generate trimmed experimentData df containing the most important variables for summary statistics
 usefull <- c("Performance", "Productivity", "IT", "screenChoice")
