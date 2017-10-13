@@ -29,6 +29,7 @@ Since I splitted the analysis in several parts/ scripts, it is important to foll
 4. [Run the analysis](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/03_Data_Analysis.R)
 5. [Visualize the data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/04_Graphs&Tables.R)
     * You can find plots stemming from this file (using simulated data) [here](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures)
+6. [Run the analysis on a sub sample](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/06_SubSample.R)
 
 
 
