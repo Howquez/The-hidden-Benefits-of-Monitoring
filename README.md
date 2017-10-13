@@ -2,8 +2,6 @@
 
 Together with [Alexander Sebald](http://www.econ.ku.dk/sebald/) and [Georg Kirchsteiger](http://gkirchst.ulb.ac.be), I ran an experiment investigating agents' reactions to monitoring decisions of their supervisors (principals) in a real-effort task. We hypothesize that the agents' productivity is crucial to understand whether agents like or dislike to be monitored and that some agents act reciprocal. That is, agents pass back kindness if they perceive the principals' decisions as kind. Likewise, we expect them to be unkind towards the principals if they feel treated unjustly. The experiment we designed allows the agents to form second-order beliefs (*i.e. what the agents believe the principals believe the agent would do*) and to punish or reward the principal as a response to her monitoring decision by exerting less or more effort in the working task. We do *not* hypothesize that agents like or dislike to be monitored *per se*. Instead, we expect productive agents to prefer to be monitored while unproductive agents dislike to be monitored.
 
-The data was collected in several laboratory sessions at the [Centre for Experimental Economics](http://www.econ.ku.dk/cee/) in Copenhagen. We ran the first session on **DD** November 2017. Before running the sessions, we agreed on the following rule to terminate the data collection: **post rule here**.
-
 ### Overview
 
 You'll find several R scripts to replicate the analyses I ran for the experiment which was designed by Alexander Sebald, Georg Kirchsteiger and myself. Even though the analysis of the experiment is in this repository's focus, I'll also provide some information about its design, the key variables, how they are encoded and so on such that the reader can comprehend the R scripts and interpret the results more easily. If you want to run the experiment yourself, you can follow [this link](https://applications.econ.ku.dk/ceevirtuallaboratory/experiment_7/). Note that the experiment includes a two player game such that you'll have to run it on two browsers (or one incognito browser) or on different machines. I uploaded an [R script](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/Write_DataBase.R) that writes the log in data (i.e. usernames and passwords). Contact me for the necessary information to reproduce the log in data.
@@ -31,18 +29,6 @@ Since I splitted the analysis in several parts/ scripts, it is important to foll
     * You can find plots stemming from this file (using simulated data) [here](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures)
 6. [Run the analysis on a sub sample](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/06_SubSample.R)
 
-
-
-### Hypothesis
-The [simulated data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/tree/master/Simulated_Data) is generated such that it supports our hypothesis -- it includes some noise though. As a consequence, some of the [figures](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/01_Regression.pdf) I posted visualize our hypothesis nicely. Having these illustrations in mind helps to understand what we test.
-
-First, consider the following OLS specification:
-
-`performance = a + b productivity + c IT + d (productivity x IT) + e` 
-
-Where *'performance'* is an agent's effort provision in Stage 2, *'productivity'* her effort provision in Stage 1 and *'IT'* a dummy variable describing the matched principal's monitoring decision.
-
-*Hypothesis I*: Given a high IT (`IT==1`) the relation between performance and productivity is stronger (steeper) than predicted by an egoistic model of effort provision while it is weaker (flatter) for low IT decisions (`IT==0`). Given the OLS specification from above this translates into: `b < 0.25  &  b + d > 0.75`.
     
  - - - -
 
