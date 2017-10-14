@@ -20,6 +20,10 @@ Where *'performance'* is an agent's effort provision in Stage 2, *'productivity'
 
 *Hypothesis I*: Given a high IT (`IT==1`) the relation between performance and productivity is stronger (steeper) than predicted by an egoistic model of effort provision while it is weaker (flatter) for low IT decisions (`IT==0`). Given the OLS specification from above this translates into: `b < 0.25  &  b + d > 0.75`.
 
+Because the agent has a second action to choose her effort provision - remember that an agent can choose her workload - we can also consider the *screenChoice* variable. Doing so, I expect a pattern such as described in this [figure](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/03_Histogram.pdf): Agents who face low incentives, that is, a low IT chosen by the principal, and are unprodcutive, are less prone to choose a non-maximal workload than those who face the same incentives but are productive. The opposite is expected to hold true for agents facing semi-strong incentives (a high IT chosen by the principal): unproductive agents choose a lower workload than productive agents. We can test this, for instance, by running Fisher's exact test which leads to the second hypothesis.
+
+*Hypothesis II*: 
+
 
 ### Previous Experiments
 
