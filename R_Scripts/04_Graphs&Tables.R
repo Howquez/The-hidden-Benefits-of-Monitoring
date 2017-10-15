@@ -201,6 +201,39 @@ grid.arrange(RDD1, RDD2, top = textGrob("Productivity in Stage 1", gp=gpar(fonts
 dev.off() 
 
 
+# Plot the Principals' choices
+
+p5 <- ggplot(subset(experimentData, IT == 0), aes(x = IT, alpha = Productive)) +
+        geom_bar(fill = colLo, aes(y = (..count..)/sum(..count..))) +
+        ggplotStyle +
+        geom_hline(yintercept = 0, alpha= 1/2) +
+        xlab("") +
+        ylab("") +
+        scale_y_continuous(labels = scales::percent) +
+        scale_alpha_manual(name = "Productivity", labels = c("Low", "High"), values = c(.5, 1)) +
+        scale_x_discrete(labels = "Weak") + 
+        theme(legend.position="top")
+
+p6 <- ggplot(subset(experimentData, IT == 1), aes(x = IT, alpha = Productive)) +
+        geom_bar(fill = colMe, aes(y = (..count..)/sum(..count..))) +
+        ggplotStyle +
+        geom_hline(yintercept = 0, alpha= 1/2) +
+        xlab("") +
+        ylab("") +
+        scale_y_continuous(labels = scales::percent) +
+        scale_alpha_manual(name = "Productivity", labels = c("Low", "High"), values = c(.5, 1)) +
+        scale_x_discrete(labels = "Semi-Strong") + 
+        theme(legend.position="top")
+
+pdf("04_Figures/07_Principal.pdf",width=5,height=6.5)
+grid.arrange(p5, p6, ncol=2, bottom = textGrob("Incentives", gp=gpar(fontsize = 8, fontfamily = "Courier")),
+             left = textGrob("Percentage", rot = 90, vjust = 1,
+                             gp = gpar(fontsize = 8, fontfamily = "Courier")))
+dev.off() 
+
+
+
+
 # Tables ------------------------------------------------------------------
 
 # Summary Statistics
