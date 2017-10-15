@@ -104,17 +104,45 @@ FETobit9 <- censReg(screenChoice ~ IT + Productivity + YAgent + IT*Productivity 
 matrix(c("HiBad", "LOBad", "HiGood", "LOGood"), nrow =2)
 
 fisher.test((fishersData[1:2,1:2]))
+# Find screenChoice Mode --------------------------------------------------
+Mode <- function(x) {
+        ux <- unique(x)
+        tab <- tabulate(match(x, ux)) 
+        ux[tab == max(tab)]
+}
+
+Maxi <- function(x) {
+        tab <- tabulate(x)
+        max(tab)
+}
+
+Maxi(experimentData$screenChoice[experimentData$IT==0])
+
+# find mode of screenchoices for both IT choices (we'll need this for the graphs)
+modeIT0 <- Mode(experimentData$screenChoice[experimentData$IT==0])
+nmaxIT0 <- Maxi(experimentData$screenChoice[experimentData$IT==0])
+
+modeIT1 <- Mode(experimentData$screenChoice[experimentData$IT==1])
+nmaxIT1 <- Maxi(experimentData$screenChoice[experimentData$IT==1])
+
+# save the higher value
+max(c(nmaxIT0, nmaxIT1))
+nmaxIT  <- max(c(nmaxIT0, nmaxIT1))
 
 
+# The principal's choice --------------------------------------------------
+# Count the principals who seem to expect an adverse effect of choosing the 'wrong' IT
+# 'wrong' thereby means that the agent would be materialy better off had the principal chosen
+# the other IT (likelihood of receiving a performance based payment).
+# I store the values in meaningless obects to see whether it sums up correctly. I'll then store these
+# objects in a data frame as I did with the fisher data.
 
+aa <- as.data.frame(table(experimentData$Productive))[1,2] # counts unproductive agents
+bb <- NROW(experimentData$IT[experimentData$IT == 1 & experimentData$Productive  == 0]) # wrong choice
+cc <- NROW(experimentData$IT[experimentData$IT == 0 & experimentData$Productive  == 0]) # good choice
+aa == bb + cc # has to evaluate as true
 
-
-
-
-
-
-
-
-
-
-
+dd <- as.data.frame(table(experimentData$Productive))[2,2] # counts productive agents
+ee <- NROW(experimentData$IT[experimentData$IT == 1 & experimentData$Productive  == 1]) # good choice
+ff <- NROW(experimentData$IT[experimentData$IT == 0 & experimentData$Productive  == 1]) # wrong choice
+dd == ee + ff # has to evaluate as true
