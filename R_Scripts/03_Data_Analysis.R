@@ -100,8 +100,6 @@ FETobit9 <- censReg(screenChoice ~ IT + Productivity + YAgent + IT*Productivity 
 # Fisher test for choosing low screenChoice contingent on IT and Productivity.
 # Because I do not know how many instances each cell will have, I chose to run 
 # fisher's exact test because few cases suffice.
-# The matrix looks as follows
-matrix(c("HiBad", "LOBad", "HiGood", "LOGood"), nrow =2)
 
 fisher.test((fishersData[1:2,1:2]))
 # Find screenChoice Mode --------------------------------------------------
@@ -138,11 +136,18 @@ nmaxIT  <- max(c(nmaxIT0, nmaxIT1))
 # objects in a data frame as I did with the fisher data.
 
 aa <- as.data.frame(table(experimentData$Productive))[1,2] # counts unproductive agents
-bb <- NROW(experimentData$IT[experimentData$IT == 1 & experimentData$Productive  == 0]) # wrong choice
-cc <- NROW(experimentData$IT[experimentData$IT == 0 & experimentData$Productive  == 0]) # good choice
+bb <- NROW(experimentData$IT[experimentData$IT == 1 & experimentData$Productive  == 0]) # 'wrong' choice
+cc <- NROW(experimentData$IT[experimentData$IT == 0 & experimentData$Productive  == 0]) # 'good' choice
 aa == bb + cc # has to evaluate as true
 
 dd <- as.data.frame(table(experimentData$Productive))[2,2] # counts productive agents
-ee <- NROW(experimentData$IT[experimentData$IT == 1 & experimentData$Productive  == 1]) # good choice
-ff <- NROW(experimentData$IT[experimentData$IT == 0 & experimentData$Productive  == 1]) # wrong choice
+ee <- NROW(experimentData$IT[experimentData$IT == 1 & experimentData$Productive  == 1]) # 'good' choice
+ff <- NROW(experimentData$IT[experimentData$IT == 0 & experimentData$Productive  == 1]) # 'wrong' choice
 dd == ee + ff # has to evaluate as true
+
+# The principal's earnings ------------------------------------------------
+# Run Factorial ANOVA
+# where PayA2 (what the principals would have earned in stage 2) is affected by 
+# the principal's IT choice and the agent's productivity
+
+anova(lm(PayA2 ~ IT * Productive, data = experimentData))
