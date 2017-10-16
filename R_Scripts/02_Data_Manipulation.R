@@ -9,9 +9,6 @@ experimentData <- experimentData[,2:(ncol(experimentData))]
 # and delete everything else
 rm(list=setdiff(ls(), "experimentData"))
 
-# before viewing it
-# View(experimentData)
-
 # Data manipulation -------------------------------------------------------
 
 names(experimentData)
@@ -39,7 +36,7 @@ experimentData$Performance <- experimentData$Performance / 100
 
 # Generate variables
 sampleSize  <- NROW(experimentData)
-maxScreens  <- 10
+maxScreens  <- 10 # Need to adjust this!
 q           <- 0.5
 
 experimentData$relProductivity <- experimentData$Productivity - q
@@ -143,6 +140,13 @@ experimentData$RB4 <- as.numeric(experimentData$RB4)
 experimentData$YAgent     <- (experimentData$RB1 + experimentData$RB2 + experimentData$RB3)/3
 experimentData$YPrincipal <- (experimentData$RA1 + experimentData$RA2 + experimentData$RA3)/3
 
+# rearrange columns
+experimentData <- experimentData[c("Session", "Username", "Group", "Completed",
+                                   "YAgent", "YPrincipal", "Productivity", "PrinProd", "IT", "screenChoice", 
+                                   "Performance", "relProductivity", "Productive", "perfDifference", "eDiff",
+                                   "PaymentB", "PaymentA", "PayB1", "PayA1", "PayB2", "PayA2", 
+                                   "RB1", "RB2", "RB3", "RB4", "RA1", "RA2", "RA3", "RA4")]
+
 # Get the data types right ------------------------------------------------
 
 experimentData$IT         <- as.factor(experimentData$IT)
@@ -193,10 +197,18 @@ xm1  <- median(ggjoydata$Effort[ggjoydata$Variable == "Stage 1: High"])
 xm2h <- median(ggjoydata$Effort[ggjoydata$Variable == "Stage 2: Medium"])
 xm2l <- median(ggjoydata$Effort[ggjoydata$Variable == "Stage 2: Low"])
 
+
+
 # Generate another ggjoydataset for the visualization of screenChoices
 ggjoydata1 <- ggjoydata[ggjoydata$screenSample!="Complete Sample",]
 
+
+
+
 # Count cases where screenChoice < maxScreens to create fisher test matrix
+# the variable names are as follows: Hi/Lo indicates the principal's IT choice
+# Bad/Good indicates whether the agent was productive (productivity higher than 0.5)
+
 fewScreens <- NROW(experimentData$screenChoice[experimentData$screenChoice<maxScreens]) 
 fewScreensHiBad <- NROW(experimentData$screenChoice[experimentData$screenChoice < maxScreens 
                                                  & experimentData$IT == 1 & experimentData$Productivity <= 1/2]) 
@@ -208,6 +220,7 @@ fewScreensHiGood <- NROW(experimentData$screenChoice[experimentData$screenChoice
 fewScreensLOGood <- NROW(experimentData$screenChoice[experimentData$screenChoice < maxScreens 
                                                  & experimentData$IT == 0 & experimentData$Productivity > 1/2])
 
+# Save data in a data frame such that one can print it later on
 fishersData <- matrix(c(fewScreensHiBad, fewScreensLOBad, fewScreensHiGood, fewScreensLOGood), nrow = 2)
 fishersData <- as.data.frame(fishersData)
 fishersData[3,]   <- c(sum(fishersData$V1), sum(fishersData$V2))
@@ -216,10 +229,68 @@ row.names(fishersData) <- c("Semi-Strong Incentives", "Weak Incentives", "Total"
 names(fishersData)[1]  <- "Unproductive"
 names(fishersData)[2]  <- "Productive"
 
+
+
+# Lets see how much the principals would have earned, if the second stage determined their earnings
+# unproductive agent, high IT (wrong choice from agent's perspective)
+PayHiBad <- mean(experimentData$PayA2[experimentData$IT == 1 & experimentData$Productive  == 0])
+# unproductive agent, low IT (good choice from agent's perspective)
+PayLoBad <- mean(experimentData$PayA2[experimentData$IT == 0 & experimentData$Productive  == 0])
+# productive agent, high IT (good choice from agent's perspective)
+PayHiGood <- mean(experimentData$PayA2[experimentData$IT == 1 & experimentData$Productive  == 1])
+# productive agent, low IT (wrong choice from agent's perspective)
+PayLoGood <- mean(experimentData$PayA2[experimentData$IT == 0 & experimentData$Productive  == 1])
+
+# Save data in a data frame such that one can print it later on
+PayData <- matrix(c(PayHiBad, PayLoBad, PayHiGood, PayLoGood), nrow = 2)
+PayData <- as.data.frame(PayData)
+row.names(PayData) <- c("Semi-Strong Incentives", "Weak Incentives")
+names(PayData)[1]  <- "Unproductive"
+names(PayData)[2]  <- "Productive"
+
+
+
 # Generate trimmed experimentData df containing the most important variables for summary statistics
 usefull <- c("Performance", "Productivity", "IT", "screenChoice")
 summaryData <- experimentData[usefull]
 
 
 
+# Label Data --------------------------------------------------------------
+
+library(labelled)
+
+var_label(experimentData$Session)       <- "Session identifier"
+var_label(experimentData$Username)      <- "Agent's identifier"
+var_label(experimentData$Group)         <- "Group identifier"
+var_label(experimentData$Completed)     <- "Indicates whether group completed the experiment"
+var_label(experimentData$Productivity)  <- "Agent's effort provision in Stage 1"
+var_label(experimentData$PrinProd)      <- "Principal's effort provision in Stage 1"
+var_label(experimentData$Performance)   <- "Agent's effort provision in Stage 2"
+var_label(experimentData$relProductivity)<- "Agent's Productivity - 0.5"
+var_label(experimentData$Productive)    <- "Indicates wheter Productivity >= 0.5"
+var_label(experimentData$perfDifference)<- "Agent's Performance in Stage 2 - Agent's Productivity in Stage 1"
+var_label(experimentData$eDiff)         <- "Difference between actual performance and rational prediction"
+var_label(experimentData$IT)            <- "Indicates high likelihood with which agent's earnings are performance based"
+var_label(experimentData$screenChoice)  <- "Agent's chosen workload"
+var_label(experimentData$RB1)           <- "Agent's answer to first reciprocity question"
+var_label(experimentData$RB2)           <- "Agent's answer to second reciprocity question"
+var_label(experimentData$RB3)           <- "Agent's answer to third reciprocity question"
+var_label(experimentData$RB4)           <- "Agent's answer to last reciprocity question"
+var_label(experimentData$RA1)           <- "Principal's answer to first reciprocity question"
+var_label(experimentData$RA2)           <- "Principal's answer to second reciprocity question"
+var_label(experimentData$RA3)           <- "Principal's answer to third reciprocity question"
+var_label(experimentData$RA4)           <- "Principal's answer to last reciprocity question"
+var_label(experimentData$YPrincipal)    <- "Index of RA1-4"
+var_label(experimentData$YAgent)        <- "Index of RB1-4"
+var_label(experimentData$PayA1)         <- "Principals's potential earnings in in Stage 1"
+var_label(experimentData$PayB1)         <- "Agent's potential earnings in in Stage 1"
+var_label(experimentData$PayA2)         <- "Principals's potential earnings in in Stage 2"
+var_label(experimentData$PayB2)         <- "Agent's potential earnings in in Stage 2"
+var_label(experimentData$PaymentA)      <- "Principals's actual earnings"
+var_label(experimentData$PaymentB)      <- "Agent's actual earnings"
+
+
+# Write processed data file -----------------------------------------------
+write.csv(experimentData, file = "02_ProcessedData/labeledExperimentData.csv")
 
