@@ -7,7 +7,7 @@ As you have seen, the app referes to the [Figure](https://github.com/Howquez/The
 
 You can either download the files and run them on your own computer or folow this link: https://roggenkamp.shinyapps.io/shiny_rdd/.
 
-To run it on your own computer, you have to store both files in the same working directory and create a third file with the following commands:
+To run it on your own computer, you have to store both files in the same working directory (a folder I called `shiny_RDD`) and create a third file with the following commands:
 
 ```R
 setwd("YOUR/DIRECTORY/shiny_RDD")
