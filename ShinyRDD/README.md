@@ -15,4 +15,4 @@ getwd()
 library(shiny)
 runApp()
 ```
-You should now see a window running the app (and the gam-oprion should work).
+You should now see a window running the app (and the `gam` smoothing option should work).
