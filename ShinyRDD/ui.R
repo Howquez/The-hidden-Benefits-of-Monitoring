@@ -31,12 +31,17 @@ ui <- fluidPage(
                         sliderInput(inputId = "range",
                                     label = "Specify a Discontinuity Sample",
                                     min = 0, max = 1,
-                                    value = c(0.25, 0.75)),
+                                    value = c(0.25, 0.75)),  
+                        
+                        #Input: Choose an smoothing method
+                        selectInput(inputId = "smooth",
+                                    label = "Choose a smoothing method for the regression line",
+                                    choices = c("lm", "gam")),
                         
                         hr(),
                         helpText("")
                         ),
                 # Main panel for displaying outputs
                 mainPanel(
-                        plotOutput("RDD1")
+                        plotOutput("RDD")
                 )))
