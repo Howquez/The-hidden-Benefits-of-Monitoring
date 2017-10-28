@@ -35,7 +35,7 @@ ui <- fluidPage(
                         
                         #Input: Choose an smoothing method
                         selectInput(inputId = "smooth",
-                                    label = "Choose a smoothing method for the regression line",
+                                    label = "Choose a Smoothing Method for the Regression Line",
                                     choices = c("lm", "gam")),
                         
                         hr(),
