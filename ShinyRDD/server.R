@@ -75,10 +75,11 @@ colLo  <- "#FECA95"
 
 function(input,output){
         
-        output$RDD1<-renderPlot({
+        output$RDD<-renderPlot({
                 if(input$IT== "High IT")
-                        ggplot(subset(experimentData, IT == 1 & Productivity >= input$range[1] & Productivity <= input$range[2]),
-                               aes(x = Productivity, y = Performance, colour = colMe)) +
+                        if(input$smooth == "lm")
+                                ggplot(subset(experimentData, IT == 1 & Productivity >= input$range[1] & Productivity <= input$range[2]),
+                                       aes(x = Productivity, y = Performance, colour = colMe)) +
                         geom_point(alpha = 1/3) +
                         ggplotStyle +
                         geom_smooth(data = subset(experimentData, 
@@ -97,8 +98,29 @@ function(input,output){
                         scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colMe, colMe)) + 
                         guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = FALSE)
                 else
-                        ggplot(subset(experimentData, IT == 0 & Productivity >= input$range[1] & Productivity <= input$range[2]),
-                               aes(x = Productivity, y = Performance, colour = colLo)) +
+                        ggplot(subset(experimentData, IT == 1 & Productivity >= input$range[1] & Productivity <= input$range[2]),
+                               aes(x = Productivity, y = Performance, colour = colMe)) +
+                        geom_point(alpha = 1/3) +
+                        ggplotStyle +
+                        geom_smooth(data = subset(experimentData, 
+                                                  Productivity >= input$threshold & Productivity <= input$range[2] & IT == 1),
+                                    method="gam", formula = y ~ s(x), alpha = 1/5, fill = colMe) +
+                        geom_smooth(data = subset(experimentData, 
+                                                  Productivity <  input$threshold & Productivity >= input$range[1] & IT == 1), 
+                                    method="gam", formula = y ~ s(x), alpha = 1/5, fill = colMe) +
+                        labs(title = "High IT", x = "Productivity in Stage 1", y = "Performance in Stage 2", col="Incentives") +
+                        geom_hline(yintercept = 0, alpha= 1/2) +
+                        geom_vline(xintercept = input$threshold, alpha= 1/2, lty = 2) +
+                        scale_x_continuous(limits=c(0, 1)) +
+                        scale_y_continuous(limits=c(0, 1)) +
+                        scale_alpha_manual(values=c(1/3, 1/3)) +
+                        scale_colour_manual(labels = c("Weak", "Semi-Strong"), values = c(colMe, colMe)) + 
+                        scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colMe, colMe)) + 
+                        guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = FALSE)
+                else
+                        if(input$smooth == "lm")
+                                ggplot(subset(experimentData, IT == 0 & Productivity >= input$range[1] & Productivity <= input$range[2]),
+                                       aes(x = Productivity, y = Performance, colour = colLo)) +
                         geom_point(alpha = 1/3) +
                         ggplotStyle +
                         geom_smooth(data = subset(experimentData, 
@@ -116,19 +138,18 @@ function(input,output){
                         scale_colour_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colLo)) + 
                         scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colLo)) + 
                         guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = FALSE)
-                
-        })
-        
-        output$RDD2<-renderPlot({ggplot(subset(experimentData, IT == 0 & Productivity >= input$range[1] & Productivity <= input$range[2]), aes(x = Productivity, y = Performance, colour = colLo)) +
+                else
+                        ggplot(subset(experimentData, IT == 0 & Productivity >= input$range[1] & Productivity <= input$range[2]),
+                               aes(x = Productivity, y = Performance, colour = colLo)) +
                         geom_point(alpha = 1/3) +
                         ggplotStyle +
                         geom_smooth(data = subset(experimentData, 
                                                   Productivity >= input$threshold & Productivity <= input$range[2] & IT == 0),
-                                    method=lm, alpha = 1/5, fill = colLo) +
+                                    method="gam", formula = y ~ s(x), alpha = 1/5, fill = colLo) +
                         geom_smooth(data = subset(experimentData, 
                                                   Productivity <  input$threshold & Productivity >= input$range[1] & IT == 0), 
-                                    method=lm, alpha = 1/5, fill = colLo) +
-                        labs(x = "Semi-Strong Incentives", y = "", col="Incentives") +
+                                    method="gam", formula = y ~ s(x), alpha = 1/5, fill = colLo) +
+                        labs(title = "Low IT", x = "Productivity in Stage 1", y = "Performance in Stage 2", col="Incentives") +
                         geom_hline(yintercept = 0, alpha= 1/2) +
                         geom_vline(xintercept = input$threshold, alpha= 1/2, lty = 2) +
                         scale_x_continuous(limits=c(0, 1)) +
@@ -137,6 +158,7 @@ function(input,output){
                         scale_colour_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colLo)) + 
                         scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colLo)) + 
                         guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = FALSE)
+                
         })
         
 }
