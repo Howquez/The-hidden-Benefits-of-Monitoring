@@ -1,76 +1,151 @@
 "","Session","Username","Group","Completed","score2","score","PersonAProb","screenChoice","Reciprocity1","Reciprocity2","Reciprocity3","Reciprocity4","PayA2","PayB2","PayA1","PayB1","PaymentA","PaymentB","PrinProd","RA1","RA2","RA3","RA4"
-"1",1,"1","1","true","56.688527048557","61.2402072941482","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",14,2,1,1,2
-"3",1,"3","3","true","30.4233253618441","0.805495386335714","75","6","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",24,2,1,1,1
-"5",1,"5","6","true","100","100","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",29,2,1,1,1
-"7",1,"7","11","true","26.574246383973","52.6150301150834","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",23,3,2,3,3
-"9",1,"9","14","true","48.7666085073551","39.9397549315772","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","75",10,2,1,1,1
-"11",1,"11","17","true","45.090835438276","40.6025781270701","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","125",25,1,1,2,2
-"13",1,"13","18","true","71.6304043359697","79.9701380117058","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","125",19,3,2,3,3
-"15",1,"15","21","true","48.1012427989522","40.2186428921731","25","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",9,3,2,3,3
-"17",1,"17","24","true","28.1274968310083","49.2787231148154","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","125","125","75",13,3,2,3,3
+"1",1,"1","1","true","56.688527048557","61.2402072941482","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",24,2,1,1,2
+"3",1,"3","3","true","30.4233253618441","0.805495386335714","75","6","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",42,2,1,1,1
+"5",1,"5","6","true","100","100","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",54,2,1,1,1
+"7",1,"7","11","true","26.574246383973","52.6150301150834","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",41,3,2,3,3
+"9",1,"9","14","true","48.7666085073551","39.9397549315772","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","75",12,2,1,1,1
+"11",1,"11","17","true","45.090835438276","40.6025781270701","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","125",43,1,1,2,2
+"13",1,"13","18","true","71.6304043359697","79.9701380117058","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","125",32,3,2,3,3
+"15",1,"15","21","true","48.1012427989522","40.2186428921731","25","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",11,3,2,3,3
+"17",1,"17","24","true","28.1274968310083","49.2787231148154","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","125","125","75",23,3,2,3,3
 "19",1,"19","25","true","56.0078798905981","55.4794054490481","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",4,3,2,3,3
-"21",1,"21","26","true","44.9659045689452","44.7061141611282","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",26,2,1,1,1
+"21",1,"21","26","true","44.9659045689452","44.7061141611282","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",44,2,1,1,1
 "23",1,"23","27","true","48.711550492955","43.4475075422583","25","13","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","125","125","125",2,3,2,3,3
-"25",1,"25","28","true","30.7979553095459","55.230643543894","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",11,3,2,3,3
-"27",1,"27","34","true","42.9682563126973","51.8142650996364","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","125","125","75",16,2,1,1,1
-"29",1,"29","36","true","31.7317246551013","7.15004098178387","75","4","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","125",18,2,1,1,2
-"31",2,"31","38","true","56.0906822685811","53.1183404460561","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","125",50,1,1,2,2
-"33",2,"33","39","true","33.0711726263592","63.8778538722906","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","75",46,1,1,2,2
-"35",2,"35","40","true","42.5952992883115","24.344203677882","75","19","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",60,2,1,1,1
-"37",2,"37","46","true","75.1522496263923","100","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","125","125","75",31,3,2,3,3
-"39",2,"39","48","true","48.4766215477052","29.8394381974223","75","14","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",58,1,1,2,3
-"41",2,"41","53","true","62.7610090427692","52.867082057171","25","24","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",39,1,1,2,3
-"43",2,"43","54","true","45.069074796512","42.2747658988016","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","75",33,2,1,1,1
-"45",2,"45","57","true","50.8577110349533","45.8649338243723","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","75",44,2,1,1,2
-"47",2,"47","61","true","72.1064976139301","46.2359964362603","25","15","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","125","125","75",53,1,1,2,2
-"49",2,"49","65","true","40.241424836425","12.7759712033897","75","18","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",34,3,2,3,3
-"51",2,"51","66","true","81.5821504094055","74.3892770896955","25","24","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",52,2,1,1,1
-"53",2,"53","72","true","44.8948897594493","54.3527744795122","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",55,1,1,2,3
-"55",2,"55","78","true","61.0062585461407","21.4579606378306","25","8","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",35,3,2,3,3
-"57",2,"57","79","true","49.6224488768905","37.9375514669589","25","16","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","125",43,3,2,3,3
-"59",2,"59","80","true","44.0157152166129","32.5605654979165","75","18","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",37,1,1,2,2
-"61",3,"61","84","true","31.911140130307","8.26341649340447","75","21","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",77,1,1,2,2
-"63",3,"63","85","true","53.1604185963079","48.8596784613571","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","125",67,3,2,3,3
-"65",3,"65","96","true","58.0178004169108","22.3762111254954","25","19","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",80,1,1,2,2
-"67",3,"67","102","true","39.2224349120993","14.3948160726929","75","11","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","75",83,3,2,3,3
-"69",3,"69","103","true","26.6156182384139","88.8116460536354","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","75","125","75",76,2,1,1,1
-"71",3,"71","104","true","65.6896621582648","72.1533361162498","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","125","75","75",72,2,1,1,1
-"73",3,"73","108","true","29.9934034097764","64.0608876467068","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","75",73,1,1,2,2
-"75",3,"75","109","true","40.6590758830255","42.0859517629432","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","75",74,3,2,3,3
-"77",3,"77","116","true","33.6839180476991","23.1007577406714","75","21","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",88,1,1,2,2
-"79",3,"79","122","true","54.5684298814965","51.640112003293","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","125",66,1,1,2,2
-"81",3,"81","123","true","62.05823305784","73.3130925894307","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",61,3,2,3,3
-"83",3,"83","128","true","40.3368451191038","54.7184730043838","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","75",90,1,1,2,2
-"85",3,"85","131","true","62.4612356893013","75.3335061628267","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",75,1,1,2,2
-"87",3,"87","134","true","30.6444675538995","87.0379750329554","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",82,2,1,1,1
-"89",3,"89","135","true","87.6554166617251","100","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","75",87,3,2,3,3
-"91",4,"91","145","true","20.6090899656609","0","75","7","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",98,2,1,1,1
-"93",4,"93","146","true","23.4444763495032","0","75","6","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","75",116,2,1,1,1
-"95",4,"95","149","true","54.199154615479","45.6979906086591","25","19","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",109,3,2,3,3
-"97",4,"97","156","true","39.802490791951","51.4878944599844","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly untrue of me","120","75","125","125","125","125",110,3,2,3,3
-"99",4,"99","158","true","13.3761538985046","94.2981179945359","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",101,2,1,1,2
-"101",4,"101","160","true","25.7504434896768","0","75","20","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","75","75","75",105,2,1,1,2
-"103",4,"103","162","true","47.721496838172","42.4901109199081","75","19","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",100,3,2,3,3
-"105",4,"105","165","true","22.4952482259476","73.5075094731057","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",93,3,2,3,3
-"107",4,"107","167","true","51.7624001546597","42.8680936949212","75","20","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","125",99,1,1,2,2
-"109",4,"109","169","true","85.0676918583671","100","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","75","75","75","75",102,3,2,3,3
-"111",4,"111","170","true","44.2242397497342","42.2844577476782","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",107,2,1,1,1
-"113",4,"113","172","true","40.015234983043","47.5469300484725","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","125",118,3,2,3,3
-"115",4,"115","175","true","54.2054834231044","60.0949953634659","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","75","75","75",119,1,1,2,2
-"117",4,"117","178","true","59.405834204769","59.6543176023527","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",91,1,1,2,3
-"119",4,"119","180","true","41.2147391879899","38.4336280055331","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",112,2,1,1,1
-"121",5,"121","183","true","24.5150695454928","0","75","17","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","125",134,3,2,3,3
-"123",5,"123","184","true","51.8368536564589","42.5072076656063","25","13","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",140,1,1,2,3
-"125",5,"125","185","true","21.7176813277367","0","75","20","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","75","75","75","125",125,1,1,2,3
-"127",5,"127","186","true","53.5940408485103","53.3358277153485","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",130,2,1,1,1
-"129",5,"129","188","true","56.8108762912915","54.6949365632073","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","75","125","125",129,1,1,2,2
-"131",5,"131","189","true","57.9117299393029","52.5590122254237","25","14","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","75",131,1,1,2,3
-"133",5,"133","191","true","32.3688973292221","14.3681873262354","75","15","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",135,3,2,3,3
-"135",5,"135","192","true","35.6952591517065","34.7310637424064","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","125",142,2,1,1,2
-"137",5,"137","195","true","64.0421133138419","75.1507199102882","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",150,2,1,1,1
-"139",5,"139","199","true","60.213577084119","43.9811893188671","25","22","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","125",132,2,1,1,1
-"141",5,"141","202","true","26.4354688967018","0","75","18","150 DKK worth","Mostly true of me","Mostly true of me","Mostly untrue of me","120","125","125","75","125","125",143,3,2,3,3
-"143",5,"143","206","true","49.8246053852902","40.7906009658209","75","14","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","75","125","75",137,2,1,1,1
-"145",5,"145","210","true","30.907994160804","0","75","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",127,2,1,1,1
-"147",5,"147","211","true","51.709832190494","39.3661739775901","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","125",148,3,2,3,3
-"149",5,"149","214","true","55.7202747675955","46.9547509306651","25","17","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",133,2,1,1,1
+"25",1,"25","28","true","30.7979553095459","55.230643543894","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",17,3,2,3,3
+"27",1,"27","34","true","42.9682563126973","51.8142650996364","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","125","125","75",27,2,1,1,1
+"29",1,"29","36","true","31.7317246551013","7.15004098178387","75","4","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","125",30,2,1,1,2
+"31",1,"31","38","true","56.0906822685811","53.1183404460561","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","125",48,1,1,2,2
+"33",1,"33","39","true","33.0711726263592","63.8778538722906","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","75",36,1,1,2,2
+"35",1,"35","40","true","42.5952992883115","24.344203677882","75","19","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",60,2,1,1,1
+"37",1,"37","46","true","75.1522496263923","100","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","125","125","75",6,3,2,3,3
+"39",1,"39","48","true","48.4766215477052","29.8394381974223","75","14","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",58,1,1,2,3
+"41",1,"41","53","true","62.7610090427692","52.867082057171","25","24","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",20,1,1,2,3
+"43",1,"43","54","true","45.069074796512","42.2747658988016","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","75",13,2,1,1,1
+"45",1,"45","57","true","50.8577110349533","45.8649338243723","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","75",33,2,1,1,2
+"47",1,"47","61","true","72.1064976139301","46.2359964362603","25","15","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","125","125","75",51,1,1,2,2
+"49",1,"49","65","true","40.241424836425","12.7759712033897","75","18","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",14,3,2,3,3
+"51",1,"51","66","true","81.5821504094055","74.3892770896955","25","24","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",50,2,1,1,1
+"53",1,"53","72","true","44.8948897594493","54.3527744795122","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",53,1,1,2,3
+"55",1,"55","78","true","61.0062585461407","21.4579606378306","25","8","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",15,3,2,3,3
+"57",1,"57","79","true","49.6224488768905","37.9375514669589","25","16","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","125",31,3,2,3,3
+"59",1,"59","80","true","44.0157152166129","32.5605654979165","75","18","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",18,1,1,2,2
+"61",2,"61","84","true","31.911140130307","8.26341649340447","75","21","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",100,1,1,2,2
+"63",2,"63","85","true","53.1604185963079","48.8596784613571","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","125",77,3,2,3,3
+"65",2,"65","96","true","58.0178004169108","22.3762111254954","25","19","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",105,1,1,2,2
+"67",2,"67","102","true","39.2224349120993","14.3948160726929","75","11","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","75",110,3,2,3,3
+"69",2,"69","103","true","26.6156182384139","88.8116460536354","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","75","125","75",98,2,1,1,1
+"71",2,"71","104","true","65.6896621582648","72.1533361162498","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","125","75","75",88,2,1,1,1
+"73",2,"73","108","true","29.9934034097764","64.0608876467068","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","75",93,1,1,2,2
+"75",2,"75","109","true","40.6590758830255","42.0859517629432","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","75",95,3,2,3,3
+"77",2,"77","116","true","33.6839180476991","23.1007577406714","75","21","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",116,1,1,2,2
+"79",2,"79","122","true","54.5684298814965","51.640112003293","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","125",76,1,1,2,2
+"81",2,"81","123","true","62.05823305784","73.3130925894307","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",66,3,2,3,3
+"83",2,"83","128","true","40.3368451191038","54.7184730043838","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","75",120,1,1,2,2
+"85",2,"85","131","true","62.4612356893013","75.3335061628267","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",97,1,1,2,2
+"87",2,"87","134","true","30.6444675538995","87.0379750329554","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",108,2,1,1,1
+"89",2,"89","135","true","87.6554166617251","100","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","75",115,3,2,3,3
+"91",2,"91","145","true","20.6090899656609","0","75","7","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",69,2,1,1,1
+"93",2,"93","146","true","23.4444763495032","0","75","6","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","75",107,2,1,1,1
+"95",2,"95","149","true","54.199154615479","45.6979906086591","25","19","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",91,3,2,3,3
+"97",2,"97","156","true","39.802490791951","51.4878944599844","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly untrue of me","120","75","125","125","125","125",92,3,2,3,3
+"99",2,"99","158","true","13.3761538985046","94.2981179945359","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","125","75","125",79,2,1,1,2
+"101",2,"101","160","true","25.7504434896768","0","75","20","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","75","75","75",86,2,1,1,2
+"103",2,"103","162","true","47.721496838172","42.4901109199081","75","19","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",75,3,2,3,3
+"105",2,"105","165","true","22.4952482259476","73.5075094731057","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",63,3,2,3,3
+"107",2,"107","167","true","51.7624001546597","42.8680936949212","75","20","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","125",73,1,1,2,2
+"109",2,"109","169","true","85.0676918583671","100","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","75","75","75","75",80,3,2,3,3
+"111",2,"111","170","true","44.2242397497342","42.2844577476782","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",89,2,1,1,1
+"113",2,"113","172","true","40.015234983043","47.5469300484725","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","125",114,3,2,3,3
+"115",2,"115","175","true","54.2054834231044","60.0949953634659","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","75","75","75",117,1,1,2,2
+"117",2,"117","178","true","59.405834204769","59.6543176023527","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",61,1,1,2,3
+"119",2,"119","180","true","41.2147391879899","38.4336280055331","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",96,2,1,1,1
+"121",3,"121","183","true","24.5150695454928","0","75","17","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","125",149,3,2,3,3
+"123",3,"123","184","true","51.8368536564589","42.5072076656063","25","13","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",159,1,1,2,3
+"125",3,"125","185","true","21.7176813277367","0","75","20","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","75","75","75","125",128,1,1,2,3
+"127",3,"127","186","true","53.5940408485103","53.3358277153485","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",139,2,1,1,1
+"129",3,"129","188","true","56.8108762912915","54.6949365632073","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","75","125","125",138,1,1,2,2
+"131",3,"131","189","true","57.9117299393029","52.5590122254237","25","14","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","75",143,1,1,2,3
+"133",3,"133","191","true","32.3688973292221","14.3681873262354","75","15","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","75","125","125",153,3,2,3,3
+"135",3,"135","192","true","35.6952591517065","34.7310637424064","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","125",161,2,1,1,2
+"137",3,"137","195","true","64.0421133138419","75.1507199102882","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",178,2,1,1,1
+"139",3,"139","199","true","60.213577084119","43.9811893188671","25","22","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","125",146,2,1,1,1
+"141",3,"141","202","true","26.4354688967018","0","75","18","150 DKK worth","Mostly true of me","Mostly true of me","Mostly untrue of me","120","125","125","75","125","125",163,3,2,3,3
+"143",3,"143","206","true","49.8246053852902","40.7906009658209","75","14","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","125","75","125","75",156,2,1,1,1
+"145",3,"145","210","true","30.907994160804","0","75","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",136,2,1,1,1
+"147",3,"147","211","true","51.709832190494","39.3661739775901","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","125",171,3,2,3,3
+"149",3,"149","214","true","55.7202747675955","46.9547509306651","25","17","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",148,2,1,1,1
+"151",3,"151","215","true","34.1510923785203","32.2451334153938","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","125","75","75",180,1,1,2,2
+"153",3,"153","216","true","59.8999428581987","55.9016367289708","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","125",162,3,2,3,3
+"155",3,"155","217","true","38.5946158784594","1.32191943864647","75","22","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","75","75","75","75",147,2,1,1,2
+"157",3,"157","221","true","39.1207625900238","17.7557813939549","75","22","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","125",177,2,1,1,1
+"159",3,"159","222","true","75.0675111263543","61.8205143606363","25","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",140,2,1,1,2
+"161",3,"161","228","true","49.8309623903567","47.1371236112238","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","75",129,1,1,2,2
+"163",3,"163","230","true","63.4118473496182","9.64162698487886","25","20","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","75","125","75",152,2,1,1,1
+"165",3,"165","249","true","39.9349525357607","23.3929053238957","75","12","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",173,3,2,3,3
+"167",3,"167","254","true","32.7018122953577","0","75","6","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","125",126,3,2,3,3
+"169",3,"169","255","true","57.0617801129225","62.3112801202614","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly untrue of me","120","125","125","75","125","75",150,1,1,2,3
+"171",3,"171","256","true","58.2335112649335","56.249566029849","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",121,1,1,2,2
+"173",3,"173","257","true","34.2133418347168","59.3776654769872","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",175,1,1,2,2
+"175",3,"175","264","true","33.3174535803194","22.2896726627114","75","7","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","75",135,1,1,2,2
+"177",3,"177","267","true","27.3093953466536","0","75","4","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",145,2,1,1,1
+"179",3,"179","269","true","62.3280472905654","28.5822941478624","25","20","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",151,1,1,2,2
+"181",4,"181","282","true","88.2191782463658","100","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","125","75","75",237,2,1,1,2
+"183",4,"183","286","true","30.11360031138","54.9606500245223","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","125",189,2,1,1,2
+"185",4,"185","297","true","58.4407179428495","56.3238518332727","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",184,3,2,3,3
+"187",4,"187","299","true","50.7716485725244","44.4659440734374","75","21","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","125","125","75",209,2,1,1,1
+"189",4,"189","301","true","31.9907496347597","0.223216686594963","75","24","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",199,2,1,1,1
+"191",4,"191","305","true","66.2011457193602","24.9545771989812","25","19","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","75","75","75","75","125",229,3,2,3,3
+"193",4,"193","309","true","45.3662052811065","26.5171051698374","75","8","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","125",193,2,1,1,1
+"195",4,"195","311","true","42.1624765516839","56.0929801587174","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",205,3,2,3,3
+"197",4,"197","320","true","51.0145323622626","40.653317233141","25","18","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",219,2,1,1,2
+"199",4,"199","322","true","20.7806665146783","13.2853470254297","75","22","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",206,3,2,3,3
+"201",4,"201","325","true","14.2290107704802","100","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","75","125","75","125",183,3,2,3,3
+"203",4,"203","328","true","43.8780346726048","35.973756002971","75","16","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","125","125","75",226,1,1,2,2
+"205",4,"205","330","true","44.5800473009172","40.6892014405816","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","125","75","75",220,2,1,1,2
+"207",4,"207","331","true","40.4944760368012","29.5292728032401","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly untrue of me","120","75","125","125","125","125",190,2,1,1,1
+"209",4,"209","335","true","46.7660303305999","39.0118550894202","25","13","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","75","75","75",204,2,1,1,1
+"211",4,"211","336","true","51.2411172022915","47.187784141158","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","75","125","125",234,2,1,1,2
+"213",4,"213","337","true","33.4213384646017","59.7910783760398","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","125","75","75",221,3,2,3,3
+"215",4,"215","344","true","50.6040983348161","41.5161293384329","75","20","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",236,3,2,3,3
+"217",4,"217","345","true","29.6818908925401","0","75","24","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","75","75","125",210,2,1,1,1
+"219",4,"219","352","true","56.7673124921047","38.1520064466064","25","22","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","75","75","125",238,3,2,3,3
+"221",4,"221","353","true","51.8702125062612","49.9559593873773","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","75","75","125",212,3,2,3,3
+"223",4,"223","354","true","58.5108871502215","53.5432330222992","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",239,3,2,3,3
+"225",4,"225","355","true","51.0824305125476","68.6134140145994","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","75","75","75","75",187,3,2,3,3
+"227",4,"227","358","true","41.7673558743543","61.4254739078321","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","75",192,2,1,1,1
+"229",4,"229","359","true","39.6206562140648","20.8207269486395","75","22","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",222,3,2,3,3
+"231",4,"231","363","true","60.6332534867001","52.7781918551757","25","16","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","125",232,3,2,3,3
+"233",4,"233","365","true","44.9248877748167","42.8335420392524","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","125",211,1,1,2,2
+"235",4,"235","366","true","59.9709824724306","64.8336211105216","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",224,2,1,1,1
+"237",4,"237","373","true","53.375302230975","46.9032411039345","25","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",207,2,1,1,1
+"239",4,"239","377","true","35.247703899645","29.2223227547969","75","23","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","75","125","125",235,2,1,1,1
+"241",5,"241","378","true","75.1827216729743","63.4471414975362","25","18","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","125",243,2,1,1,2
+"243",5,"243","382","true","44.83261212978","43.2019010553312","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","125",242,2,1,1,2
+"245",5,"245","384","true","58.8362661571809","22.2751588476951","25","16","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","75","75","75","75",264,2,1,1,1
+"247",5,"247","387","true","50.6066990776169","41.7309019556633","25","16","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","125",257,2,1,1,1
+"249",5,"249","406","true","25.0282023548472","67.231853602625","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","75","125","125",295,3,2,3,3
+"251",5,"251","414","true","37.319496020308","84.2106112187036","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","125","125","125",294,2,1,1,2
+"253",5,"253","419","true","59.5997199564184","64.1455970149353","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","75","125","75",241,2,1,1,2
+"255",5,"255","430","true","57.9103935683351","41.0859734056719","25","24","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","75","125","75",259,2,1,1,1
+"257",5,"257","432","true","49.7886807061926","43.2608998037682","75","24","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","75","125","75",247,1,1,2,3
+"259",5,"259","442","true","66.4580842555675","91.520889529928","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","125",268,1,1,2,2
+"261",5,"261","445","true","76.1603251701304","30.5506054290833","25","11","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",272,2,1,1,1
+"263",5,"263","446","true","61.5127258666026","50.6664554786141","25","24","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","75","75","75",267,1,1,2,2
+"265",5,"265","451","true","43.8888716682189","37.1664586830466","75","17","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","125","125","125",283,1,1,2,2
+"267",5,"267","457","true","35.6262415494755","35.4551023916692","25","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","75","125","75","75",254,3,2,3,3
+"269",5,"269","458","true","65.1933371263955","29.6084058344281","25","12","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","75",251,2,1,1,2
+"271",5,"271","459","true","34.3822908288209","16.4377583592102","75","10","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","75","75","75","75",284,1,1,2,2
+"273",5,"273","466","true","53.2519182952721","49.5997994499809","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","75","125","75",275,2,1,1,1
+"275",5,"275","473","true","42.1087735427211","57.4340227621316","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","125",248,1,1,2,2
+"277",5,"277","475","true","34.5230661243321","7.78584330460156","75","9","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","125","75","125","75",297,1,1,2,2
+"279",5,"279","476","true","47.5787598363591","35.2134421661954","75","19","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","125","125","125","125","75",273,2,1,1,1
+"281",5,"281","481","true","67.2112164593395","61.6796530621706","25","21","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","125","125","125","125",298,1,1,2,2
+"283",5,"283","482","true","28.970785812887","0","75","16","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","125","75","75","75","125",290,3,2,3,3
+"285",5,"285","483","true","23.7136844563186","88.6587950844308","25","25","250 DKK worth","Mostly true of me","Describes me perfectly","Describes me perfectly","120","75","125","125","125","75",288,1,1,2,2
+"287",5,"287","485","true","53.2717900530463","46.3419888884492","75","17","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",270,3,2,3,3
+"289",5,"289","486","true","38.3286785109649","0","75","25","250 DKK worth","Mostly true of me","Describes me perfectly","Mostly true of me","120","125","125","125","125","125",249,1,1,2,2
+"291",5,"291","488","true","66.9669525616443","75.6976939059059","75","25","150 DKK worth","Mostly true of me","Mostly true of me","Mostly true of me","120","75","125","125","125","75",292,2,1,1,1
+"293",5,"293","489","true","32.2956636187682","44.3472613049854","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","125","75","75","75","125",293,2,1,1,1
+"295",5,"295","496","true","65.0229104936777","74.8392705401575","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","125",269,2,1,1,2
+"297",5,"297","497","true","25.4268738645876","79.6734991597309","25","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","125","125","125","125",253,3,2,3,3
+"299",5,"299","499","true","70.9898084571933","71.3782625082557","75","25","50 DKK worth","Mostly untrue of me","Mostly untrue of me","Mostly untrue of me","120","75","75","125","75","75",262,2,1,1,1
