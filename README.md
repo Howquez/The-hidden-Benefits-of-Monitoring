@@ -32,6 +32,11 @@ Since I splitted the analysis in several parts/ scripts, it is important to foll
     * You can find plots stemming from this file (using simulated data) [here](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures)
 6. [Run the analysis on a sub sample](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/06_SubSample.R)
 
+*You can aslo run the [Source File](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/R_Scripts/99_Source_File.R) after creating the working directory. After adjusting the working directory to your `Data` folder, it executes the srcipts automatically. It does, however, stop if an error occurs in one of the scripts. I therefore recommend to run the files manually following the order suggested above.*
+
+### Robustness
+
+I built a [ShinyApp](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/tree/master/ShinyRDD) which I also host in the [shinyapp.io cloud](https://roggenkamp.shinyapps.io/shiny_rdd/). Within this app, you can conduct robustness checks of the [Regression Discontinuity Design](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/06_RDD.pdf) yourself, for instance, by adding polynomials, by focusing on a discontinuity sample or by trying out several placebo thresholds.
     
  - - - -
 
