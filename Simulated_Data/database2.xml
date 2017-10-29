@@ -1,42 +1,88 @@
 <Users>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>31</Username>
-      <Group>38</Group>
+      <session_>4</session_>
+      <Username>61</Username>
+      <Group>84</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>56.0906822685811</score2>
-      <score>53.1183404460561</score>
+      <score2>31.911140130307</score2>
+      <score>8.26341649340447</score>
       <PersonAProb>NA</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>50 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly untrue of me</Reciprocity2>
-      <Reciprocity3>Mostly untrue of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <screenChoice>21</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
       <PaymentA>NA</PaymentA>
       <PaymentB>125</PaymentB>
       <PayA1>NA</PayA1>
       <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
+      <PayB1>75</PayB1>
       <PayB2>75</PayB2>
     </Answers>
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>32</Username>
-      <Group>38</Group>
+      <session_>4</session_>
+      <Username>62</Username>
+      <Group>84</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>58.1988246642866</score2>
+      <score2>52.7852332715055</score2>
       <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>23</screenChoice>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>19</screenChoice>
       <Reciprocity1>150 DKK worth</Reciprocity1>
       <Reciprocity2>Mostly true of me</Reciprocity2>
       <Reciprocity3>Mostly true of me</Reciprocity3>
       <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>63</Username>
+      <Group>85</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>53.1604185963079</score2>
+      <score>48.8596784613571</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>64</Username>
+      <Group>85</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>32.9527460401263</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
       <PaymentA>75</PaymentA>
       <PaymentB>NA</PaymentB>
       <PayA1>75</PayA1>
@@ -47,13 +93,197 @@
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>33</Username>
-      <Group>39</Group>
+      <session_>4</session_>
+      <Username>65</Username>
+      <Group>96</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>33.0711726263592</score2>
-      <score>63.8778538722906</score>
+      <score2>58.0178004169108</score2>
+      <score>22.3762111254954</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>19</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>66</Username>
+      <Group>96</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>56.0510275326987</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>23</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>67</Username>
+      <Group>102</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>39.2224349120993</score2>
+      <score>14.3948160726929</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>11</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>68</Username>
+      <Group>102</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>61.842128127557</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>69</Username>
+      <Group>103</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>26.6156182384139</score2>
+      <score>88.8116460536354</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>70</Username>
+      <Group>103</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>51.6815915116886</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>71</Username>
+      <Group>104</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>65.6896621582648</score2>
+      <score>72.1533361162498</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>72</Username>
+      <Group>104</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>41.7739683472436</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>24</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>73</Username>
+      <Group>108</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>29.9934034097764</score2>
+      <score>64.0608876467068</score>
       <PersonAProb>NA</PersonAProb>
       <screenChoice>25</screenChoice>
       <Reciprocity1>250 DKK worth</Reciprocity1>
@@ -70,12 +300,242 @@
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>34</Username>
-      <Group>39</Group>
+      <session_>4</session_>
+      <Username>74</Username>
+      <Group>108</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>48.6188121674923</score2>
+      <score2>45.7090847476086</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>75</Username>
+      <Group>109</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>40.6590758830255</score2>
+      <score>42.0859517629432</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>76</Username>
+      <Group>109</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>50.1512306903247</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>77</Username>
+      <Group>116</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>33.6839180476991</score2>
+      <score>23.1007577406714</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>21</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>78</Username>
+      <Group>116</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>68.4899134436978</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>79</Username>
+      <Group>122</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>54.5684298814965</score2>
+      <score>51.640112003293</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>4</session_>
+      <Username>80</Username>
+      <Group>122</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>32.5919134908887</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>11</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>81</Username>
+      <Group>123</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>62.05823305784</score2>
+      <score>73.3130925894307</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>82</Username>
+      <Group>123</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>22.7936005346368</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>13</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>83</Username>
+      <Group>128</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>40.3368451191038</score2>
+      <score>54.7184730043838</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>84</Username>
+      <Group>128</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>9.83730035484636</score2>
       <score>NA</score>
       <PersonAProb>25</PersonAProb>
       <screenChoice>25</screenChoice>
@@ -93,15 +553,15 @@
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>35</Username>
-      <Group>40</Group>
+      <session_>5</session_>
+      <Username>85</Username>
+      <Group>131</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>42.5952992883115</score2>
-      <score>24.344203677882</score>
+      <score2>62.4612356893013</score2>
+      <score>75.3335061628267</score>
       <PersonAProb>NA</PersonAProb>
-      <screenChoice>19</screenChoice>
+      <screenChoice>25</screenChoice>
       <Reciprocity1>250 DKK worth</Reciprocity1>
       <Reciprocity2>Mostly true of me</Reciprocity2>
       <Reciprocity3>Describes me perfectly</Reciprocity3>
@@ -110,18 +570,202 @@
       <PaymentB>125</PaymentB>
       <PayA1>NA</PayA1>
       <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>86</Username>
+      <Group>131</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>50.9162522403675</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>87</Username>
+      <Group>134</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>30.6444675538995</score2>
+      <score>87.0379750329554</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
       <PayB1>75</PayB1>
       <PayB2>125</PayB2>
     </Answers>
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>36</Username>
-      <Group>40</Group>
+      <session_>5</session_>
+      <Username>88</Username>
+      <Group>134</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>81.823951831837</score2>
+      <score2>59.0112647151026</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>16</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>89</Username>
+      <Group>135</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>87.6554166617251</score2>
+      <score>100</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>90</Username>
+      <Group>135</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>67.6585292097643</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>91</Username>
+      <Group>145</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>20.6090899656609</score2>
+      <score>0</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>7</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>92</Username>
+      <Group>145</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>26.4365551886337</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>18</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>93</Username>
+      <Group>146</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>23.4444763495032</score2>
+      <score>0</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>6</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>94</Username>
+      <Group>146</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>58.2353017755001</score2>
       <score>NA</score>
       <PersonAProb>75</PersonAProb>
       <screenChoice>25</screenChoice>
@@ -139,12 +783,334 @@
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>37</Username>
-      <Group>46</Group>
+      <session_>5</session_>
+      <Username>95</Username>
+      <Group>149</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>75.1522496263923</score2>
+      <score2>54.199154615479</score2>
+      <score>45.6979906086591</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>19</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>96</Username>
+      <Group>149</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>44.7993658917979</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>97</Username>
+      <Group>156</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>39.802490791951</score2>
+      <score>51.4878944599844</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>98</Username>
+      <Group>156</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>45.2708705593129</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>99</Username>
+      <Group>158</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>13.3761538985046</score2>
+      <score>94.2981179945359</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>5</session_>
+      <Username>100</Username>
+      <Group>158</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>34.8111644711346</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>101</Username>
+      <Group>160</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>25.7504434896768</score2>
+      <score>0</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>20</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>102</Username>
+      <Group>160</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>41.0466828725516</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>18</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>103</Username>
+      <Group>162</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>47.721496838172</score2>
+      <score>42.4901109199081</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>19</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>104</Username>
+      <Group>162</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>31.9240697616417</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>19</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>105</Username>
+      <Group>165</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>22.4952482259476</score2>
+      <score>73.5075094731057</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>106</Username>
+      <Group>165</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>19.9864226726405</score2>
+      <score>NA</score>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>107</Username>
+      <Group>167</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>51.7624001546597</score2>
+      <score>42.8680936949212</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>20</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>125</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>125</PayB1>
+      <PayB2>75</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>108</Username>
+      <Group>167</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>30.9006528102413</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>21</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>109</Username>
+      <Group>169</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>85.0676918583671</score2>
       <score>100</score>
       <PersonAProb>NA</PersonAProb>
       <screenChoice>25</screenChoice>
@@ -156,70 +1122,24 @@
       <PaymentB>75</PaymentB>
       <PayA1>NA</PayA1>
       <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
-      <PayB2>75</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>2</session_>
-      <Username>38</Username>
-      <Group>46</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>29.7192967898816</score2>
-      <score>NA</score>
-      <PersonAProb>75</PersonAProb>
-      <screenChoice>21</screenChoice>
-      <Reciprocity1>50 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly untrue of me</Reciprocity2>
-      <Reciprocity3>Mostly untrue of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>2</session_>
-      <Username>39</Username>
-      <Group>48</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>48.4766215477052</score2>
-      <score>29.8394381974223</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>14</screenChoice>
-      <Reciprocity1>50 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly untrue of me</Reciprocity2>
-      <Reciprocity3>Mostly untrue of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>75</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
+      <PayB1>75</PayB1>
       <PayB2>125</PayB2>
     </Answers>
   </User>
   <User>
     <Answers>
-      <session_>2</session_>
-      <Username>40</Username>
-      <Group>48</Group>
+      <session_>6</session_>
+      <Username>110</Username>
+      <Group>169</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>8.35655823081502</score2>
+      <score2>35.6994518438265</score2>
       <score>NA</score>
       <PersonAProb>75</PersonAProb>
-      <screenChoice>9</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <screenChoice>22</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
       <Reciprocity4>Mostly untrue of me</Reciprocity4>
       <PaymentA>75</PaymentA>
       <PaymentB>NA</PaymentB>
@@ -231,105 +1151,13 @@
   </User>
   <User>
     <Answers>
-      <session_>3</session_>
-      <Username>41</Username>
-      <Group>53</Group>
+      <session_>6</session_>
+      <Username>111</Username>
+      <Group>170</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>62.7610090427692</score2>
-      <score>52.867082057171</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>24</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>75</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>75</PayB1>
-      <PayB2>125</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>42</Username>
-      <Group>53</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>42.8245971736173</score2>
-      <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>43</Username>
-      <Group>54</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>45.069074796512</score2>
-      <score>42.2747658988016</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>75</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
-      <PayB2>75</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>44</Username>
-      <Group>54</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>36.3079261732759</score2>
-      <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Describes me perfectly</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>45</Username>
-      <Group>57</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>50.8577110349533</score2>
-      <score>45.8649338243723</score>
+      <score2>44.2242397497342</score2>
+      <score>42.2844577476782</score>
       <PersonAProb>NA</PersonAProb>
       <screenChoice>25</screenChoice>
       <Reciprocity1>50 DKK worth</Reciprocity1>
@@ -341,24 +1169,24 @@
       <PayA1>NA</PayA1>
       <PayA2>NA</PayA2>
       <PayB1>75</PayB1>
-      <PayB2>125</PayB2>
+      <PayB2>75</PayB2>
     </Answers>
   </User>
   <User>
     <Answers>
-      <session_>3</session_>
-      <Username>46</Username>
-      <Group>57</Group>
+      <session_>6</session_>
+      <Username>112</Username>
+      <Group>170</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>46.4061807807159</score2>
+      <score2>42.7965701270571</score2>
       <score>NA</score>
       <PersonAProb>25</PersonAProb>
       <screenChoice>25</screenChoice>
       <Reciprocity1>250 DKK worth</Reciprocity1>
       <Reciprocity2>Mostly true of me</Reciprocity2>
       <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <Reciprocity4>Describes me perfectly</Reciprocity4>
       <PaymentA>75</PaymentA>
       <PaymentB>NA</PaymentB>
       <PayA1>75</PayA1>
@@ -369,84 +1197,38 @@
   </User>
   <User>
     <Answers>
-      <session_>3</session_>
-      <Username>47</Username>
-      <Group>61</Group>
+      <session_>6</session_>
+      <Username>113</Username>
+      <Group>172</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>72.1064976139301</score2>
-      <score>46.2359964362603</score>
+      <score2>40.015234983043</score2>
+      <score>47.5469300484725</score>
       <PersonAProb>NA</PersonAProb>
-      <screenChoice>15</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>75</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
-      <PayB2>125</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>48</Username>
-      <Group>61</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>62.2767323200835</score2>
-      <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>17</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>49</Username>
-      <Group>65</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>40.241424836425</score2>
-      <score>12.7759712033897</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>18</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Describes me perfectly</Reciprocity4>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>50 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly untrue of me</Reciprocity2>
+      <Reciprocity3>Mostly untrue of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
       <PaymentA>NA</PaymentA>
       <PaymentB>125</PaymentB>
       <PayA1>NA</PayA1>
       <PayA2>NA</PayA2>
-      <PayB1>75</PayB1>
-      <PayB2>125</PayB2>
+      <PayB1>125</PayB1>
+      <PayB2>75</PayB2>
     </Answers>
   </User>
   <User>
     <Answers>
-      <session_>3</session_>
-      <Username>50</Username>
-      <Group>65</Group>
+      <session_>6</session_>
+      <Username>114</Username>
+      <Group>172</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>39.5413228847861</score2>
+      <score2>65.7950352329854</score2>
       <score>NA</score>
-      <PersonAProb>75</PersonAProb>
-      <screenChoice>10</screenChoice>
+      <PersonAProb>25</PersonAProb>
+      <screenChoice>17</screenChoice>
       <Reciprocity1>50 DKK worth</Reciprocity1>
       <Reciprocity2>Mostly untrue of me</Reciprocity2>
       <Reciprocity3>Mostly untrue of me</Reciprocity3>
@@ -461,15 +1243,107 @@
   </User>
   <User>
     <Answers>
-      <session_>3</session_>
-      <Username>51</Username>
-      <Group>66</Group>
+      <session_>6</session_>
+      <Username>115</Username>
+      <Group>175</Group>
       <Role>1</Role>
       <Completed>true</Completed>
-      <score2>81.5821504094055</score2>
-      <score>74.3892770896955</score>
+      <score2>54.2054834231044</score2>
+      <score>60.0949953634659</score>
       <PersonAProb>NA</PersonAProb>
-      <screenChoice>24</screenChoice>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>116</Username>
+      <Group>175</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>71.4411626658816</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>75</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>75</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>117</Username>
+      <Group>178</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>59.405834204769</score2>
+      <score>59.6543176023527</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
+      <Reciprocity1>250 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Describes me perfectly</Reciprocity3>
+      <Reciprocity4>Mostly true of me</Reciprocity4>
+      <PaymentA>NA</PaymentA>
+      <PaymentB>75</PaymentB>
+      <PayA1>NA</PayA1>
+      <PayA2>NA</PayA2>
+      <PayB1>75</PayB1>
+      <PayB2>125</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>118</Username>
+      <Group>178</Group>
+      <Role>2</Role>
+      <Completed>true</Completed>
+      <score2>13.0690526669246</score2>
+      <score>NA</score>
+      <PersonAProb>75</PersonAProb>
+      <screenChoice>17</screenChoice>
+      <Reciprocity1>150 DKK worth</Reciprocity1>
+      <Reciprocity2>Mostly true of me</Reciprocity2>
+      <Reciprocity3>Mostly true of me</Reciprocity3>
+      <Reciprocity4>Mostly untrue of me</Reciprocity4>
+      <PaymentA>125</PaymentA>
+      <PaymentB>NA</PaymentB>
+      <PayA1>125</PayA1>
+      <PayA2>120</PayA2>
+      <PayB1>NA</PayB1>
+      <PayB2>NA</PayB2>
+    </Answers>
+  </User>
+  <User>
+    <Answers>
+      <session_>6</session_>
+      <Username>119</Username>
+      <Group>180</Group>
+      <Role>1</Role>
+      <Completed>true</Completed>
+      <score2>41.2147391879899</score2>
+      <score>38.4336280055331</score>
+      <PersonAProb>NA</PersonAProb>
+      <screenChoice>25</screenChoice>
       <Reciprocity1>50 DKK worth</Reciprocity1>
       <Reciprocity2>Mostly untrue of me</Reciprocity2>
       <Reciprocity3>Mostly untrue of me</Reciprocity3>
@@ -479,17 +1353,17 @@
       <PayA1>NA</PayA1>
       <PayA2>NA</PayA2>
       <PayB1>125</PayB1>
-      <PayB2>75</PayB2>
+      <PayB2>125</PayB2>
     </Answers>
   </User>
   <User>
     <Answers>
-      <session_>3</session_>
-      <Username>52</Username>
-      <Group>66</Group>
+      <session_>6</session_>
+      <Username>120</Username>
+      <Group>180</Group>
       <Role>2</Role>
       <Completed>true</Completed>
-      <score2>62.0181972345129</score2>
+      <score2>50.7354209614419</score2>
       <score>NA</score>
       <PersonAProb>25</PersonAProb>
       <screenChoice>19</screenChoice>
@@ -497,190 +1371,6 @@
       <Reciprocity2>Mostly true of me</Reciprocity2>
       <Reciprocity3>Describes me perfectly</Reciprocity3>
       <Reciprocity4>Describes me perfectly</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>53</Username>
-      <Group>72</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>44.8948897594493</score2>
-      <score>54.3527744795122</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Describes me perfectly</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>75</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>75</PayB1>
-      <PayB2>125</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>54</Username>
-      <Group>72</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>64.2507115616763</score2>
-      <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>24</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>55</Username>
-      <Group>78</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>61.0062585461407</score2>
-      <score>21.4579606378306</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>8</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>125</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>75</PayB1>
-      <PayB2>125</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>56</Username>
-      <Group>78</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>40.125697669147</score2>
-      <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>50 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly untrue of me</Reciprocity2>
-      <Reciprocity3>Mostly untrue of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>57</Username>
-      <Group>79</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>49.6224488768905</score2>
-      <score>37.9375514669589</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>16</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Describes me perfectly</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>125</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
-      <PayB2>125</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>58</Username>
-      <Group>79</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>45.5356262874683</score2>
-      <score>NA</score>
-      <PersonAProb>25</PersonAProb>
-      <screenChoice>25</screenChoice>
-      <Reciprocity1>50 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly untrue of me</Reciprocity2>
-      <Reciprocity3>Mostly untrue of me</Reciprocity3>
-      <Reciprocity4>Mostly untrue of me</Reciprocity4>
-      <PaymentA>125</PaymentA>
-      <PaymentB>NA</PaymentB>
-      <PayA1>125</PayA1>
-      <PayA2>120</PayA2>
-      <PayB1>NA</PayB1>
-      <PayB2>NA</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>59</Username>
-      <Group>80</Group>
-      <Role>1</Role>
-      <Completed>true</Completed>
-      <score2>44.0157152166129</score2>
-      <score>32.5605654979165</score>
-      <PersonAProb>NA</PersonAProb>
-      <screenChoice>18</screenChoice>
-      <Reciprocity1>250 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Describes me perfectly</Reciprocity3>
-      <Reciprocity4>Describes me perfectly</Reciprocity4>
-      <PaymentA>NA</PaymentA>
-      <PaymentB>125</PaymentB>
-      <PayA1>NA</PayA1>
-      <PayA2>NA</PayA2>
-      <PayB1>125</PayB1>
-      <PayB2>125</PayB2>
-    </Answers>
-  </User>
-  <User>
-    <Answers>
-      <session_>3</session_>
-      <Username>60</Username>
-      <Group>80</Group>
-      <Role>2</Role>
-      <Completed>true</Completed>
-      <score2>41.3567369522092</score2>
-      <score>NA</score>
-      <PersonAProb>75</PersonAProb>
-      <screenChoice>21</screenChoice>
-      <Reciprocity1>150 DKK worth</Reciprocity1>
-      <Reciprocity2>Mostly true of me</Reciprocity2>
-      <Reciprocity3>Mostly true of me</Reciprocity3>
-      <Reciprocity4>Mostly true of me</Reciprocity4>
       <PaymentA>75</PaymentA>
       <PaymentB>NA</PaymentB>
       <PayA1>75</PayA1>
