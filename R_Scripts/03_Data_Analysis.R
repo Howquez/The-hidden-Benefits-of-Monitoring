@@ -25,7 +25,6 @@ OLS8   <- lm(screenChoice ~ IT + Productivity + IT*Productivity + PrinProd,  dat
 
 
 # Add fixed effects/session effects to estimate both outcome variables
-#experimentData$Session <- rep(c(1:3), 50) # the simulated data consists of one session
 FEOLS1   <- lm(Performance ~ Productivity + factor(Session),  data=experimentData)
 FEOLS2   <- lm(Performance ~ IT + Productivity + IT*Productivity + factor(Session),  data=experimentData)
 FEOLS3   <- lm(Performance ~ IT + Productivity + IT*Productivity + PrinProd + factor(Session),  data=experimentData)
