@@ -16,7 +16,9 @@ As I am investigating reciprocity, I hypothesize that the effect of monitoring o
 
 `Unproductive agents perceive a low (high) monitoring intensity as kind (unkind) and pass this (un)kindess back by exerting a relatively high (low) level of effort. The exact opposite holds true for productive agents (i.e. they perceive a high intensity as kind and react according.`
 
-Because the agent has a second action to choose her effort provision - remember that an agent can choose her workload - we can also consider the *screenChoice* variable. Doing so, I expect a pattern such as described in this [figure](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/03_Histogram.pdf): Agents who face  a low monitoring intensity chosen by the principal, and are unprodcutive, are less prone to choose a non-maximal workload than those who face the same incentives but are productive. The opposite is expected to hold true for agents facing semi-strong incentives (a high IT chosen by the principal): unproductive agents choose a lower workload than productive agents. We can test this, for instance, by running Fisher's exact test which leads to the second hypothesis.
+Because the agent has another action to choose her effort provision (an agent can choose her workload) I also consider the *screenChoice* variable. Doing so, I expect a pattern such as described in this [figure](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/03_Histogram.pdf): 
+
+`Agents who face  a low monitoring intensity chosen by the principal, and are unprodcutive, are less prone to choose a non-maximal workload than those who face the same monitoring intensity but are productive. The opposite is expected to hold true for agents facing a high monitoring intensity (a high IT chosen by the principal): unproductive agents choose a lower workload than productive agents.`
 
 
 ### Previous Experiments
