@@ -5,24 +5,18 @@ As I aim to do transparent and reprocible research, I try to meet the requiremen
 
 ### Data Collection
 
-The data will be collected in several laboratory sessions at the [Centre for Experimental Economics](http://www.econ.ku.dk/cee/) in Copenhagen. We will run the first session on **DD** November 2017. Before running the sessions, we agree on the following rule to terminate the data collection: **post rule here**.
+The data will be collected in several laboratory sessions at the [Centre for Experimental Economics](http://www.econ.ku.dk/cee/) in Copenhagen. We will run the first session on November 27, 2017. We ordered cash for 200 participants (or 100 independent observations) and intend to run about eight sessions in calendar week 47.
 
 
 ### Hypotheses
 
-The [simulated data](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/tree/master/Simulated_Data) is generated such that it supports our hypothesis -- it includes some noise though. As a consequence, some of the [figures](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/01_Regression.pdf) I posted visualize our hypothesis nicely. Having these illustrations in mind helps to understand what we test.
+Before running the first Session, I will upload a [PDF document]() which describes behavioral predictions as well as the corresponding  empirical strategy. Both sections derive the hypotheses in detail. Interested readers, for whom the folowing section might lack precision, are invited to read and comment the posted document.
 
-First, consider the following OLS specification:
+As I am investigating reciprocity, I hypothesize that the effect of monitoring on an agent's working cannot be explained pure self-interest. Instead, I want to test whether monitoring decisions are preceived as kind or undkind and whether this (un)kindness is passed back to the principal. Importantly, an agent's perception of kindness depends on her productivity. Putting these pieces together I hypothesize that:
 
-`performance = a + b productivity + c IT + d (productivity x IT) + e` 
+`Unproductive agents perceive a low (high) monitoring intensity as kind (unkind) and pass this (un)kindess back by exerting a relatively high (low) level of effort. The exact opposite holds true for productive agents (i.e. they perceive a high intensity as kind and react according.`
 
-Where *'performance'* is an agent's effort provision in Stage 2, *'productivity'* her effort provision in Stage 1 and *'IT'* a dummy variable describing the matched principal's monitoring decision.
-
-*Hypothesis I*: Given a high IT (`IT==1`) the relation between performance and productivity is stronger (steeper) than predicted by an egoistic model of effort provision while it is weaker (flatter) for low IT decisions (`IT==0`). Given the OLS specification from above this translates into: `b < 0.25  &  b + d > 0.75`.
-
-Because the agent has a second action to choose her effort provision - remember that an agent can choose her workload - we can also consider the *screenChoice* variable. Doing so, I expect a pattern such as described in this [figure](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/03_Histogram.pdf): Agents who face low incentives, that is, a low IT chosen by the principal, and are unprodcutive, are less prone to choose a non-maximal workload than those who face the same incentives but are productive. The opposite is expected to hold true for agents facing semi-strong incentives (a high IT chosen by the principal): unproductive agents choose a lower workload than productive agents. We can test this, for instance, by running Fisher's exact test which leads to the second hypothesis.
-
-*Hypothesis II*: 
+Because the agent has a second action to choose her effort provision - remember that an agent can choose her workload - we can also consider the *screenChoice* variable. Doing so, I expect a pattern such as described in this [figure](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/03_Histogram.pdf): Agents who face  a low monitoring intensity chosen by the principal, and are unprodcutive, are less prone to choose a non-maximal workload than those who face the same incentives but are productive. The opposite is expected to hold true for agents facing semi-strong incentives (a high IT chosen by the principal): unproductive agents choose a lower workload than productive agents. We can test this, for instance, by running Fisher's exact test which leads to the second hypothesis.
 
 
 ### Previous Experiments
