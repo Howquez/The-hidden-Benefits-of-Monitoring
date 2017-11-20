@@ -8,3 +8,4 @@ folders <- c("01_RawData", "02_ProcessedData", "03_RCodes", "04_Figures", "05_Ta
 for (i in 1:length(folders))  { 
         dir.create(paste(folders[i], sep="/"), showWarnings = FALSE) 
 } 
+ 
