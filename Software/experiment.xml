@@ -753,19 +753,19 @@
     
 <!-- Display Payoffs-->
     <screen condition="#[ Self.Role == 1 ]#">
+      <onload var="payment" val="#[Group[1].Answers['PayB2'] if float(Group[1].Answers['StageB']) >= 2 else Group[1].Answers['PayB1']]#" />
       <message text="&lt;br/&gt;&lt;br/&gt;Thank you!" />
       <message text="The stage which will be paid out is: Stage #[ Self.Answers['StageB'] ]#" />
-      <message text="Your earnings in this experiment are: #[ Self.Answers['PaymentB'] ]# DKK" />
+      <message text="Your earnings in this experiment are: #[ Self.Answers['payment'] ]# DKK" />
       <message text="Please press 'Next' to continue." />
-      <onload var="payment" val="#[ Self.Answers['PaymentB'] ]#" />
     </screen>
     
     <screen condition="#[ Self.Role == 2 ]#">
+      <onload var="payment" val="#[float(Group[2].Answers['PayA2']) if float(Group[2].Answers['StageA']) >= 2 else float(Group[2].Answers['PayA1'])]#" />
       <message text="&lt;br/&gt;&lt;br/&gt;Thank you!" />
       <message text="The stage which will be paid out is: Stage #[ Self.Answers['StageA'] ]#" />
-      <message text="Your earnings in this experiment are: #[ Self.Answers['PaymentA'] ]# DKK" />
+      <message text="Your earnings in this experiment are: #[ Self.Answers['payment'] ]# DKK" />
       <message text="Please press 'Next' to continue." />
-      <onload var="payment" val="#[ Self.Answers['PaymentA'] ]#" />
     </screen>
 
 		
