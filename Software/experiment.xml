@@ -656,7 +656,7 @@
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
       <message text="
 	&lt;b&gt; Stage 2: Person A's decision &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-	Person A chose option #[('a)' if float(Group[2].Answers['PersonAProb']) = 75 else 'b)')]#. &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+	Person A chose a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 				
 	As a consequence, you receive a performance-based payment in Stage 2 with a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;
 	and you will receive a random payment with a likelihood of #[ 100 - float(Group[2].Answers['PersonAProb']) ]#%&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
