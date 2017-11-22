@@ -88,7 +88,7 @@
 
 	&lt;b&gt;What are your earnings in Stage 1?&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             
-	Your payoff in Stage 1 is &lt;b&gt; performance-based &lt;/b&gt;. That is, your earnings in this stage depend 
+	Your payoff in Stage 1 is &lt;b&gt; performance-based&lt;/b&gt;. That is, your earnings in this stage depend 
 	on the percentage of boxes you clicked away. At the end of the actual task you will be informed about the 
 	percentage of boxes that you clicked away in Stage 1.&lt;br/&gt;&lt;br/&gt;
             
@@ -138,7 +138,7 @@
     </screen>
 
     <screen wait="true" condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b&gt; Stage 1: Box-clicking task &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
+      <message text="&lt;b&gt; Stage 1: Box-clicking task &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
             Remember, your earnings in Stage 1 will depend on your own performance."/>
       <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
     </screen>
@@ -301,7 +301,7 @@
                
 	Person A's earnings = 350 + 0.75 * Percentage of boxes you clicked away - Your payoff - Person A's costs &lt;br/&gt;&lt;br/&gt;
                
-	&lt;b&gt; Your earnings in Stage 2 are: &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Your earnings in Stage 2 are: &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 
 	Your earnings = you will either receive a random or a performance-based payoff of 225 DKK or 150 DKK. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
                
@@ -335,7 +335,7 @@
 	comes up. Below, you will be asked about the consequences of your workload decision. If you have problems 
 	finding the correct answers, you can press the ‘Back’-button below and read the instructions once again. &lt;br/&gt;&lt;br/&gt;
                 
-        Imagine you choose to work on half the number of screens &lt;b&gt; (number of screens) &lt;b&gt;.
+        Imagine you choose to work on half the number of screens &lt;b&gt; (number of screens)&lt;/b&gt;.
         What will your performance be if you manage to click away every box that is 
 	displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
@@ -626,7 +626,7 @@
     </screen>
     
     <screen condition="#[ Self.Role == 2 ]#">
-        <question text="&lt;b&gt; Stage 2: Choosing the likelihood &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
+        <question text="&lt;b&gt; Stage 2: Choosing the likelihood &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 			
             On this page you will be informed about the other Person's performance in Stage 1. After that, you have 
 	    to choose the likelihood with which your Person B receives a performance-based payment in Stage 2. &lt;br/&gt; &lt;br/&gt; 
@@ -655,8 +655,8 @@
     <!-- Role 1/B is informed about the IT choice -->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
       <message text="
-	&lt;b&gt; Stage 2: Person A's decision &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
-	Person A chose a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+	&lt;b&gt; Stage 2: Person A's decision &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	Person A chose option #[('a)' if float(Group[2].Answers['PersonAProb']) = 75 else 'b)')]#. &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 				
 	As a consequence, you receive a performance-based payment in Stage 2 with a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;
 	and you will receive a random payment with a likelihood of #[ 100 - float(Group[2].Answers['PersonAProb']) ]#%&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
@@ -667,7 +667,7 @@
     </screen>
 
     <screen condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b&gt; &lt;br/&gt; &lt;br/&gt; Stage 2: Waiting for Person B &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
+      <message text="&lt;b&gt; &lt;br/&gt; &lt;br/&gt; Stage 2: Waiting for Person B &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 	Person B will now decide on how many screens he intends to work.
         He will then start working on the task. 
         Please press 'Next' and wait for Person B to finish the work task. This may take a few minutes."/>
