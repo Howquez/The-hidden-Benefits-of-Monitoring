@@ -42,14 +42,14 @@
 
 <!-- General Instructions regarding the box-clicking task for both Players-->
     <screen backbutton="true">
-        <message text="&lt;b/&gt;Stage 1: Instructions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+        <message text="&lt;b&gt;Stage 1: Instructions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 				
 	Remember the experiment consists of two different stages and a questionnaire. At the top of the screen you will always find information about
 	your progress, indicating in which stage you currently are.&lt;br/&gt;&lt;br/&gt;
 
 	In Stage 1 you can decide how many boxes you want to click away in a box-clicking task.&lt;br/&gt;&lt;br/&gt; 
 
-	The task consists of a series of &lt;b/&gt; screens &lt;/b&gt; with black boxes. When you click on a black box it disappears. 
+	The task consists of a series of &lt;b&gt; screens &lt;/b&gt; with black boxes. When you click on a black box it disappears. 
 	After some seconds the whole screen disappears together with the remaining boxes and a new screen with new black boxes comes up. 
         Your performance on the task is measured by the percentage of black boxes you click away. 
 	It is between 0% (you do not click away any black box) and 100% (you click away all black boxes that appear on each screen).&lt;br/&gt;&lt;br/&gt;
@@ -78,7 +78,7 @@
 <!-- Explanation of Payment Function for both Players in Stage 1-->
     <screen backbutton="false">
 
-        <message text="&lt;b/&gt; Stage 1: Instructions &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;        
+        <message text="&lt;b&gt; Stage 1: Instructions &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;        
             
 	You have just finished a short trial round and familiarized yourself with the task. Your performance in 
 	the trial round (i.e. the percentage of boxes you just clicked away) does not affect your final earnings 
@@ -86,9 +86,9 @@
 	might be relevant for your earnings. Remember, the experiment consists of two stages and one of these stages 
 	will randomly be chosen at the end of the experiment and paid out. &lt;br/&gt;&lt;br/&gt;
 
-	&lt;b/&gt;What are your earnings in Stage 1?&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
+	&lt;b&gt;What are your earnings in Stage 1?&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             
-	Your payoff in Stage 1 is &lt;b&gt; performance-based &lt;b/&gt;. That is, your earnings in this stage depend 
+	Your payoff in Stage 1 is &lt;b&gt; performance-based &lt;/b&gt;. That is, your earnings in this stage depend 
 	on the percentage of boxes you clicked away. At the end of the actual task you will be informed about the 
 	percentage of boxes that you clicked away in Stage 1.&lt;br/&gt;&lt;br/&gt;
             
@@ -97,7 +97,7 @@
 	boxes you clicked away during the box-clicking task, the more likely it is that you earn 225 DKK in Stage 1 
 	of this experiment. &lt;br/&gt;&lt;br/&gt;
                               
-	&lt;b/&gt;Examples&lt;/b&gt;: &lt;br/&gt;&lt;br/&gt;
+	&lt;b&gt;Examples&lt;/b&gt;: &lt;br/&gt;&lt;br/&gt;
 	
 	If you click away 30% of the boxes, you will have a 30% chance to earn 225 DKK in Stage 1 and a 70% 
 	chance to earn 150 DKK. If you click away 55% of the boxes that appear during the clicking task, you 
@@ -111,20 +111,20 @@
 
 <!-- First Set of Control Questions for both Players-->
     <screen backbutton="true">
-        <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 1: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
-            &lt;b/&gt;Question 1&lt;/b&gt;: Remember, in Stage 1 your performance will determine the likelihood with 
+        <question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 1: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+            &lt;b&gt;Question 1&lt;/b&gt;: Remember, in Stage 1 your performance will determine the likelihood with 
 	    which you earn 225 DKK. Imagine you click away 75% of the boxes, what is the likelihood with which you 
-	    earn &lt;b/&gt;225 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
+	    earn &lt;b&gt;225 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
             Please answer by choosing a number between 0 and 100 where 0 means 0%, 2 means 2% etc.&lt;br/&gt;"
         var="Control1.1" defaultinput="#[ Self.Answers['control1'] if 'control1' in Self.Answers else '' ]#" textbox="true" number="int" min="75" max="75" />
 
-        <question text="&lt;b/&gt;Question 2&lt;/b&gt;: Imagine you click away 50% of the boxes, what is the likelihood with
-	    which you earn &lt;b/&gt;225 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
+        <question text="&lt;b&gt;Question 2&lt;/b&gt;: Imagine you click away 50% of the boxes, what is the likelihood with
+	    which you earn &lt;b&gt;225 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
             Please answer by choosing a number between 0 and 100 where 0 means 0%, 2 means 2% etc.&lt;br/&gt;"
         var="Control1.2" defaultinput="#[ Self.Answers['control3'] if 'control3' in Self.Answers else '' ]#" textbox="true" number="int" min="50" max="50" />
 
-        <question text="&lt;b/&gt;Question 3&lt;/b&gt;: Imagine you click away 25% of the boxes, what is the likelihood with
-	    which you earn &lt;b/&gt;150 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
+        <question text="&lt;b&gt;Question 3&lt;/b&gt;: Imagine you click away 25% of the boxes, what is the likelihood with
+	    which you earn &lt;b&gt;150 DKK&lt;/b&gt; in this stage?&lt;br/&gt; 
             Please answer by choosing a number between 0 and 100 where 0 means 0%, 2 means 2% etc.&lt;br/&gt;"
         var="Control1.3" defaultinput="#[ Self.Answers['control3'] if 'control3' in Self.Answers else '' ]#" textbox="true" number="int" min="75" max="75" />
     </screen>
@@ -132,13 +132,13 @@
 
 <!-- Stage 1: Box-Clicking Task for both Players-->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
-        <message text="&lt;b/&gt; Stage 1: Box-clicking task &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
+        <message text="&lt;b&gt; Stage 1: Box-clicking task &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
             Remember, your earnings in Stage 1 will depend on your own performance."/>
         <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
     </screen>
 
     <screen wait="true" condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b/&gt; Stage 1: Box-clicking task &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
+      <message text="&lt;b&gt; Stage 1: Box-clicking task &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
             Remember, your earnings in Stage 1 will depend on your own performance."/>
       <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
     </screen>
@@ -152,7 +152,7 @@
     
 <!-- Stage 1: Both Players learn their Performance-->
     <screen wait="false" >
-        <message text="&lt;b/&gt; Stage 1: Results &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
+        <message text="&lt;b&gt; Stage 1: Results &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             Your performance: You clicked away #[ Self.Answers['score2'] ]#% of the boxes during the box-clicking task 
 	    in Stage 1. &lt;br/&gt;&lt;br/&gt;
             This means you have a #[ Self.Answers['score2'] ]#% chance to earn 225 DKK in Stage 1 and a 
@@ -167,12 +167,12 @@
     
 <!--Players Learn their Type-->
     <screen backbutton="false" condition="#[ Self.Role == 1 ]#">
-        <message text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+        <message text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
           
             You just finished Stage 1 of this experiment. You will now learn which role you are assigned to 
             in Stage 2 and proceed with Stage 2.&lt;br/&gt;&lt;br/&gt;
           
-            &lt;b/&gt;Your Role&lt;/b&gt;: You are &lt;b/&gt;Person B&lt;/b&gt;. 
+            &lt;b&gt;Your Role&lt;/b&gt;: You are &lt;b&gt;Person B&lt;/b&gt;. 
             In this stage, you will be paired with another person, Person A.&lt;br/&gt;&lt;br/&gt;
             
             The next pages will give you detailed instructions for Stage 2. 
@@ -180,12 +180,12 @@
     </screen>
 
     <screen backbutton="false" condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+      <message text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
           
             You just finished Stage 1 of this experiment. You will now learn which role you are assigned to 
             in Stage 2 and proceed with Stage 2.&lt;br/&gt;&lt;br/&gt;
           
-            &lt;b/&gt;Your Role&lt;/b&gt;: You are &lt;b/&gt;Person A&lt;/b&gt;. 
+            &lt;b&gt;Your Role&lt;/b&gt;: You are &lt;b&gt;Person A&lt;/b&gt;. 
             In this stage, you will be paired with another person, Person B.&lt;br/&gt;&lt;br/&gt;
             
             The next pages will give you detailed instructions for Stage 2. 
@@ -196,9 +196,9 @@
 <!-- Instructions Stage 2 Role 1/B-->
     <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
         <message text="
-	&lt;b/&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
           
-	&lt;b/&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
+	&lt;b&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
 	in Stage 2. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
                
 	In Stage 2 you are paired with another person, Person A. You will be confronted 
@@ -217,9 +217,9 @@
                               
     <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
         <message text="
-	&lt;b/&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
           
-	&lt;b/&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
+	&lt;b&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
 	in Stage 2. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
 		       
 	A ‘random’ payoff simply means that you have a 50% chance to earn 150 DKK and a 50% chance to earn 225 DKK. 
@@ -233,9 +233,9 @@
                               
     <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
         <message text="
-	&lt;b/&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
           
-	&lt;b/&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
+	&lt;b&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
 	in Stage 2. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
                
 	Whether you will receive a random payoff or a performance-based payoff depends on Person A (the person you 
@@ -262,9 +262,9 @@
                               
     <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
         <message text="
-	&lt;b/&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
           
-	&lt;b/&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
+	&lt;b&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
 	in Stage 2. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
 
 	Following this, you have to make a decision on how much effort to put into the box-clicking task in Stage 2. 
@@ -284,12 +284,12 @@
     <screen backbutton="true" condition="#[ Self.Role == 1 ]#">
       
       <message text="
-	&lt;b/&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Stage 2: Instructions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
           
-	&lt;b/&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
+	&lt;b&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A, 
 	in Stage 2. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
 
-	&lt;b/&gt; What are your and Person A's payoffs in this stage? &lt;/b&gt; &lt;br/&gt; &lt;br/&gt; 
+	&lt;b&gt; What are your and Person A's payoffs in this stage? &lt;/b&gt; &lt;br/&gt; &lt;br/&gt; 
                
 	Person A’s earnings in Stage 2 have several components. First, Person A’s choice regarding the likelihood 
 	with which your payoff is performance-based is connected to a cost that Person A has to pay. Specifically, 
@@ -301,11 +301,11 @@
                
 	Person A's earnings = 350 + 0.75 * Percentage of boxes you clicked away - Your payoff - Person A's costs &lt;br/&gt;&lt;br/&gt;
                
-	&lt;b&gt; Your earnings in Stage 2 are: &lt;b/&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Your earnings in Stage 2 are: &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
 
 	Your earnings = you will either receive a random or a performance-based payoff of 225 DKK or 150 DKK. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
                
-	&lt;b/&gt; Examples &lt;/b&gt; : &lt;br/&gt;
+	&lt;b&gt; Examples &lt;/b&gt; : &lt;br/&gt;
 
 	Imagine Person A chooses a likelihood of 25% and your performance on the clicking task is that you clicked away 40% of the boxes.
 	This means,&lt;br/&gt; 
@@ -327,7 +327,7 @@
     <screen backbutton="true"  condition="#[ Self.Role == 1 ]#">
 
       <question text="
-	&lt;b/&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
         
         To answer the following questions, you have to remember how your performance is measured and how the clicking 
 	task looks like. You have seen that the task consists of a series of screens with black boxes; after a few 
@@ -335,7 +335,7 @@
 	comes up. Below, you will be asked about the consequences of your workload decision. If you have problems 
 	finding the correct answers, you can press the ‘Back’-button below and read the instructions once again. &lt;br/&gt;&lt;br/&gt;
                 
-        Imagine you choose to work on half the number of screens &lt;b&gt; (number of screens) &lt;b/&gt;.
+        Imagine you choose to work on half the number of screens &lt;b&gt; (number of screens) &lt;b&gt;.
         What will your performance be if you manage to click away every box that is 
 	displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
@@ -357,7 +357,7 @@
 
     <screen backbutton="true"  condition="#[ Self.Role == 1 ]#">
 
-      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
           
         Think about the differences between Stage 1 and Stage 2. Concerning your payoff, what is the major difference 
 	between these two stages? &lt;br/&gt;
@@ -433,9 +433,9 @@
 <!-- Instructions Stage 2 Role 2/A-->
     <screen backbutton="true" condition="#[ Self.Role == 2 ]#">
         <message text="
-	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
+	&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
           
-	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Remember&lt;/b&gt;: You are Person A.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+	&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Remember&lt;/b&gt;: You are Person A.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
                  
 	In Stage 2 you are paired with another person, Person B, who will be confronted 
 	with the same box-clicking task as in Stage 1. The difficulty of the task is exactly the same as before.&lt;br/&gt;&lt;br/&gt;
@@ -481,11 +481,11 @@
     <screen backbutton="true" condition="#[ Self.Role == 2 ]#">
 
       <message text="
-	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
+	&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Instructions&lt;/b&gt;&lt;br/&gt;
           
-	&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Remember&lt;/b&gt;: You are Person A.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+	&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Remember&lt;/b&gt;: You are Person A.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
 
-	&lt;br/&gt;&lt;b/&gt;What are your and Person A's payoffs in this stage?&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;  
+	&lt;br/&gt;&lt;b&gt;What are your and Person A's payoffs in this stage?&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;  
                
 	Your earnings in Stage 2 have several components. First, your choice
 	regarding the likelihood with which Person B's payoff is performance-based is connected to a cost that you
@@ -501,7 +501,7 @@
 
 	Person B's earnings = you will either receive a random or a performance-based payoff of 125 DKK or 75 DKK.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
                
-	&lt;b/&gt;Examples&lt;/b&gt;:&lt;br/&gt;
+	&lt;b&gt;Examples&lt;/b&gt;:&lt;br/&gt;
 
 	Imagine you choose a likelihood of 25% and Person B's performance on the clicking task is that he clicked away 40% of the boxes.
 	This means,&lt;br/&gt; 
@@ -522,7 +522,7 @@
 <!-- Second Set of Control Questions, Role 2/A  -->
     <screen backbutton="true"  condition="#[ Self.Role == 2 ]#">
 
-      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
         
         To answer the following questions, you have to remember how your performance is measured and how the clicking task looks like. 
         You have seen that the task consists of a series of screens with black boxes; after some seconds the whole 
@@ -553,7 +553,7 @@
 
     <screen backbutton="true"  condition="#[ Self.Role == 2 ]#">
 
-      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b/&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
           
         Think about the differences between Stage 1 and Stage 2. 
 	Considering Person B's payment resulting from that stage, what is a major difference? &lt;br/&gt;
@@ -626,15 +626,15 @@
     </screen>
     
     <screen condition="#[ Self.Role == 2 ]#">
-        <question text="&lt;b&gt; Stage 2: Choosing the likelihood &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
+        <question text="&lt;b&gt; Stage 2: Choosing the likelihood &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
 			
             On this page you will be informed about the other Person's performance in Stage 1. After that, you have 
 	    to choose the likelihood with which your Person B receives a performance-based payment in Stage 2. &lt;br/&gt; &lt;br/&gt; 
             
-            &lt;b/&gt; Person B's Performance in Stage 1: &lt;/b&gt; &lt;br/&gt;
+            &lt;b&gt; Person B's Performance in Stage 1: &lt;/b&gt; &lt;br/&gt;
             Person B clicked away #[ Group[1].Answers['score2'] ]#% of the boxes during the box-clicking task in the first stage. &lt;br/&gt; &lt;br/&gt; 
             
-            &lt;b/&gt; Your Choice: &lt;/b&gt; &lt;br/&gt;
+            &lt;b&gt; Your Choice: &lt;/b&gt; &lt;br/&gt;
             You have to choose the likelihood with which Person B receives a performance-based payoff:&lt;br/&gt;
 				
 	    You can choose either 25 or 75. If you choose, for instance, 25 there is a 25% chance that Person B 
@@ -655,10 +655,10 @@
     <!-- Role 1/B is informed about the IT choice -->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
       <message text="
-	&lt;b&gt; Stage 2: Person A's decision &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
-	Person A chose a likelihood of &lt;b/&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+	&lt;b&gt; Stage 2: Person A's decision &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
+	Person A chose a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 				
-	As a consequence, you receive a performance-based payment in Stage 2 with a likelihood of &lt;b/&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;
+	As a consequence, you receive a performance-based payment in Stage 2 with a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;
 	and you will receive a random payment with a likelihood of #[ 100 - float(Group[2].Answers['PersonAProb']) ]#%&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
                
 	Remember, a performance-based payment means that the likelihood with which you earn 225 DKK is given by the percentage of boxes you clicked away.
@@ -667,7 +667,7 @@
     </screen>
 
     <screen condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b&gt; &lt;br/&gt; &lt;br/&gt; Stage 2: Waiting for Person B &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
+      <message text="&lt;b&gt; &lt;br/&gt; &lt;br/&gt; Stage 2: Waiting for Person B &lt;b&gt; &lt;br/&gt; &lt;br/&gt;
 	Person B will now decide on how many screens he intends to work.
         He will then start working on the task. 
         Please press 'Next' and wait for Person B to finish the work task. This may take a few minutes."/>
@@ -676,7 +676,7 @@
 
     <!-- Role 1/B chooses amount of Screens -->
     <screen wait="false" condition="#[ Self.Role == 1 ]#">
-      <question text="&lt;b/&gt; Stage 2: Choose your workload &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+      <question text="&lt;b&gt; Stage 2: Choose your workload &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
         Please indicate on how many screens you intend to work in the subsequent box-clicking task. You can choose any
 	number between 1 and 25 (number of Screens!) &lt;br/&gt;"
       var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="10" />
@@ -712,7 +712,7 @@
       <onload var="PayB2R"    val="#[150 if float(Group[1].Answers['Rand4']) >= 50 else 225]#" />
       <onload var="Mechanism" val="#[0  if float(Group[1].Answers['Rand5']) >= float(Group[2].Answers['PersonAProb']) else 1]#" />
 
-      <message text="&lt;b/&gt;&lt;br/&gt;&lt;br/&gt;Results: Stage 2&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
+      <message text="&lt;b&gt;&lt;br/&gt;&lt;br/&gt;Results: Stage 2&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
             Your performance: You clicked away #[ Self.Answers['score'] ]#% of the boxes during the box-clicking task.&lt;br/&gt;&lt;br/&gt;
             On the next page we will inform you about the stage that will be paid out and your earnings in that stage." />
       <message text="Please press 'Next' to continue." />      
@@ -744,7 +744,7 @@
       <onload var="PayA2"     val="#[350 - float(Group[1].Answers['PaymentB']) + 0.75 * float(Group[1].Answers['score']) - float(Group[2].Answers['CostsA']) ]#" />
       <onload var ="PaymentA" val="#[float(Group[2].Answers['PayA2']) if float(Group[2].Answers['StageA']) >= 2 else float(Group[2].Answers['PayA1'])]#" />
 
-      <message text="&lt;b/&gt;&lt;br/&gt;&lt;br/&gt;Results: Stage 2&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
+      <message text="&lt;b&gt;&lt;br/&gt;&lt;br/&gt;Results: Stage 2&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
             Person B's performance: Person B clicked away #[ Group[1].Answers['score'] ]#% of the boxes during the box-clicking task.&lt;br/&gt;&lt;br/&gt;
             On the next page we will inform you about the stage that will be paid out and your earnings in that stage." />
       <message text="Please press 'Next' to continue." />
