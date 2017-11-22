@@ -49,7 +49,7 @@
 
 	In Stage 1 you can decide how many boxes you want to click away in a box-clicking task.&lt;br/&gt;&lt;br/&gt; 
 
-	The task consists of a series of &lt;b/&gt;screens&lt;b/&gt; with black boxes. When you click on a black box it disappears. 
+	The task consists of a series of &lt;b&gt;screens&lt;b/&gt; with black boxes. When you click on a black box it disappears. 
 	After some seconds the whole screen disappears together with the remaining boxes and a new screen with new black boxes comes up. 
         Your performance on the task is measured by the percentage of black boxes you click away. 
 	It is between 0% (you do not click away any black box) and 100% (you click away all black boxes that appear on each screen).&lt;br/&gt;&lt;br/&gt;
@@ -88,7 +88,7 @@
 
 	&lt;b/&gt;What are your earnings in Stage 1?&lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             
-	Your payoff in Stage 1 is &lt;b/&gt;performance-based&lt;b/&gt;. That is, your earnings in this stage depend 
+	Your payoff in Stage 1 is &lt;b&gt; performance-based &lt;b/&gt;. That is, your earnings in this stage depend 
 	on the percentage of boxes you clicked away. At the end of the actual task you will be informed about the 
 	percentage of boxes that you clicked away in Stage 1.&lt;br/&gt;&lt;br/&gt;
             
@@ -132,13 +132,13 @@
 
 <!-- Stage 1: Box-Clicking Task for both Players-->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
-        <message text="&lt;b/&gt;&lt;br/&gt;&lt;br/&gt;Stage 1: Box-clicking task&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
+        <message text="&lt;b/&gt; Stage 1: Box-clicking task &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
             Remember, your earnings in Stage 1 will depend on your own performance."/>
         <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
     </screen>
 
     <screen wait="true" condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b/&gt;&lt;br/&gt;&lt;br/&gt;Stage 1: Box-clicking task&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
+      <message text="&lt;b/&gt; Stage 1: Box-clicking task &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
             Remember, your earnings in Stage 1 will depend on your own performance."/>
       <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
     </screen>
@@ -241,7 +241,7 @@
 	Whether you will receive a random payoff or a performance-based payoff depends on Person A (the person you 
 	are paired with). More precisely, Person A will be informed about the percentage of boxes you clicked away in 
 	Stage 1 and then chooses between two options. The two options a) and b) that Person A can choose between are 
-	as follows: &lt;br/&gt; &lt;br/&gt; 
+	as follows: &lt;br/&gt; 
 		       
 		       &lt;ol type=&quot;a&quot;&gt;
 		       &lt;li&gt; with a 75%  chance your earnings in stage 2 will be performance-based and with a 25% 
@@ -301,7 +301,7 @@
                
 	Person A's earnings = 350 + 0.75 * Percentage of boxes you clicked away - Your payoff - Person A's costs &lt;br/&gt;&lt;br/&gt;
                
-	&lt;b/&gt; Your earnings in Stage 2 are:&lt;b/&gt; &lt;br/&gt; &lt;br/&gt;
+	&lt;b&gt; Your earnings in Stage 2 are: &lt;b/&gt; &lt;br/&gt; &lt;br/&gt;
 
 	Your earnings = you will either receive a random or a performance-based payoff of 225 DKK or 150 DKK. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
                
@@ -335,23 +335,23 @@
 	comes up. Below, you will be asked about the consequences of your workload decision. If you have problems 
 	finding the correct answers, you can press the ‘Back’-button below and read the instructions once again. &lt;br/&gt;&lt;br/&gt;
                 
-        Imagine you choose to work on half the number of screens &lt;b/&gt; (number of screens) &lt;b/&gt;.
+        Imagine you choose to work on half the number of screens &lt;b&gt; (number of screens) &lt;b/&gt;.
         What will your performance be if you manage to click away every box that is 
 	displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
-	var="Control2.1" defaultinput="" textbox="true" number="int" min="50" max="50"/>
+	var="Control2.1" defaultinput="Question 1" textbox="true" number="int" min="50" max="50"/>
 
        <question text="Imagine again you choose to work on half the number of screens (number of screens). 
 	What will your performance be if you manage to click away every second box that is 
         displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
-        var="Control2.2" defaultinput="" textbox="true" number="int" min="25" max="25"/>
+        var="Control2.2" defaultinput="Question 2" textbox="true" number="int" min="25" max="25"/>
 
       <question text="Imagine you clicked away 75% of the boxes on each screen in Stage 1. Remember that this would translate
         into a performance of 75%. Imagine further, that you expect to click the same amount of boxes per screen in Stage 2 and
         that you choose to work on 5 out of 25 screens (20% of the Screens), what would your performance in Stage 2 be in that case? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
-        var="Control2.3" defaultinput="" textbox="true" number="int" min="15" max="15"/>
+        var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 
     </screen>
 
@@ -371,7 +371,7 @@
 		      decide on the likelihood with which my payment is performance based. &lt;/li&gt;
 		      &lt;/ol&gt; "
 		
-        var="Control2.4" defaultinput="" textbox="true" number="int" min="4" max="4"/>
+        var="Control2.4" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
       
       
        <question text="
@@ -385,7 +385,7 @@
 		       &lt;li&gt;Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 		       &lt;/ol&gt; "
 		 
-         var="Control2.5" defaultinput="" textbox="true" number="int" min="2" max="2"/>
+         var="Control2.5" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
 
       <question text="
 	Assume you expect to click away more than 50% of the boxes in Stage 2. Given this, which of the two payment 
@@ -398,7 +398,7 @@
 		       &lt;li&gt;Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 		       &lt;/ol&gt; "
 		
-         var="Control2.6" defaultinput="" textbox="true" number="int" min="1" max="1"/>
+         var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
 
 
       <question text="
@@ -412,7 +412,7 @@
 		      &lt;li&gt; 25%. &lt;/li&gt;
 		      &lt;/ol&gt; " 
 		
-	var="Control2.7" defaultinput="" textbox="true" number="int" min="3" max="3"/>
+	var="Control2.7" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
 
 
        <question text="
@@ -426,7 +426,7 @@
 		      &lt;li&gt; 25%. &lt;/li&gt;
 		      &lt;/ol&gt; "
 		 
-	var="Control2.8" defaultinput="" textbox="true" number="int" min="1" max="1"/>
+	var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
 
     </screen>
 
@@ -608,7 +608,7 @@
         
 <!-- Role 2/A chooses Information Technology -->
     <screen condition="#[ Self.Role == 1 ]#">
-        <message text="&lt;b/&gt; Stage 2: Waiting for Person A &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+        <message text="&lt;b&gt; Stage 2: Waiting for Person A &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
             Remember, your earnings in Stage 2 will depend on your decisions, but also depend on those of Person A that you are paired with."/>
         <message text="Person A will now be informed about your performance in Stage 1 and will choose between her 
 		       options a) and b): &lt;br/&gt;
@@ -626,7 +626,7 @@
     </screen>
     
     <screen condition="#[ Self.Role == 2 ]#">
-        <question text="&lt;b/&gt; Stage 2: Choosing the likelihood &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
+        <question text="&lt;b&gt; Stage 2: Choosing the likelihood &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
 			
             On this page you will be informed about the other Person's performance in Stage 1. After that, you have 
 	    to choose the likelihood with which your Person B receives a performance-based payment in Stage 2. &lt;br/&gt; &lt;br/&gt; 
@@ -655,7 +655,7 @@
     <!-- Role 1/B is informed about the IT choice -->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
       <message text="
-	&lt;b/&gt; Stage 2: Person A's decision &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
+	&lt;b&gt; Stage 2: Person A's decision &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
 	Person A chose a likelihood of &lt;b/&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 				
 	As a consequence, you receive a performance-based payment in Stage 2 with a likelihood of &lt;b/&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;
@@ -667,7 +667,7 @@
     </screen>
 
     <screen condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b/&gt;&lt;br/&gt;&lt;br/&gt;Stage 2: Waiting for Person B&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
+      <message text="&lt;b&gt; &lt;br/&gt; &lt;br/&gt; Stage 2: Waiting for Person B &lt;b/&gt; &lt;br/&gt; &lt;/br&gt;
 	Person B will now decide on how many screens he intends to work.
         He will then start working on the task. 
         Please press 'Next' and wait for Person B to finish the work task. This may take a few minutes."/>
@@ -757,6 +757,7 @@
       <message text="The stage which will be paid out is: Stage #[ Self.Answers['StageB'] ]#" />
       <message text="Your earnings in this experiment are: #[ Self.Answers['PaymentB'] ]# DKK" />
       <message text="Please press 'Next' to continue." />
+      <onload var="payment" val="#[ Self.Answers['PaymentB'] ]#" />
     </screen>
     
     <screen condition="#[ Self.Role == 2 ]#">
@@ -764,6 +765,7 @@
       <message text="The stage which will be paid out is: Stage #[ Self.Answers['StageA'] ]#" />
       <message text="Your earnings in this experiment are: #[ Self.Answers['PaymentA'] ]# DKK" />
       <message text="Please press 'Next' to continue." />
+      <onload var="payment" val="#[ Self.Answers['PaymentA'] ]#" />
     </screen>
 
 		
