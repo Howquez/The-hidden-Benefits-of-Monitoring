@@ -155,8 +155,8 @@
         <message text="&lt;b&gt; Stage 1: Results &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             Your performance: You clicked away #[ Self.Answers['score2'] ]#% of the boxes during the box-clicking task 
 	    in Stage 1. &lt;br/&gt;&lt;br/&gt;
-            This means you have a #[ Self.Answers['score2'] ]#% chance to earn 225 DKK in Stage 1 and a 
-	    #[ 100 - (float(Self.Answers['score2'])) ]#% chance to earn 150 DKK.&lt;br/&gt;&lt;br/&gt; 
+            This means you have a #[ Self.Answers['score2'] ]#% chance to earn 225 DKK and a 
+	    #[ 100 - (float(Self.Answers['score2'])) ]#% chance to earn 150 DKK in the first stage.&lt;br/&gt;&lt;br/&gt; 
                
             Remember, at the end of the experiment the computer will randomly choose a stage, determine your earnings 
 	    in this stage and pay you accordingly." />
