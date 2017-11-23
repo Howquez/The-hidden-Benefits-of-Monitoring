@@ -315,12 +315,10 @@
 	Assume now that the random process determines that you receive 225 DKK from the work on the task in Stage 2. 
 	Given this, Person A's earnings in Stage 2 are: &lt;br/&gt; &lt;br/&gt;
                
-	Person A's earnings = 350 + 0.75 * 40  - 225 - 5 = 135 DKK &lt;br/&gt;&lt;br/&gt;
+	Person A's earnings = 350 + 0.75 * 40  - 225 - 20 = 135 DKK &lt;br/&gt;&lt;br/&gt;
                    
 	On the next page, we will ask you and the Person you are paired with to answer control questions to make sure 
-	that the instructions are clear. You can click on 
-	&lt;a href=&quot;https://roggenkamp.shinyapps.io/shiny_expectations/&quot; target=&quot;_blank&quot;&gt;this link&lt;/a&gt; 
-	to open a new tab in which you can calculate and visualize the earnings you can expect under different scenarios.
+	that the instructions are clear.
 	Upon answering these questions correctly, you can proceed with the second stage of the experiment. "/>
     </screen>
 
@@ -555,12 +553,10 @@
 	Assume now that the random process determines that Person B receives 225 DKK from the work on the task in Stage 2. 
 	Given this, your earnings in Stage 2 are: &lt;br/&gt; &lt;br/&gt;
                
-	Your = 350 + 0.75 * 40  - 225 - 5 = 135 DKK &lt;br/&gt;&lt;br/&gt;
+	Your = 350 + 0.75 * 40  - 225 - 20 = 135 DKK &lt;br/&gt;&lt;br/&gt;
                    
 	On the next page, we will ask you and the Person you are paired with to answer control questions to make sure 
-	that the instructions are clear. You can click on 
-	&lt;a href=&quot;https://roggenkamp.shinyapps.io/shiny_expectations/&quot; target=&quot;_blank&quot;&gt;this link&lt;/a&gt; 
-	to open a new tab in which you can calculate and visualize the earnings Person B can expect under different scenarios.
+	that the instructions are clear.
 	Upon answering these questions correctly, you can proceed with the second stage of the experiment. "/>
     </screen>
 
