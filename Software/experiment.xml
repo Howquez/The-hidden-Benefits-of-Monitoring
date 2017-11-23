@@ -270,12 +270,12 @@
 	Following this, you have to make a decision on how much effort to put into the box-clicking task in Stage 2. 
 	Importantly, you will make this decision in two steps: First, you can choose your workload. That is, you can 
 	choose the number of screens you intend to work on. You can thereby choose any number between 0 and 25 where 
-	25 is the number of screens you also encountered in Stage 1. In the second step, the box-clicking task will 
+	20 is the number of screens you also encountered in Stage 1. In the second step, the box-clicking task will 
 	start with the number of screens you have chosen and you can decide, as in Stage 1, how many boxes you want 
 	to click away. &lt;br/&gt; &lt;br/&gt;
                
 	Note that your performance is measured as the percentage of boxes you clicked away out of all boxes you could 
-	have clicked away on all 25 screens. If you decided, for example, to work on 20 screens (which is 80% of the 
+	have clicked away on all 20 screens. If you decided, for example, to work on 16 screens (which is 80% of the 
 	total number of screens), your performance cannot be higher than 80% even if you click on every box that is 
 	displayed. You must also know that the time a screen is displayed is not affected by your choice. As a 
 	consequence, the difficulty of the task remains the same, since you have as much time per screen as before."/>
@@ -337,13 +337,13 @@
 	comes up. Below, you will be asked about the consequences of your workload decision. If you have problems 
 	finding the correct answers, you can press the ‘Back’-button below and read the instructions once again. &lt;br/&gt;&lt;br/&gt;
                 
-        Imagine you choose to work on half the number of screens &lt;b&gt; (number of screens)&lt;/b&gt;.
+        Imagine you choose to work on 10 screens (which is half the number of possible screens).
         What will your performance be if you manage to click away every box that is 
 	displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 	var="Control2.1" defaultinput="Question 1" textbox="true" number="int" min="50" max="50"/>
 
-       <question text="Imagine again you choose to work on half the number of screens (number of screens). 
+       <question text="Imagine again you choose to work on 10 screens. 
 	What will your performance be if you manage to click away every second box that is 
         displayed to you on these screens? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
@@ -351,7 +351,7 @@
 
       <question text="Imagine you clicked away 75% of the boxes on each screen in Stage 1. Remember that this would translate
         into a performance of 75%. Imagine further, that you expect to click the same amount of boxes per screen in Stage 2 and
-        that you choose to work on 5 out of 25 screens (20% of the Screens), what would your performance in Stage 2 be in that case? &lt;br/&gt;
+        that you choose to work on 4 out of 20 screens (20% of the Screens), what would your performance in Stage 2 be in that case? &lt;br/&gt;
         Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
         var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 
@@ -680,8 +680,8 @@
     <screen wait="false" condition="#[ Self.Role == 1 ]#">
       <question text="&lt;b&gt; Stage 2: Choose your workload &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
         Please indicate on how many screens you intend to work in the subsequent box-clicking task. You can choose any
-	number between 1 and 25 (number of Screens!) &lt;br/&gt;"
-      var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="10" />
+	number between 1 and 20. If you decide to work on 20 screens, you will work on as many screens as you did in the first stage. &lt;br/&gt;"
+      var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="20" />
           
       <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
 
