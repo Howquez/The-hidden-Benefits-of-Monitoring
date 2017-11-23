@@ -318,8 +318,10 @@
 	Person A's earnings = 350 + 0.75 * 40  - 225 - 5 = 135 DKK &lt;br/&gt;&lt;br/&gt;
                    
 	On the next page, we will ask you and the Person you are paired with to answer control questions to make sure 
-	that the instructions are clear. Upon answering these questions correctly, you can proceed with the second 
-	stage of the experiment. "/>
+	that the instructions are clear. You can click on 
+	&lt;a href=&quot;https://roggenkamp.shinyapps.io/shiny_expectations/&quot; target=&quot;_blank&quot;&gt;this link&lt;/a&gt; 
+	to open a new tab in which you can calculate and visualize the earnings you can expect under different scenarios.
+	Upon answering these questions correctly, you can proceed with the second stage of the experiment. "/>
     </screen>
 
     
