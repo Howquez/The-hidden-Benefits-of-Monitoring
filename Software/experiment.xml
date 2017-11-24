@@ -315,8 +315,8 @@
 	[1] with a 25% chance: your Stage 2 earnings are 225 DKK with 20% and 150 DKK with 80%.&lt;br/&gt;
 	[2] with a 75% chance: your Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 		     
-	This means, if Person A chooses option b), your expected earnings are XYZ. Instead, if he chooses option a) your expected
-	earnings are ZYX. &lt;br/&gt; &lt;br/&gt;
+	This means, if Person A chooses option b), your expected earnings are 181.875 DKK. Instead, if he chooses option a) your expected
+	earnings are 170.625 DKK. &lt;br/&gt; &lt;br/&gt;
                
 	Assume now that Person A chooses option b) and the random process determines that you receive 225 DKK from the work on the task in Stage 2. 
 	Given this, Person A's earnings in Stage 2 are: &lt;br/&gt; &lt;br/&gt;
@@ -561,8 +561,8 @@
 	[1] with a 25% chance: Person B's Stage 2 earnings are 225 DKK with 20% and 150 DKK with 80%.&lt;br/&gt;
 	[2] with a 75% chance: Person B's Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 		     
-	This means, if you choose option b), Person B's expected earnings are XYZ. Instead, if you choose option a) 
-	Person B's expected earnings are ZYX. &lt;br/&gt; &lt;br/&gt;
+	This means, if you choose option b), Person B's expected earnings are 181.875 DKK. Instead, if you choose option a) 
+	Person B's expected earnings are 170.625 DKK. &lt;br/&gt; &lt;br/&gt;
                
 	Assume now that the random process determines that Person B receives 225 DKK from the work on the task in Stage 2. 
 	Given this, your earnings in Stage 2 are: &lt;br/&gt; &lt;br/&gt;
