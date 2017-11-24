@@ -703,14 +703,12 @@
         <message text="&lt;b&gt; Stage 2: Waiting for Person A &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
             Remember, your earnings in Stage 2 will depend on your decisions, but also depend on those of Person A that you are paired with."/>
         <message text="Person A will now be informed about your performance in Stage 1 and will choose between him 
-		       options a) and b): &lt;br/&gt;
+		       options a) and b): &lt;br/&gt; &lt;br/&gt;
 		       
-		       &lt;ol type=&quot;a&quot;&gt;
-		       &lt;li&gt; with a 75%  chance your earnings in stage 2 will be performance-based and with a 25% 
-		       chance your earnings will be random. &lt;/li&gt;
-		       &lt;li&gt; with a 25% chance your earnings in stage 2 will be performance-based and with a 75% 
-		       chance your earnings will be random. &lt;/li&gt;
-		       &lt;/ol&gt; 
+		       a) with a 75%  chance your earnings in stage 2 will be performance-based and with a 25% 
+		       chance your earnings will be random. &lt;br/&gt; &lt;br/&gt;
+		       b) with a 25% chance your earnings in stage 2 will be performance-based and with a 75% 
+		       chance your earnings will be random. &lt;br/&gt; &lt;br/&gt;
 
 	    That means, Person A chooses the likelihood with which you will receive a performance-based payment in 
 	    Stage 2. On the next page you will be informed about Person A’s choice. &lt;br/&gt;&lt;br/&gt; 
