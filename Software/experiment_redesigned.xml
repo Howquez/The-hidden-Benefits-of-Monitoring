@@ -256,7 +256,7 @@
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 In a nutshell, if Person A chooses option a), your payoff in Stage 2 will depend on your performance 
-										 in the clicking task. Instead, if Person A chooses option b), your payoff in Stage 2 will be random 
+										 in the clicking task. If Person A chooses option b) instead, your payoff in Stage 2 will be random 
 										 and thus independent of your performance in the clicking task. &lt;br/&gt; &lt;br/&gt; 
 										 
 										 You will be informed about Person A’s choice before you decide how many boxes you want to click away 
@@ -293,14 +293,14 @@
 										 &lt;b&gt; What are your and Person A's payoffs in this stage? &lt;/b&gt; &lt;br/&gt; &lt;br/&gt; 
 										 
 										 Person A’s earnings in Stage 2 have several components. First, Person A will receive an endowment of 
-										 350 DKK. Second,Person A’s choice regarding his options a) or b) is connected to a cost that Person A 
+										 340 DKK. Second,Person A’s choice regarding his options a) or b) is connected to a cost that Person A 
 										 has to pay. Specifically, Person A’s costs are as follows. If Person A decides that your earnings in 
 										 Stage 2 should be random, i.e. he chooses option b), he has to pay 20 DKK. If Person A decides that your
 										 earnings should depend on your performance, i.e. he chooses option a), he has to pay 25 DKK. In addition 
 										 to these costs, Person A receives the profit generated from your work on the task in Stage 2 and pays 
 										 your earnings. Specifically, his earnings are as follows. &lt;br/&gt; &lt;br/&gt;
 										 
-										 Person A's earnings = 350 + (0.75 x Percentage of boxes you clicked away) - Your payoff - Person A's costs 
+										 Person A's earnings = 340 + Percentage points of boxes you clicked away - Your payoff - Person A's costs 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 &lt;b&gt; Your earnings in Stage 2 are: &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
@@ -316,14 +316,14 @@
 										 Your Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 										 
 										 This means, if Person A chooses option b), your expected earnings are 187.5 DKK. Instead, if he chooses 
-										 option a)your expected earnings are 165 DKK (20% x 225 DKK and 50% x 150 DKK = 165 DKK). 
+										 option a) your expected earnings are 165 DKK (20% x 225 DKK  and 80% x 150 DKK = 165 DKK). 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 Assume now that Person A chooses option b) and the random process determines that you receive 225 DKK 
 										 from the work on the task in Stage 2. Given this, Person A's earnings in Stage 2 are: 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
-										 Person A's earnings = 350 + (0.75 x 20)  - 225 - 20 = 120 DKK &lt;br/&gt; &lt;br/&gt;
+										 Person A's earnings = 340 + 20 - 225 - 20 = 115 DKK &lt;br/&gt; &lt;br/&gt;
 										 
 										 You will find additional examples which are explained in more detail within your printed instructions. 
 										 &lt;br/&gt; &lt;br/&gt;
@@ -392,7 +392,7 @@
 												&lt;ol type=&quot;1&quot;&gt;
 													&lt;li&gt; The performance-based payoff gives me higher expected earnings in Stage 2. &lt;/li&gt;
 													&lt;li&gt; The random payoff gives me higher expected earnings in Stage 2. &lt;/li&gt;
-													&lt;li&gt;Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
+													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 												&lt;/ol&gt; "
 								var="Control2.5" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
 			
@@ -404,7 +404,7 @@
 												&lt;ol type=&quot;1&quot;&gt;
 													&lt;li&gt; The performance-based payoff gives me higher expected earnings in Stage 2. &lt;/li&gt;
 													&lt;li&gt; The random payoff gives me higher expected earnings in Stage 2. &lt;/li&gt;
-													&lt;li&gt;Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
+													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 										 		&lt;/ol&gt; "
 								var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
 			
