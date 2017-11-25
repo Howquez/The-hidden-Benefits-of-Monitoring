@@ -681,12 +681,43 @@
     </screen>
 
 
-    <!-- Both wait for each other to read to read the "starting signal" -->
-    <screen wait="true" >
+<!-- Both wait for each other to read to read the "starting signal" -->
+    <screen wait="true" condition="#[ Self.Role == 1 ]#">
       <message text="&lt;b&gt; Stage 2: Start &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
-            You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
-            On the following pages, you can now proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
-	    Note that your decisions affect your earnings as well as the other person's earnings from Stage 2." />
+            				You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
+            				On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
+	    							Note that your decisions affect your earnings as well as the other person's earnings from Stage 2.
+	    							In summary, Stage 2 is structured as follows:
+
+	    							&lt;ol&gt;
+	    								&lt;li&gt; Person A is informed about your Performance in Stage 1. &lt;/li&gt;
+										  &lt;li&gt; Person A chooses either option a) or option b). &lt;/li&gt;
+										  &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
+										  &lt;li&gt; You choose your workload. &lt;/li&gt;
+										  &lt;li&gt; You engage in the box-clicking task. &lt;/li&gt;
+										  &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person A. &lt;/li&gt;
+										  &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
+										&lt;/ol&gt; " />
+
+      <message text="Please press 'Next' to start Stage 2 of the experiment." />
+    </screen>
+
+        <screen wait="true" condition="#[ Self.Role == 2 ]#">
+      <message text="&lt;b&gt; Stage 2: Start &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
+            				You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
+            				On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
+	    							Note that your decision affects your earnings as well as the other person's earnings from Stage 2.
+	    							In summary, Stage 2 is structured as follows:
+
+	    							&lt;ol&gt;
+	    								&lt;li&gt; You are informed about Person B's Performance in Stage 1. &lt;/li&gt;
+										  &lt;li&gt; You choose either option a) or option b). &lt;/li&gt;
+										  &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
+										  &lt;li&gt; Person B chooses her workload. &lt;/li&gt;
+										  &lt;li&gt; Person B engages in the box-clicking task. &lt;/li&gt;
+										  &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person B. &lt;/li&gt;
+										  &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
+										&lt;/ol&gt; " />
 
       <message text="Please press 'Next' to start Stage 2 of the experiment." />
     </screen>
@@ -694,16 +725,20 @@
 
     <!-- Role 2/A chooses Information Technology -->
     <screen condition="#[ Self.Role == 1 ]#">
-      <message text="&lt;b&gt; Stage 2: Waiting for Person A &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-            Remember, your earnings in Stage 2 will depend on your decisions, but also depend on those of Person A that you are paired with."/>
-      <message text="Person A will now be informed about your performance in Stage 1 and will choose between his 
-		       options a) and b): &lt;br/&gt; &lt;br/&gt;
-		       
-		       a) your earnings in stage 2 will be performance-based. &lt;br/&gt; &lt;br/&gt;
-		       b) your earnings in Stage 2 will be random. &lt;br/&gt; &lt;br/&gt;
+    	<message text="&lt;b&gt; Stage 2: Waiting for Person A &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+    								Remember, your earnings in Stage 2 will depend on your decisions, but also depend on those of Person A 
+    								that you are paired with."/>
+      <message text="Person A will now be informed about your performance in Stage 1 and will choose between his
+      							options a) and b): &lt;br/&gt; &lt;br/&gt;
 
-	     On the next page you will be informed about Person A’s choice. &lt;br/&gt;&lt;br/&gt; 
-            Please press 'Next' and wait for Person A to make his  choice."/>
+      							&lt;p style=&quot;text-indent: 40px&quot;&gt; a) your earnings in stage 2 will be performance-based. &lt;/p&gt; 
+										&lt;br/&gt; &lt;br/&gt;
+
+										&lt;p style=&quot;text-indent: 40px&quot;&gt; b) your earnings in stage 2 will be random. &lt;/p&gt; 
+										&lt;br/&gt; &lt;br/&gt;
+
+										On the next page you will be informed about Person A’s choice. &lt;br/&gt;&lt;br/&gt;
+										Please press 'Next' and wait for Person A to make his  choice."/>
     </screen>
 
     <screen condition="#[ Self.Role == 2 ]#">
