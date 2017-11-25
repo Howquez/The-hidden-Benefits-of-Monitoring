@@ -239,7 +239,7 @@
 		</screen>
 		
 		<screen backbutton="true" condition="#[ Self.Role == 1 ]#">
-			<message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Instructions:Person A's Options &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+			<message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Instructions: Person A's Options &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 										 
 										 &lt;b&gt; Remember &lt;/b&gt;: You are Person B and you are paired with another person, Person A,
 										 in Stage 2. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
@@ -249,8 +249,11 @@
 										 boxes you clicked away in Stage 1 and then chooses between two options. The two options a) and b) that 
 										 Person A can choose between are as follows: &lt;br/&gt; &lt;br/&gt;
 										 
-										 a) your earnings in stage 2 will be performance-based. &lt;br/&gt; &lt;br/&gt;
-										 b) your earnings in stage 2 will be random. &lt;br/&gt; &lt;br/&gt;
+										 &lt;p style=&quot;text-indent: 40px&quot;&gt; a) your earnings in stage 2 will be performance-based. &lt;/p&gt; 
+										 &lt;br/&gt; &lt;br/&gt;
+
+										 &lt;p style=&quot;text-indent: 40px&quot;&gt; b) your earnings in stage 2 will be random. &lt;/p&gt; 
+										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 In a nutshell, if Person A chooses option a), your payoff in Stage 2 will depend on your performance 
 										 in the clicking task. Instead, if Person A chooses option b), your payoff in Stage 2 will be random 
