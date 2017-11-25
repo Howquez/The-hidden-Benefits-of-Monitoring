@@ -249,11 +249,9 @@
 										 boxes you clicked away in Stage 1 and then chooses between two options. The two options a) and b) that 
 										 Person A can choose between are as follows: &lt;br/&gt; &lt;br/&gt;
 										 
-										 &lt;p style=&quot;text-indent: 40px&quot;&gt; a) your earnings in stage 2 will be performance-based. &lt;/p&gt; 
-										 &lt;br/&gt; &lt;br/&gt;
+										 a) your earnings in stage 2 will be performance-based. &lt;br/&gt; &lt;br/&gt;
 
-										 &lt;p style=&quot;text-indent: 40px&quot;&gt; b) your earnings in stage 2 will be random. &lt;/p&gt; 
-										 &lt;br/&gt; &lt;br/&gt;
+										 b) your earnings in stage 2 will be random. &lt;br/&gt; &lt;br/&gt;
 										 
 										 In a nutshell, if Person A chooses option a), your payoff in Stage 2 will depend on your performance 
 										 in the clicking task. If Person A chooses option b) instead, your payoff in Stage 2 will be random 
@@ -684,40 +682,40 @@
 <!-- Both wait for each other to read to read the "starting signal" -->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
       <message text="&lt;b&gt; Stage 2: Start &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
-            				You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
-            				On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
-	    							Note that your decisions affect your earnings as well as the other person's earnings from Stage 2.
-	    							In summary, Stage 2 is structured as follows:
+            				 You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
+            				 On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
+	    							 Note that your decisions affect your earnings as well as the other person's earnings from Stage 2.
+	    							 In summary, Stage 2 is structured as follows:
 
-	    							&lt;ol&gt;
-	    								&lt;li&gt; Person A is informed about your Performance in Stage 1. &lt;/li&gt;
-										  &lt;li&gt; Person A chooses either option a) or option b). &lt;/li&gt;
-										  &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
-										  &lt;li&gt; You choose your workload. &lt;/li&gt;
-										  &lt;li&gt; You engage in the box-clicking task. &lt;/li&gt;
-										  &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person A. &lt;/li&gt;
-										  &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
-										&lt;/ol&gt; " />
+	    							 &lt;ol&gt;
+	    								 &lt;li&gt; Person A is informed about your Performance in Stage 1. &lt;/li&gt;
+										   &lt;li&gt; Person A chooses either option a) or option b). &lt;/li&gt;
+										   &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
+										   &lt;li&gt; You choose your workload. &lt;/li&gt;
+										   &lt;li&gt; You engage in the box-clicking task. &lt;/li&gt;
+										   &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person A. &lt;/li&gt;
+										   &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
+										 &lt;/ol&gt; " />
 
       <message text="Please press 'Next' to start Stage 2 of the experiment." />
     </screen>
 
         <screen wait="true" condition="#[ Self.Role == 2 ]#">
       <message text="&lt;b&gt; Stage 2: Start &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
-            				You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
-            				On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
-	    							Note that your decision affects your earnings as well as the other person's earnings from Stage 2.
-	    							In summary, Stage 2 is structured as follows:
+            				 You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
+            				 On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
+	    							 Note that your decision affects your earnings as well as the other person's earnings from Stage 2.
+	    							 In summary, Stage 2 is structured as follows:
 
-	    							&lt;ol&gt;
-	    								&lt;li&gt; You are informed about Person B's Performance in Stage 1. &lt;/li&gt;
-										  &lt;li&gt; You choose either option a) or option b). &lt;/li&gt;
-										  &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
-										  &lt;li&gt; Person B chooses her workload. &lt;/li&gt;
-										  &lt;li&gt; Person B engages in the box-clicking task. &lt;/li&gt;
-										  &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person B. &lt;/li&gt;
-										  &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
-										&lt;/ol&gt; " />
+	    							 &lt;ol&gt;
+	    								 &lt;li&gt; You are informed about Person B's Performance in Stage 1. &lt;/li&gt;
+										   &lt;li&gt; You choose either option a) or option b). &lt;/li&gt;
+										   &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
+										   &lt;li&gt; Person B chooses her workload. &lt;/li&gt;
+										   &lt;li&gt; Person B engages in the box-clicking task. &lt;/li&gt;
+										   &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person B. &lt;/li&gt;
+										   &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
+										 &lt;/ol&gt; " />
 
       <message text="Please press 'Next' to start Stage 2 of the experiment." />
     </screen>
@@ -726,75 +724,75 @@
     <!-- Role 2/A chooses Information Technology -->
     <screen condition="#[ Self.Role == 1 ]#">
     	<message text="&lt;b&gt; Stage 2: Waiting for Person A &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-    								Remember, your earnings in Stage 2 will depend on your decisions, but also depend on those of Person A 
-    								that you are paired with."/>
+    								 Remember, your earnings in Stage 2 will depend on your decisions, but also depend on those of Person A 
+    								 that you are paired with."/>
       <message text="Person A will now be informed about your performance in Stage 1 and will choose between his
-      							options a) and b): &lt;br/&gt; &lt;br/&gt;
+      							 options a) and b): &lt;br/&gt; &lt;br/&gt;
 
-      							&lt;p style=&quot;text-indent: 40px&quot;&gt; a) your earnings in stage 2 will be performance-based. &lt;/p&gt; 
-										&lt;br/&gt; &lt;br/&gt;
+      							 a) your earnings in stage 2 will be performance-based. &lt;br/&gt; &lt;br/&gt;
 
-										&lt;p style=&quot;text-indent: 40px&quot;&gt; b) your earnings in stage 2 will be random. &lt;/p&gt; 
-										&lt;br/&gt; &lt;br/&gt;
+										 b) your earnings in stage 2 will be random. &lt;br/&gt; &lt;br/&gt;
 
-										On the next page you will be informed about Person A’s choice. &lt;br/&gt;&lt;br/&gt;
-										Please press 'Next' and wait for Person A to make his  choice."/>
+										 On the next page you will be informed about Person A’s choice. &lt;br/&gt;&lt;br/&gt;
+										 Please press 'Next' and wait for Person A to make his  choice."/>
     </screen>
 
     <screen condition="#[ Self.Role == 2 ]#">
-      <question text="&lt;b&gt; Stage 2: Choosing the likelihood &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-			
-            On this page you will be informed about the other Person's performance in Stage 1. After that, you have 
-	    to choose the likelihood with which your Person B receives a performance-based payment in Stage 2. &lt;br/&gt; &lt;br/&gt; 
-            
-            &lt;b&gt; Person B's Performance in Stage 1: &lt;/b&gt; &lt;br/&gt;
-            Person B clicked away #[ Group[1].Answers['score2'] ]#% of the boxes during the box-clicking task in the first stage. &lt;br/&gt; &lt;br/&gt; 
-            
-            &lt;b&gt; Your Choice: &lt;/b&gt; &lt;br/&gt;
-            You have to choose the likelihood with which Person B receives a performance-based payoff:&lt;br/&gt;
-				
-	    You can choose either 25 or 75. If you choose, for instance, 25 there is a 25% chance that Person B 
-	    receives a performance-based payment. &lt;br/&gt;&lt;br/&gt;
-        
-            Remember your costs associated with this choice are 20 DKK for the low likelihood of 25% and 25 DKK for the 
-	    high likelihood of 75%. &lt;br/&gt; &lt;br/&gt;        
-                
-            Please indicate your choice between the two likelihoods by clicking the corresponding box and press 'Next' to proceed. &lt;br/&gt;"
+    	<question text="&lt;b&gt; Stage 2: Choosing the Mechanism &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+      								On this page you will be informed about Person B's performance in Stage 1. 
+      								After that, you have to choose the whether Person B's earnings should be performance-based or random. 
+      								payment in Stage 2. &lt;br/&gt; &lt;br/&gt;
+
+      								&lt;b&gt; Person B's Performance in Stage 1: &lt;/b&gt; &lt;br/&gt;
+      								Person B clicked away #[ Group[1].Answers['score2'] ]#% of the boxes during the box-clicking task in 
+      								the first stage. &lt;br/&gt; &lt;br/&gt;
+
+      								&lt;b&gt; Your Choice: &lt;/b&gt; &lt;br/&gt;
+      								You can now choose whether Person B's earnings should be performance-based or random. 
+      								If Person B's earnings should be performance-based you choose option a). If they should be
+      								random instead, you choose option b). &lt;br/&gt; &lt;br/&gt;
+
+      								Remember your costs associated with this choice are 25 DKK for option a) and 20 DKK for option b).
+      								&lt;br/&gt; &lt;br/&gt;
+
+      								Please indicate your choice between the two options by clicking the corresponding box and press 'Next' to proceed."
         
           var="PersonAProb">
-        <option text="25"/>
-        <option text="75"/>
+        <option text="option a) performance-based"/>
+        <option text="option b) random"/>
       </question>
     </screen>
 
 
     <!-- Role 1/B is informed about the IT choice -->
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
-      <message text="
-	&lt;b&gt; Stage 2: Person A's decision &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-	Person A chose option &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
-				
-	As a consequence, you receive a performance-based payment in Stage 2 with a likelihood of &lt;b&gt; #[Group[2].Answers['PersonAProb']]#% &lt;/b&gt;
-	and you will receive a random payment with a likelihood of #[ 100 - float(Group[2].Answers['PersonAProb']) ]#%&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
-               
-	Remember, a performance-based payment means that the likelihood with which you earn 225 DKK is given by the percentage of boxes you clicked away.
-	A random payment simply means that you have a 50% chance to earn 75 DKK and a 50% chance to earn 225 DKK."/>
+      <message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Person A's decision &lt;/b&gt; 
+      							 &lt;br/&gt; &lt;br/&gt;
+
+      							 Person A chose &lt;b&gt; #[Group[2].Answers['PersonAProb']]# &lt;/b&gt; 
+      							 &lt;br/&gt; &lt;br/&gt;
+
+      							 Remember, a performance-based payment means that the likelihood with which you earn 225 DKK is 
+      							 given by the percentage of boxes you clicked away. A random payment simply means that you have a 
+      							 50% chance to earn 75 DKK and a 50% chance to earn 225 DKK."/>
       <message text="You can choose your workload on the next page. Press 'Next' when you are ready."/>
     </screen>
 
     <screen condition="#[ Self.Role == 2 ]#">
-      <message text="&lt;b&gt; &lt;br/&gt; &lt;br/&gt; Stage 2: Waiting for Person B &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-	Person B will now decide on how many screens he intends to work.
-        He will then start working on the task. 
-        Please press 'Next' and wait for Person B to finish the work task. This may take a few minutes."/>
+      <message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Waiting for Person B &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+      							 Person B will now decide on how many screens he intends to work.
+      							 He will then start working on the task.
+      							 Please press 'Next' and wait for Person B to finish the work task. This may take a few minutes."/>
     </screen>
 
 
     <!-- Role 1/B chooses amount of Screens -->
     <screen wait="false" condition="#[ Self.Role == 1 ]#">
-      <question text="&lt;b&gt; Stage 2: Choose your workload &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-        Please indicate on how many screens you intend to work in the subsequent box-clicking task. You can choose any
-	number between 1 and 25. If you decide to work on 25 screens, you will work on as many screens as you did in the first stage. &lt;br/&gt;"
+      <question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Choose your workload &lt;/b&gt; 
+      								&lt;br/&gt; &lt;br/&gt;
+      								Please indicate on how many screens you intend to work in the subsequent box-clicking task. 
+      								You can choose any number between 1 and 25. If you decide to work on 25 screens, you will work on 
+      								as many screens as you did in the first stage. &lt;br/&gt;"
       var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="25" />
 
       <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
@@ -823,22 +821,21 @@
       <onload var="Rand5" val="#[Rand.Int(0,100)]#" />
 
 
-      <onload var="StageB"    val="#[1  if float(Group[1].Answers['Rand1']) >= 50 else 2]#" />
+      <onload var="StageB"    val="#[1   if float(Group[1].Answers['Rand1']) >= 50 else 2]#" />
       <onload var="PayB1"     val="#[150 if float(Group[1].Answers['Rand2']) >= float(Group[1].Answers['score2']) else 225]#" />
       <onload var="PayB2E"    val="#[150 if float(Group[1].Answers['Rand3']) >= float(Group[1].Answers['score']) else 225]#" />
       <onload var="PayB2R"    val="#[150 if float(Group[1].Answers['Rand4']) >= 50 else 225]#" />
-      <onload var="Mechanism" val="#[0  if float(Group[1].Answers['Rand5']) >= float(Group[2].Answers['PersonAProb']) else 1]#" />
+      <onload var="Mechanism" val="#[0   if float(Group[2].Answers['PersonAProb']) == 'option b) random' else 1]#" />
 
-      <message text="&lt;b&gt;&lt;br/&gt;&lt;br/&gt;Results: Stage 2&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
-            Your performance: You clicked away #[ Self.Answers['score'] ]#% of the boxes during the box-clicking task.&lt;br/&gt;&lt;br/&gt;
-            On the next page we will inform you about the stage that will be paid out and your earnings in that stage." />
+      <message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Results: Stage 2 &lt;/b&gt; &lt;br/&gt; &lt;br/&gt; 
+      							 Your performance: You clicked away #[ Self.Answers['score'] ]#% of the boxes during the box-clicking task. &lt;br/&gt; &lt;br/&gt;
+            				 On the next page we will inform you about the stage that will be paid out and your earnings in that stage." />
       <message text="Please press 'Next' to continue." />
     </screen>
 
     <screen wait="true" condition="#[ Self.Role == 1 ]#">
 
-      <message text="
-            The computer is calculating your payoff right now. This may take a few seconds." />
+      <message text="The computer is calculating your payoff right now. This may take a few seconds." />
       <message text="Please press 'Next' to continue." />
 
       <onload var="PayB2"     val="#[Group[1].Answers['PayB2E'] if float(Group[1].Answers['Mechanism']) >= 1 else Group[1].Answers['PayB2R']]#" />
@@ -852,7 +849,7 @@
       <onload var="Rand6" val="#[Rand.Int(0,100)]#" />
       <onload var="Rand7" val="#[Rand.Int(0,100)]#" />
 
-      <onload var="CostsA" val="#[25 if float(Self.Answers['PersonAProb']) >= 75 else 20]#" />
+      <onload var="CostsA" val="#[20 if float(Self.Answers['PersonAProb']) == 'option b) random' else 25]#" />
 
 
 
