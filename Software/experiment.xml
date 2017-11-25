@@ -246,9 +246,9 @@
 	Stage 1 and then chooses between two options. The two options a) and b) that Person A can choose between are 
 	as follows: &lt;br/&gt; &lt;br/&gt;
 		       
-		       a) with a 75%  chance your earnings in stage 2 will be performance-based and with a 25% 
+		       a) with a 90%  chance your earnings in stage 2 will be performance-based and with a 10% 
 		       chance your earnings will be random. &lt;br/&gt; &lt;br/&gt;
-		       b) with a 25% chance your earnings in stage 2 will be performance-based and with a 75% 
+		       b) with a 10% chance your earnings in stage 2 will be performance-based and with a 90% 
 		       chance your earnings will be random. &lt;br/&gt; &lt;br/&gt;
                
 	In a nutshell, if Person A chooses option a), it is more likely that your payoff in Stage 2 will depend on your 
@@ -298,7 +298,7 @@
 	Specifically, Person A’s costs are as follows. If Person A chooses option b), i.e. he chooses that the 
 	likelihood with which your earnings in Stage 2 are performance-based is 25%, he has to pay 20 DKK. If Person A 
 	chooses option a), i.e. he chooses that the likelihood with which your earnings in Stage 2 are performance-based 
-	is 75%, he has to pay 25 DKK. In addition to these costs, Person A receives the profit generated from your work on 
+	is 90%, he has to pay 25 DKK. In addition to these costs, Person A receives the profit generated from your work on 
 	the task in Stage 2 and pays your earnings. Specifically, his earnings are as follows. &lt;br/&gt;&lt;br/&gt;
                
 	Person A's earnings = 350 + (0.75 x Percentage of boxes you clicked away) - Your payoff - Person A's costs &lt;br/&gt;&lt;br/&gt;
@@ -312,8 +312,8 @@
 	Imagine Person A chooses option b), i.e. a likelihood of a performance-based payoff of 25%, 
 	and you expect to click away 20% of the boxes. Given this, you can expect to earn the following:
 	&lt;br/&gt; 
-	[1] with a 25% chance: your Stage 2 earnings are 225 DKK with 20% and 150 DKK with 80%.&lt;br/&gt;
-	[2] with a 75% chance: your Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
+	[1] with a 10% chance: your Stage 2 earnings are 225 DKK with 20% and 150 DKK with 80%.&lt;br/&gt;
+	[2] with a 90% chance: your Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 		     
 	This means, if Person A chooses option b), your expected earnings are 181.875 DKK. Instead, if he chooses option a) your expected
 	earnings are 170.625 DKK. &lt;br/&gt; &lt;br/&gt;
@@ -413,13 +413,13 @@
 
       <question text="
 	&lt;b&gt;Question 4&lt;/b&gt;: Imagine you expect to click away 30% of the boxes. Do you receive a higher expected 
-	payoff if Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
+	payoff if Person A chooses a 10% or a 90% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the 
 	field below. &lt;br/&gt;
 		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; 75%. &lt;/li&gt;
+		      &lt;li&gt; 90%. &lt;/li&gt;
 		      &lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
-		      &lt;li&gt; 25%. &lt;/li&gt;
+		      &lt;li&gt; 10%. &lt;/li&gt;
 		      &lt;/ol&gt; " 
 		
 	var="Control2.7" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
@@ -427,13 +427,13 @@
 
        <question text="
 	&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect to click away 60% of the boxes. Do you receive a higher expected 
-	payoff if Person A chooses a 25% or a 75% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
+	payoff if Person A chooses a 10% or a 90% likelihood of you receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the 
 	field below. &lt;br/&gt;
 		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; 75%. &lt;/li&gt;
+		      &lt;li&gt; 90%. &lt;/li&gt;
 		      &lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
-		      &lt;li&gt; 25%. &lt;/li&gt;
+		      &lt;li&gt; 10%. &lt;/li&gt;
 		      &lt;/ol&gt; "
 		 
 	var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
@@ -489,9 +489,9 @@
 	Stage 1 and then choose between two options. The two options a) and b) that you can choose between are 
 	as follows: &lt;br/&gt; &lt;br/&gt;
 		       
-		       a) with a 75%  chance Person B's earnings in stage 2 will be performance-based and with a 25% 
+		       a) with a 90%  chance Person B's earnings in stage 2 will be performance-based and with a 10% 
 		       chance Person B's earnings will be random. &lt;br/&gt; &lt;br/&gt;
-		       b) with a 25% chance Person B's earnings in stage 2 will be performance-based and with a 75% 
+		       b) with a 10% chance Person B's earnings in stage 2 will be performance-based and with a 90% 
 		       chance Person B's earnings will be random. &lt;br/&gt; &lt;br/&gt;
 		       
                
@@ -558,8 +558,8 @@
 	Imagine you choose option b), i.e. a likelihood of a performance-based payoff of 25%, 
 	and you expect Person B to click away 20% of the boxes. Given this, you can expect to earn the following:
 	&lt;br/&gt; 
-	[1] with a 25% chance: Person B's Stage 2 earnings are 225 DKK with 20% and 150 DKK with 80%.&lt;br/&gt;
-	[2] with a 75% chance: Person B's Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
+	[1] with a 10% chance: Person B's Stage 2 earnings are 225 DKK with 20% and 150 DKK with 80%.&lt;br/&gt;
+	[2] with a 90% chance: Person B's Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 		     
 	This means, if you choose option b), Person B's expected earnings are 181.875 DKK. Instead, if you choose option a) 
 	Person B's expected earnings are 170.625 DKK. &lt;br/&gt; &lt;br/&gt;
@@ -660,13 +660,13 @@
 
       <question text="
 	&lt;b&gt;Question 4&lt;/b&gt;: Imagine you expect Person B to click away 30% of the boxes. Does he receive a higher expected 
-	payoff if you choose a 25% or a 75% likelihood of him receiving a performance-based payoff? &lt;br/&gt;
+	payoff if you choose a 10% or a 90% likelihood of him receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the 
 	field below. &lt;br/&gt;
 		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; 75%. &lt;/li&gt;
+		      &lt;li&gt; 90%. &lt;/li&gt;
 		      &lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
-		      &lt;li&gt; 25%. &lt;/li&gt;
+		      &lt;li&gt; 10%. &lt;/li&gt;
 		      &lt;/ol&gt; " 
 		
 	var="Control2.7" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
@@ -674,13 +674,13 @@
 
        <question text="
 	&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect Person B to click away 60% of the boxes. Does he receive a higher expected 
-	payoff if you choose a 25% or a 75% likelihood of him receiving a performance-based payoff? &lt;br/&gt;
+	payoff if you choose a 10% or a 90% likelihood of him receiving a performance-based payoff? &lt;br/&gt;
 	Please read the following statements and choose the correct one by typing the corresponding number into the 
 	field below. &lt;br/&gt;
 		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; 75%. &lt;/li&gt;
+		      &lt;li&gt; 90%. &lt;/li&gt;
 		      &lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
-		      &lt;li&gt; 25%. &lt;/li&gt;
+		      &lt;li&gt; 10%. &lt;/li&gt;
 		      &lt;/ol&gt; "
 		 
 	var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
@@ -706,9 +706,9 @@
         <message text="Person A will now be informed about your performance in Stage 1 and will choose between him 
 		       options a) and b): &lt;br/&gt; &lt;br/&gt;
 		       
-		       a) with a 75%  chance your earnings in stage 2 will be performance-based and with a 25% 
+		       a) with a 90%  chance your earnings in stage 2 will be performance-based and with a 10% 
 		       chance your earnings will be random. &lt;br/&gt; &lt;br/&gt;
-		       b) with a 25% chance your earnings in stage 2 will be performance-based and with a 75% 
+		       b) with a 10% chance your earnings in stage 2 will be performance-based and with a 90% 
 		       chance your earnings will be random. &lt;br/&gt; &lt;br/&gt;
 
 	    That means, Person A chooses the likelihood with which you will receive a performance-based payment in 
@@ -728,17 +728,17 @@
             &lt;b&gt; Your Choice: &lt;/b&gt; &lt;br/&gt;
             You have to choose the likelihood with which Person B receives a performance-based payoff:&lt;br/&gt;
 				
-	    You can choose either 25 or 75. If you choose, for instance, 25 there is a 25% chance that Person B 
+	    You can choose either 10 or 90. If you choose, for instance, 25 there is a 25% chance that Person B 
 	    receives a performance-based payment. &lt;br/&gt;&lt;br/&gt;
         
-            Remember your costs associated with this choice are 20 DKK for the low likelihood of 25% and 25 DKK for the 
-	    high likelihood of 75%. &lt;br/&gt; &lt;br/&gt;        
+            Remember your costs associated with this choice are 20 DKK for the low likelihood of 10% and 25 DKK for the 
+	    high likelihood of 90%. &lt;br/&gt; &lt;br/&gt;        
                 
             Please indicate your choice between the two likelihoods by clicking the corresponding box and press 'Next' to proceed. &lt;br/&gt;"
         
             var="PersonAProb">
-            <option text="25"/>
-            <option text="75"/>
+            <option text="10"/>
+            <option text="90"/>
         </question>
     </screen>
 
@@ -753,7 +753,7 @@
 	and you will receive a random payment with a likelihood of #[ 100 - float(Group[2].Answers['PersonAProb']) ]#%&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
                
 	Remember, a performance-based payment means that the likelihood with which you earn 225 DKK is given by the percentage of boxes you clicked away.
-	A random payment simply means that you have a 50% chance to earn 75 DKK and a 50% chance to earn 225 DKK."/>
+	A random payment simply means that you have a 50% chance to earn 150 DKK and a 50% chance to earn 225 DKK."/>
       <message text="You can choose your workload on the next page. Press 'Next' when you are ready."/>
     </screen>
 
@@ -826,7 +826,7 @@
       <onload var="Rand6" val="#[Rand.Int(0,100)]#" />
       <onload var="Rand7" val="#[Rand.Int(0,100)]#" />
 
-      <onload var="CostsA" val="#[25 if float(Self.Answers['PersonAProb']) >= 75 else 20]#" />
+      <onload var="CostsA" val="#[25 if float(Self.Answers['PersonAProb']) >= 90 else 20]#" />
       
 
 
