@@ -563,107 +563,100 @@
     <screen backbutton="true"  condition="#[ Self.Role == 2 ]#">
 
       <question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
-      	To answer the following questions, you have to remember how Person B's performance is measured and what the clicking 
-	task looks like. You have seen that the task consists of a series of screens with black boxes; after a few 
-	seconds the whole screen disappears together with the remaining boxes and a new screen with new black boxes 
-	comes up. Below, you will be asked about the consequences of Person B's workload decision. If you have problems 
-	finding the correct answers, you can press the ‘Back’-button below and read the instructions once again. &lt;br/&gt;&lt;br/&gt;
-                
-        &lt;b&gt;Question 1&lt;/b&gt;: Imagine Person B chooses to work on 10 screens (which is 40% of the total number of possible screens).
-        What will his performance be if Person B manages to click away every box that is 
-	displayed to you on these screens? &lt;br/&gt;
-        Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
-	var="Control2.1" defaultinput="Question 1" textbox="true" number="int" min="40" max="40"/>
-
-      <question text="
-	&lt;b&gt;Question 2&lt;/b&gt;: Imagine again Person B chooses to work on 10 screens. 
-	What will him performance be if Person B manages to click away every second box that is 
-        displayed to you on these screens? &lt;br/&gt;
-        Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
-       var="Control2.2" defaultinput="Question 2" textbox="true" number="int" min="20" max="20"/>
-
-      <question text="
-	&lt;b&gt;Question 3&lt;/b&gt;: Imagine Person B clicked away 75% of the boxes on each screen in Stage 1. 
-	Remember that this would translate into a performance of 75%. Imagine further, that you expect him to click the 
-	same amount of boxes per screen in Stage 2 and that Person B chooses to work on 5 out of 25 screens (20% of the 
-	screens), what would Person B's performance in Stage 2 be in that case? &lt;br/&gt;
-        Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
-        var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
-
-    </screen>
-
-    <screen backbutton="true"  condition="#[ Self.Role == 2 ]#">
-
-      <question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 2: Control questions&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
-          
-        &lt;b&gt;Question 1&lt;/b&gt;: Think about the differences between Stage 1 and Stage 2. Concerning Person B's and 
-	your payoff, what is the major difference between these two stages? &lt;br/&gt;
-        Please read the following statements and choose the correct one by typing the corresponding number into the field below. &lt;br/&gt;
-		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; Person B's payment in Stage 1 was performance-based, in Stage 2 it is not. &lt;/li&gt;
-		      &lt;li&gt; You can choose the likelihood with which Person B receives the higher payment. &lt;/li&gt;
-		      &lt;li&gt; Instead of a 100% chance of receiving a performance-based payment, there now is 
-		      only a 25% chance of receiving a performance-based payment in Stage 2. &lt;/li&gt; 
-		      &lt;li&gt; Instead of a 100% chance of receiving a performance-based payment, you can now 
-		      decide on the likelihood with which Person B's payment is performance based. &lt;/li&gt;
-		      &lt;/ol&gt; "
+											
+											To answer the following questions, you have to remember how your performance is measured and what the 
+											clicking task looks like. You have seen that the task consists of a series of screens with black boxes; 
+											after a few seconds the whole screen disappears together with the remaining boxes and a new screen with 
+											new black boxes comes up. Below, you will be asked about the consequences of Person B's workload decision. 
+											If you have problems finding the correct answers, you can press the ‘Back’-button below and read the 
+											instructions once again. &lt;br/&gt; &lt;br/&gt;
+											
+											&lt;b&gt; Question 1&lt;/b&gt;: Imagine Person B chooses to work on 10 screens (which is 40% of the total 
+											number of possible screens). What will Person B's performance be if he manages to click away every box that 
+											is displayed to Person B on these screens? &lt;br/&gt;
+											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
+								var="Control2.1" defaultinput="Question 1" textbox="true" number="int" min="40" max="40"/>
+			
+			<question text="&lt;b&gt; Question 2&lt;/b&gt;: Imagine again Person B chooses to work on 10 screens. 
+											What will Person B's performance be if he manages to click away every second box that is displayed to  
+											Person B on these screens? &lt;br/&gt;
+											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
+								var="Control2.2" defaultinput="Question 2" textbox="true" number="int" min="20" max="20"/>
+			
+			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Imagine Person B clicked away 75% of the boxes on each screen in Stage 1. 
+											Remember that this would translate into a performance of 75%. Imagine further, that you expect Person B to 
+											click the same amount of boxes per screen in Stage 2 and that he chooses to work on 5 out of 25 
+											screens (20% of the screens), what would his performance in Stage 2 be in that case? &lt;br/&gt;
+											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
+								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
+		</screen>
 		
-        var="Control2.4" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
-
-
-      <question text="
-	&lt;b&gt;Question 2&lt;/b&gt;: Assume you expect Person B to click away less than 50% of the boxes in Stage 2. Given this, 
-	which of the two payment mechanisms, i.e. random or performance-based, gives him higher expected earnings? &lt;br/&gt;
-	Please read the following statements and choose the correct one by typing the corresponding number into the 
-	field below. &lt;br/&gt;
-		       &lt;ol type=&quot;1&quot;&gt;
-		       &lt;li&gt; The performance-based payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
-		       &lt;li&gt; The random payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
-		       &lt;li&gt; Both payoffs gives Person B the same expected earnings in Stage 2. &lt;/li&gt;
-		       &lt;/ol&gt; "
-		 
-        var="Control2.5" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
-
-      <question text="
-	&lt;b&gt;Question 3&lt;/b&gt;: Assume you expect Person B to click away more than 50% of the boxes in Stage 2. Given this, 
-	which of the two payment mechanisms, i.e. random or performance-based, gives him a higher expected earnings? &lt;br/&gt;
-	Please read the following statements and choose the correct one by typing the corresponding number into the 
-	field below. &lt;br/&gt;
-		       &lt;ol type=&quot;1&quot;&gt;
-		       &lt;li&gt; The performance-based payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
-		       &lt;li&gt; The random payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
-		       &lt;li&gt; Both payoffs gives Person B the same expected earnings in Stage 2. &lt;/li&gt;
-		       &lt;/ol&gt; "
-		
-         var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
-
-
-      <question text="
-	&lt;b&gt;Question 4&lt;/b&gt;: Imagine you expect Person B to click away 30% of the boxes. Does he receive a higher expected 
-	payoff if you choose a 25% or a 75% likelihood of him receiving a performance-based payoff? &lt;br/&gt;
-	Please read the following statements and choose the correct one by typing the corresponding number into the 
-	field below. &lt;br/&gt;
-		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; 75%. &lt;/li&gt;
-		      &lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
-		      &lt;li&gt; 25%. &lt;/li&gt;
-		      &lt;/ol&gt; "
-		
-	var="Control2.7" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
-
-
-      <question text="
-	&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect Person B to click away 60% of the boxes. Does he receive a higher expected 
-	payoff if you choose a 25% or a 75% likelihood of him receiving a performance-based payoff? &lt;br/&gt;
-	Please read the following statements and choose the correct one by typing the corresponding number into the 
-	field below. &lt;br/&gt;
-		      &lt;ol type=&quot;1&quot;&gt;
-		      &lt;li&gt; 75%. &lt;/li&gt;
-		      &lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
-		      &lt;li&gt; 25%. &lt;/li&gt;
-		      &lt;/ol&gt; "
-		 
- var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
+		<screen backbutton="true"  condition="#[ Self.Role == 1 ]#">
+			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
+											
+											&lt;b&gt; Question 1&lt;/b&gt;: Think about the differences between Stage 1 and Stage 2. Concerning 
+											your payoff, what is the major difference between these two stages? &lt;br/&gt;
+     
+											Please read the following statements and choose the correct one by typing the corresponding number 
+											into the field below. &lt;br/&gt;
+												&lt;ol type=&quot;1&quot;&gt;
+													&lt;li&gt; The payment in Stage 1 was performance-based, in Stage 2 it is not. &lt;/li&gt;
+													&lt;li&gt; I can choose the likelihood with which Person B receives the higher payment. &lt;/li&gt;
+													&lt;li&gt; Instead of a 100% chance of receiving a performance-based payment, there now is 
+													only a 25% chance of receiving a performance-based payment in Stage 2. &lt;/li&gt;
+													&lt;li&gt; Instead of a 100% chance of receiving a performance-based payment, I can now 
+													decide on whether Person B receives a performance-based payment or a random payment independent of his 
+													performance. &lt;/li&gt;
+												&lt;/ol&gt; "
+								var="Control2.4" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
+			
+			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Assume you expect Person B to click away less than 50% of the boxes in Stage 2.
+											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives Person B higher 
+											expected earnings? &lt;br/&gt;
+											Please read the following statements and choose the correct one by typing the corresponding number into 
+											the field below. &lt;br/&gt;
+												&lt;ol type=&quot;1&quot;&gt;
+													&lt;li&gt; The performance-based payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
+													&lt;li&gt; The random payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
+													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
+										 		&lt;/ol&gt; "
+								var="Control2.5" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
+			
+			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Assume you expect Person B to click away more than 50% of the boxes in Stage 2.
+											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives Person B higher 
+											expected earnings? &lt;br/&gt;
+											Please read the following statements and choose the correct one by typing the corresponding number into 
+											the field below. &lt;br/&gt;
+												&lt;ol type=&quot;1&quot;&gt;
+													&lt;li&gt; The performance-based payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
+													&lt;li&gt; The random payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
+													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
+										 		&lt;/ol&gt; "
+								var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
+			
+			<question text="&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect Person B to click away 30% of the boxes. Does Person
+											B receive a higher expected payoff if you choose option 1), i.e. a performance-based payment, or option 2), 
+											i.e. a random payment? &lt;br/&gt;
+											Please read the following statements and choose the correct one by typing the corresponding number into 
+											field below. &lt;br/&gt;
+												&lt;ol type=&quot;1&quot;&gt;
+													&lt;li&gt; Option 1) &lt;/li&gt;
+													&lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
+													&lt;li&gt; Option 2) &lt;/li&gt;
+												&lt;/ol&gt; "
+								var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="3" max="3"/>
+			
+			<question text="&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect Person B to click away 60% of the boxes. Does Person
+											B receive a higher expected payoff if you choose option 1), i.e. a performance-based payment, or option 2), 
+											i.e. a random payment? &lt;br/&gt;
+											Please read the following statements and choose the correct one by typing the corresponding number into 
+											field below. &lt;br/&gt;
+												&lt;ol type=&quot;1&quot;&gt;
+													&lt;li&gt; Option 1) &lt;/li&gt;
+													&lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
+													&lt;li&gt; Option 2) &lt;/li&gt;
+												&lt;/ol&gt; "
+								var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
 
     </screen>
 
