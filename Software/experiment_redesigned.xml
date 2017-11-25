@@ -758,11 +758,11 @@
       <message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Person A's decision &lt;/b&gt; 
       							 &lt;br/&gt; &lt;br/&gt;
 
-      							 Person A chose &lt;b&gt; #[Group[2].Answers['PersonAProb']]# &lt;/b&gt; 
+      							 Person A chose &lt;b&gt; option #[Group[2].Answers['PersonAProb']]#) &lt;/b&gt;. 
       							 &lt;br/&gt; &lt;br/&gt;
 
-      							 Remember, a performance-based payment means that the likelihood with which you earn 225 DKK is 
-      							 given by the percentage of boxes you clicked away. A random payment simply means that you have a 
+      							 Remember, a performance-based payment, i.e. option 1), means that the likelihood with which you earn 225 DKK is 
+      							 given by the percentage of boxes you clicked away. A random payment, i.e. option 2), simply means that you have a 
       							 50% chance to earn 150 DKK and a 50% chance to earn 225 DKK."/>
       <message text="You can choose your workload on the next page. Press 'Next' when you are ready."/>
     </screen>
