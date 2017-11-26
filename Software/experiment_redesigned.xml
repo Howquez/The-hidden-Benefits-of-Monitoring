@@ -332,7 +332,7 @@
 
 
 <!-- Second Set of Control Questions, Role 1/B -->
-		<screen backbutton="false"  condition="#[ Self.Role == 1 ]#">
+		<screen backbutton="false" wait="true" condition="#[ Self.Role == 1 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
 											To answer the following questions, you have to remember how Person B's performance is measured and what the 
@@ -362,7 +362,7 @@
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 		</screen>
 		
-		<screen backbutton="false"  condition="#[ Self.Role == 1 ]#">
+		<screen backbutton="false" wait="true" condition="#[ Self.Role == 1 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt; Question 1&lt;/b&gt;: Think about the differences between Stage 1 and Stage 2. Concerning 
@@ -558,7 +558,7 @@
 
 
     <!-- Second Set of Control Questions, Role 1/B -->
-    <screen backbutton="false"  condition="#[ Self.Role == 2 ]#">
+    <screen backbutton="false" wait="true" condition="#[ Self.Role == 2 ]#">
 
       <question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
@@ -589,7 +589,7 @@
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 		</screen>
 		
-		<screen backbutton="false"  condition="#[ Self.Role == 1 ]#">
+		<screen backbutton="false" wait="true" condition="#[ Self.Role == 1 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt; Question 1&lt;/b&gt;: Think about the differences between Stage 1 and Stage 2. Concerning 
