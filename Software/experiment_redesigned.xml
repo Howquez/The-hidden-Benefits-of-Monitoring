@@ -116,7 +116,7 @@
 
 
 <!-- First Set of Control Questions for both Players-->
-    <screen backbutton="true">
+    <screen backbutton="false">
 			<question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 1: Control questions&lt;/b&gt;&lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt;Question 1&lt;/b&gt;: Remember, in Stage 1 your performance will determine the likelihood 
