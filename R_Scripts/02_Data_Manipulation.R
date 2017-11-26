@@ -28,15 +28,16 @@ names(experimentData)[names(experimentData)=="Reciprocity4"]    <- "RB4"
 
 # change how IT as well a Productivity and Performance are encoded
 experimentData$IT <- as.integer(experimentData$IT)
-experimentData$IT[experimentData$IT <= 50] <- 0 # low  IT or "Likelihood" is coded as zero
-experimentData$IT[experimentData$IT >  50] <- 1 # high IT or "Likelihood" is coded as one
+# experimentData$IT[experimentData$IT <= 50] <- 2 # low  IT or "Likelihood" is coded as zero
+# experimentData$IT[experimentData$IT >  50] <- 1 # high IT or "Likelihood" is coded as one
+experimentData$IT <- -(experimentData$IT -2) # we changed the variable's encoding
 
 experimentData$Productivity <- experimentData$Productivity / 100
 experimentData$Performance <- experimentData$Performance / 100
 
 # Generate variables
 sampleSize  <- NROW(experimentData)
-maxScreens  <- 10 # Need to adjust this!
+maxScreens  <- 25 # Need to adjust this!
 q           <- 0.5
 
 experimentData$relProductivity <- experimentData$Productivity - q
