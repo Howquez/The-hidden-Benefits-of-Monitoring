@@ -660,7 +660,7 @@
 
 
 <!-- Both wait for each other to read to read the "starting signal" -->
-    <screen wait="true" condition="#[ Self.Role == 1 ]#">
+    <screen wait="false" condition="#[ Self.Role == 1 ]#">
       <message text="&lt;b&gt; Stage 2: Start &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             				 You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
             				 On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
@@ -680,7 +680,7 @@
       <message text="Please press 'Next' to start Stage 2 of the experiment." />
     </screen>
 
-        <screen wait="true" condition="#[ Self.Role == 2 ]#">
+        <screen wait="false" condition="#[ Self.Role == 2 ]#">
       <message text="&lt;b&gt; Stage 2: Start &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
             				 You have read the instructions and answered the control questions correctly.&lt;br/&gt;&lt;br/&gt;
             				 On the following pages, you can proceed with &lt;b&gt; Stage 2&lt;/b&gt; of this experiment. 
