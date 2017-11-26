@@ -116,7 +116,7 @@
 
 
 <!-- First Set of Control Questions for both Players-->
-    <screen backbutton="false">
+    <screen backbutton="true">
 			<question text="&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Stage 1: Control questions&lt;/b&gt;&lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt;Question 1&lt;/b&gt;: Remember, in Stage 1 your performance will determine the likelihood 
@@ -332,14 +332,14 @@
 
 
 <!-- Second Set of Control Questions, Role 1/B -->
-		<screen backbutton="false" wait="true" condition="#[ Self.Role == 1 ]#">
+		<screen backbutton="true" condition="#[ Self.Role == 1 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
 											To answer the following questions, you have to remember how Person B's performance is measured and what the 
 											clicking task looks like. You have seen that the task consists of a series of screens with black boxes; 
 											after a few seconds the whole screen disappears together with the remaining boxes and a new screen with 
 											new black boxes comes up. Below, you will be asked about the consequences of your workload decision. 
-											If you have problems finding the correct answers, you can read the printed 
+											If you have problems finding the correct answers, you can press the 'Back'-button below and read the  
 											instructions once again. &lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt; Question 1&lt;/b&gt;: Imagine you choose to work on 10 screens (which is 40% of the total 
@@ -362,7 +362,7 @@
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 		</screen>
 		
-		<screen backbutton="false" wait="true" condition="#[ Self.Role == 1 ]#">
+		<screen backbutton="true" condition="#[ Self.Role == 1 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt; Question 1&lt;/b&gt;: Think about the differences between Stage 1 and Stage 2. Concerning 
@@ -558,7 +558,7 @@
 
 
     <!-- Second Set of Control Questions, Role 1/B -->
-    <screen backbutton="false" wait="true" condition="#[ Self.Role == 2 ]#">
+    <screen backbutton="true" condition="#[ Self.Role == 2 ]#">
 
       <question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
@@ -566,7 +566,7 @@
 											clicking task looks like. You have seen that the task consists of a series of screens with black boxes; 
 											after a few seconds the whole screen disappears together with the remaining boxes and a new screen with 
 											new black boxes comes up. Below, you will be asked about the consequences of Person B's workload decision. 
-											If you have problems finding the correct answers, you can read the printed
+											If you have problems finding the correct answers, you can press the 'Back'-button below and read the
 											instructions once again. &lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt; Question 1&lt;/b&gt;: Imagine Person B chooses to work on 10 screens (which is 40% of the total 
@@ -589,7 +589,7 @@
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 		</screen>
 		
-		<screen backbutton="false" wait="true" condition="#[ Self.Role == 1 ]#">
+		<screen backbutton="true" condition="#[ Self.Role == 2 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
 											&lt;b&gt; Question 1&lt;/b&gt;: Think about the differences between Stage 1 and Stage 2. Concerning 
