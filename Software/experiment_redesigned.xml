@@ -835,7 +835,7 @@
 
       <onload var="StageA"    val="#[1 if float(Group[2].Answers['Rand6']) >= 50 else 2]#" />
       <onload var="PayA1"     val="#[150 if float(Group[2].Answers['Rand7']) >= float(Group[2].Answers['score2']) else 225]#" />
-      <onload var="PayA2"     val="#[340 - float(Group[1].Answers['PaymentB']) * float(Group[1].Answers['score']) - float(Group[2].Answers['CostsA']) ]#" />
+      <onload var="PayA2"     val="#[340 - float(Group[1].Answers['PaymentB']) + float(Group[1].Answers['score']) - float(Group[2].Answers['CostsA']) ]#" />
       <onload var ="PaymentA" val="#[float(Group[2].Answers['PayA2']) if float(Group[2].Answers['StageA']) >= 2 else float(Group[2].Answers['PayA1'])]#" />
 
       <message text="&lt;b&gt;&lt;br/&gt;&lt;br/&gt;Results: Stage 2&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;
