@@ -298,7 +298,7 @@
 										 to these costs, Person A receives the profit generated from your work on the task in Stage 2 and pays 
 										 your earnings. Specifically, his earnings are as follows. &lt;br/&gt; &lt;br/&gt;
 										 
-										 Person A's earnings = 340 + Percentage points of boxes you clicked away - Your payoff - Person A's costs 
+										 Person A's earnings = 340 + Percentage points of boxes you clicked away - Your payoff - Person A's costs for options 1 or 2 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 &lt;b&gt; Your earnings in Stage 2 are: &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
@@ -309,7 +309,7 @@
 										 &lt;b&gt; Examples &lt;/b&gt; : &lt;br/&gt;
 										 
 										 Imagine Person A chooses option 1) and you expect to click away 20% of the boxes. Given this, you can expect 
-										 to earn the following: &lt;br/&gt;
+										 to earn the following: &lt;br/&gt;&lt;br/&gt;
 										 
 										 Your Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 										 
@@ -317,7 +317,7 @@
 										 option 1) your expected earnings are 165 DKK (20% x 225 DKK  and 80% x 150 DKK = 165 DKK). 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
-										 Assume now that Person A chooses option 2) and the random process determines that you receive 225 DKK 
+										 Assume now that the payment mechanism that was chosen by Person A (i.e. option 1 or 2) determines that you receive 225 DKK 
 										 from the work on the task in Stage 2. Given this, Person A's earnings in Stage 2 are: 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
@@ -357,7 +357,7 @@
 			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Imagine you clicked away 75% of the boxes on each screen in Stage 1. 
 											Remember that this would translate into a performance of 75%. Imagine further, that you expect to 
 											click the same amount of boxes per screen in Stage 2 and that you choose to work on 5 out of 25 
-											screens (20% of the screens), what would your performance in Stage 2 be in that case? &lt;br/&gt;
+											screens (20% of the screens), what is your expected performance in Stage 2 in that case? &lt;br/&gt;
 											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 		</screen>
@@ -479,8 +479,8 @@
 										 2) Person B's earnings in Stage 2 will be random. &lt;br/&gt; &lt;br/&gt;
 										 
 										 In a nutshell, if you choose option 1), Person B's payoff in Stage 2 will depend on his performance 
-										 in the clicking task. If you choose option 2) instead, your payoff in Stage 2 will be random 
-										 and thus independent of your performance in the clicking task. As you will be paying Person B for his work 
+										 in the clicking task. If you choose option 2) instead, Person B's payoff in Stage 2 will be random 
+										 and thus independent of his performance in the clicking task. As you will be paying Person B for his work 
 										 on the task, this choice also affects your earnings (this will be explained in more detail in what follows).
 										 &lt;br/&gt; &lt;br/&gt; 
 										 
@@ -521,12 +521,12 @@
       							 Your earnings in Stage 2 have several components. First, you will receive an endowment of 
 										 340 DKK. Second, your choice regarding your options 1) or 2) is connected to a cost that you 
 										 have to pay. Specifically, your costs are as follows. If you decide that Person B's earnings in 
-										 Stage 2 should be random, i.e. you choose option 2), you have to pay 20 DKK. If you decides that Person B's
+										 Stage 2 should be random, i.e. you choose option 2), you have to pay 20 DKK. If you decide that Person B's
 										 earnings should depend on his performance, i.e. you choose option 1), you have to pay 25 DKK. In addition 
 										 to these costs, you receive the profit generated from Person B's work on the task in Stage 2 and you pay 
 										 Person B's earnings. Specifically, his earnings are as follows. &lt;br/&gt; &lt;br/&gt;
 										 
-										 Your earnings = 340 + Percentage points of boxes Person B clicked away - Person B's payoff - your costs 
+										 Your earnings = 340 + Percentage points of boxes Person B clicked away - Person B's payoff - your costs for options 1 or 2
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 &lt;b&gt; Person B's earnings in Stage 2 are: &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
@@ -536,8 +536,8 @@
 										 
 										 &lt;b&gt; Examples &lt;/b&gt; : &lt;br/&gt;
 										 
-										 Imagine you choose option 1) and you expect Person B to click away 20% of the boxes. Given this, you can expect 
-										 to earn the following: &lt;br/&gt;
+										 Imagine you choose option 1) and you expect Person B to click away 20% of the boxes. Given this, Person B can expect 
+										 to earn the following: &lt;br/&gt;&lt;br/&gt;
 										 
 										 Person B's Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
 										 
@@ -545,15 +545,13 @@
 										 option 1) Person B's expected earnings are 165 DKK (20% x 225 DKK  and 80% x 150 DKK = 165 DKK). 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
-										 Assume now that you choose option 2) and the random process determines that Person B receives 225 DKK 
+										 Assume now that the payment mechanism that was chosen by you (i.e. option 1 or 2) determines that Person B receives 225 DKK 
 										 from the work on the task in Stage 2. Given this, your earnings in Stage 2 are: 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 Your earnings = 340 + 20 - 225 - 20 = 115 DKK &lt;br/&gt; &lt;br/&gt;
-										 
-										
-										 
-										 On the next page, we will ask you and the Person you are paired with to answer control questions to 
+									
+								     On the next page, we will ask you and the Person you are paired with to answer control questions to 
 										 make sure that the instructions are clear. Upon answering these questions correctly, you can proceed 
 										 with the second stage of the experiment. "/>
     </screen>
@@ -586,7 +584,7 @@
 			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Imagine Person B clicked away 75% of the boxes on each screen in Stage 1. 
 											Remember that this would translate into a performance of 75%. Imagine further, that you expect Person B to 
 											click the same amount of boxes per screen in Stage 2 and that he chooses to work on 5 out of 25 
-											screens (20% of the screens), what would his performance in Stage 2 be in that case? &lt;br/&gt;
+											screens (20% of the screens), what is his expected performance in Stage 2 in that case? &lt;br/&gt;
 											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
 		</screen>
@@ -754,8 +752,8 @@
       							 Person A chose &lt;b&gt; option #[Group[2].Answers['PersonAProb']]#) &lt;/b&gt;. 
       							 &lt;br/&gt; &lt;br/&gt;
 
-      							 Remember, a performance-based payment, i.e. option 1), means that the likelihood with which you earn 225 DKK is 
-      							 given by the percentage of boxes you clicked away. A random payment, i.e. option 2), simply means that you have a 
+      							 Remember, if Person A has chosen option 1) this means your payoff in Stage 2 will be performance-based. This means, the likelihood with which you earn 225 DKK is 
+      							 given by the percentage of boxes you clicked away. If Person A has chosen option 2) this means your payoff in Stage 2 will be random. This means, you have a 
       							 50% chance to earn 150 DKK and a 50% chance to earn 225 DKK."/>
       <message text="You can choose your workload on the next page. Press 'Next' when you are ready."/>
     </screen>
