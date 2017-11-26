@@ -160,7 +160,7 @@
 <!-- Stage 1: Both Players learn their Performance-->
     <screen wait="false" >
 			<message text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 1: Results &lt;/b&gt; &lt;br/&gt;&lt;br/&gt;
-										 Your performance: You clicked away #[ Self.Answers['score2'] ]#% of the boxes during the box-clicking 
+										 Your performance: You clicked away &lt;b&gt; #[ Self.Answers['score2'] ]#% &lt;/b&gt; of the boxes during the box-clicking 
 										 task in Stage 1. &lt;br/&gt;&lt;br/&gt;
 										 This means you have a #[ Self.Answers['score2'] ]#% chance to earn 225 DKK and a 
 										 #[ 100 - (float(Self.Answers['score2'])) ]#% chance to earn 150 DKK in the first stage. &lt;br/&gt; &lt;br/&gt;
@@ -270,7 +270,7 @@
 										 After you are informed about Person A's choice, you have to make a decision on how much effort to put 
 										 into the box-clicking task in Stage 2. Importantly, you will make this decision in two steps: First, 
 										 you can choose your workload. That is, you can choose the number of screens you intend to work on. You 
-										 can thereby choose any number between 0 and 25 where 25 is the number of screens you also encountered 
+										 can thereby choose any number between 1 and 25 where 25 is the number of screens you also encountered 
 										 in Stage 1. In the second step, the box-clicking task will start with the number of screens you have 
 										 chosen and you can decide, as in Stage 1, how many boxes you want to click away. &lt;br/&gt; &lt;br/&gt;
 										 
@@ -298,7 +298,7 @@
 										 to these costs, Person A receives the profit generated from your work on the task in Stage 2 and pays 
 										 your earnings. Specifically, his earnings are as follows. &lt;br/&gt; &lt;br/&gt;
 										 
-										 Person A's earnings = 340 + Percentage points of boxes you clicked away - Your payoff - Person A's costs for options 1 or 2 
+										 Person A's earnings = 340 + Percentage points of boxes you clicked away - Your payoff - Person A's costs for option 1) or 2) 
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 &lt;b&gt; Your earnings in Stage 2 are: &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
@@ -308,7 +308,7 @@
 										 
 										 &lt;b&gt; Examples &lt;/b&gt; : &lt;br/&gt;
 										 
-										 Imagine Person A chooses option 1) and you expect to click away 20% of the boxes. Given this, you can expect 
+										 Imagine Person A chooses option 2) and you expect to click away 20% of the boxes. Given this, you can expect 
 										 to earn the following: &lt;br/&gt;&lt;br/&gt;
 										 
 										 Your Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
@@ -335,7 +335,7 @@
 		<screen backbutton="true"  condition="#[ Self.Role == 1 ]#">
 			<question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Control questions &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
 											
-											To answer the following questions, you have to remember how your performance is measured and what the 
+											To answer the following questions, you have to remember how Person B's performance is measured and what the 
 											clicking task looks like. You have seen that the task consists of a series of screens with black boxes; 
 											after a few seconds the whole screen disappears together with the remaining boxes and a new screen with 
 											new black boxes comes up. Below, you will be asked about the consequences of your workload decision. 
@@ -484,7 +484,7 @@
 										 on the task, this choice also affects your earnings (this will be explained in more detail in what follows).
 										 &lt;br/&gt; &lt;br/&gt; 
 										 
-										 Person B will be informed about your choice before Person B decide how many boxes he wants to click away 
+										 Person B will be informed about your choice before Person B decides how many boxes he wants to click away 
 										 in the box-clicking task in Stage 2."/>
     </screen>
 
@@ -497,7 +497,7 @@
       							 After Person B is informed about your choice, Person B has to make a decision on how much effort 
       							 to put into the box-clicking task in Stage 2. Importantly, Person B will make this decision in two 
       							 steps: First, he can choose his workload. That is, Person B can choose the number of screens he intends 
-      							 to work on. Person B can thereby choose any number between 0 and 25 where 25 is the number of screens 
+      							 to work on. Person B can thereby choose any number between 1 and 25 where 25 is the number of screens 
       							 you also encountered in Stage 1. In the second step, the box-clicking task will start with the number 
       							 of screens Person B has chosen and he can decide, as in Stage 1, how many boxes he wants to click away. 
       							 &lt;br/&gt; &lt;br/&gt;
@@ -526,7 +526,7 @@
 										 to these costs, you receive the profit generated from Person B's work on the task in Stage 2 and you pay 
 										 Person B's earnings. Specifically, his earnings are as follows. &lt;br/&gt; &lt;br/&gt;
 										 
-										 Your earnings = 340 + Percentage points of boxes Person B clicked away - Person B's payoff - your costs for options 1 or 2
+										 Your earnings = 340 + Percentage points of boxes Person B clicked away - Person B's payoff - your costs for option 1) or 2)
 										 &lt;br/&gt; &lt;br/&gt;
 										 
 										 &lt;b&gt; Person B's earnings in Stage 2 are: &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
@@ -536,7 +536,7 @@
 										 
 										 &lt;b&gt; Examples &lt;/b&gt; : &lt;br/&gt;
 										 
-										 Imagine you choose option 1) and you expect Person B to click away 20% of the boxes. Given this, Person B can expect 
+										 Imagine you choose option 2) and you expect Person B to click away 20% of the boxes. Given this, Person B can expect 
 										 to earn the following: &lt;br/&gt;&lt;br/&gt;
 										 
 										 Person B's Stage 2 earnings are 225 DKK with 50% and 150 DKK with 50%.&lt;br/&gt;&lt;br/&gt;
@@ -690,8 +690,8 @@
 	    							 &lt;ol&gt;
 	    								 &lt;li&gt; You are informed about Person B's Performance in Stage 1. &lt;/li&gt;
 										   &lt;li&gt; You choose either option 1) or option 2). &lt;/li&gt;
-										   &lt;li&gt; You are informed about Person A&apos;s decision. &lt;/li&gt;
-										   &lt;li&gt; Person B chooses her workload. &lt;/li&gt;
+										   &lt;li&gt; Person B is informed about your decision. &lt;/li&gt;
+										   &lt;li&gt; Person B chooses his workload. &lt;/li&gt;
 										   &lt;li&gt; Person B engages in the box-clicking task. &lt;/li&gt;
 										   &lt;li&gt; Your earnings from Stage 2 are calculated subject to the decisions of both, you and Person B. &lt;/li&gt;
 										   &lt;li&gt; You are informed about your final earnings. &lt;/li&gt;
@@ -720,8 +720,8 @@
     <screen condition="#[ Self.Role == 2 ]#">
     	<question text="&lt;b&gt; Stage 2: Choosing the Mechanism &lt;/b&gt; &lt;br/&gt; &lt;br/&gt;
       								On this page you will be informed about Person B's performance in Stage 1. 
-      								After that, you have to choose the whether Person B's earnings should be performance-based or random. 
-      								payment in Stage 2. &lt;br/&gt; &lt;br/&gt;
+      								After that, you have to choose whether Person B's earnings in Stage 2 should be performance-based or 
+											random. &lt;br/&gt; &lt;br/&gt;
 
       								&lt;b&gt; Person B's Performance in Stage 1: &lt;/b&gt; &lt;br/&gt;
       								Person B clicked away #[ Group[1].Answers['score2'] ]#% of the boxes during the box-clicking task in 
