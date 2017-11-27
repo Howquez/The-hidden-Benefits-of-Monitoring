@@ -608,7 +608,7 @@
 												&lt;/ol&gt; "
 								var="Control2.4" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
 			
-			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Assume you expect Person B to click away less than 50% of the boxes in Stage 2.
+			<question text="&lt;b&gt; Question 2&lt;/b&gt;: Assume you expect Person B to click away less than 50% of the boxes in Stage 2.
 											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives Person B higher 
 											expected earnings? &lt;br/&gt;
 											Please read the following statements and choose the correct one by typing the corresponding number into 
@@ -632,7 +632,7 @@
 										 		&lt;/ol&gt; "
 								var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
 			
-			<question text="&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect Person B to click away 30% of the boxes. Does Person
+			<question text="&lt;b&gt;Question 4&lt;/b&gt;: Imagine you expect Person B to click away 30% of the boxes. Does Person
 											B receive a higher expected payoff if you choose option 1), i.e. a performance-based payment, or option 2), 
 											i.e. a random payment? &lt;br/&gt;
 											Please read the following statements and choose the correct one by typing the corresponding number into 
@@ -642,7 +642,7 @@
 													&lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
 													&lt;li&gt; Option 2) &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="3" max="3"/>
+								var="Control2.8" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
 			
 			<question text="&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect Person B to click away 60% of the boxes. Does Person
 											B receive a higher expected payoff if you choose option 1), i.e. a performance-based payment, or option 2), 
