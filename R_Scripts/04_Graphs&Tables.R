@@ -33,19 +33,19 @@ ggplot(experimentData, aes(x=Productivity, y=Performance, color=IT, alpha=IT)) +
         geom_point() +
         ggplotStyle +
         geom_smooth(method=lm, aes(fill=IT), alpha = 1/5) +
-        labs(x = "Productivity in Stage 1", y = "Performance in Stage 2", col="Incentives") +
+        labs(x = "Productivity in Stage 1", y = "Performance in Stage 2", col="Mechanism") +
         geom_hline(yintercept = 0, alpha= 1/2) +
         geom_vline(xintercept = 0.5, alpha= 1/2, lty = 2) +
         # geom_hline(yintercept = 1, alpha= 1/2) +
         # geom_segment(x = 0.5, y = 0, xend = 0.5, yend = 1, size=1/2, colour= "gray50", inherit.aes = T) +
-        #geom_abline(intercept = 0, slope = 1, alpha = 1/2, lty = 2) +
-        geom_abline(intercept = 0, slope = 0.75, col = colMe,  alpha = 1/2, lty = 2) +
-        geom_abline(intercept = 0, slope = 0.25, col = colLo, alpha = 3/4, lty = 2) +
+        # geom_abline(intercept = 0, slope = 1, alpha = 1/2, lty = 2) +
+        # geom_abline(intercept = 0, slope = 0.75, col = colMe,  alpha = 1/2, lty = 2) +
+        # geom_abline(intercept = 0, slope = 0.25, col = colLo, alpha = 3/4, lty = 2) +
         scale_x_continuous(limits=c(0, 1)) +
         scale_y_continuous(limits=c(0, 1)) +
         scale_alpha_manual(values=c(1/3, 1/3)) +
-        scale_colour_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colMe)) + 
-        scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colMe)) + 
+        scale_colour_manual(labels = c("Random", "Performance-based"), values = c(colLo, colMe)) + 
+        scale_fill_manual(labels = c("Random", "Performance-based"), values = c(colLo, colMe)) + 
         guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = guide_legend(reverse=TRUE)) 
 
 # ggplot(experimentData, aes(x = Productivity, y = eDiff, color = IT, fill = IT)) +
@@ -116,7 +116,7 @@ p1 <- ggplot(subset(ggjoydata1, screenSample == "Medium Subsample"), aes(x = scr
         geom_histogram(fill = colMe, binwidth = 1) +
         ggplotStyle +
         geom_hline(yintercept = 0, alpha= 1/2) +
-        xlab("Semi-Strong Incentives") +
+        xlab("Performance-based") +
         scale_alpha_manual(labels = c("Low", "High"), values = c(.5, 1)) + 
         scale_x_continuous(expand = c(0, 0), limits = c(0, maxScreens + 1), 
                            breaks = scales::pretty_breaks(n = maxScreens/2))
@@ -125,7 +125,7 @@ p2 <- ggplot(subset(ggjoydata1, screenSample == "Low Subsample"), aes(x = screen
         geom_histogram(fill = colLo, binwidth = 1) +
         ggplotStyle +
         geom_hline(yintercept = 0, alpha= 1/2) +
-        xlab("Low Incentives") +
+        xlab("Random") +
         scale_alpha_manual(labels = c("Low", "High"), values = c(.5, 1)) +
         scale_x_continuous(expand = c(0, 0), limits = c(0, maxScreens + 1), 
                            breaks = scales::pretty_breaks(n = maxScreens/2)) 
@@ -169,28 +169,28 @@ RDD1 <- ggplot(subset(experimentData, IT == 1), aes(x = Productivity, y = Perfor
         geom_point(alpha = 1/3) +
         ggplotStyle +
         geom_smooth(method=lm, aes(fill=Productive), alpha = 1/5) +
-        labs(x = "Semi-Strong Incentives", y = "", col="Incentives") +
+        labs(x = "Performance-based", y = "", col="Random") +
         geom_hline(yintercept = 0, alpha= 1/2) +
         geom_vline(xintercept = 0.5, alpha= 1/2, lty = 2) +
         scale_x_continuous(limits=c(0, 1)) +
         scale_y_continuous(limits=c(0, 1)) +
         scale_alpha_manual(values=c(1/3, 1/3)) +
-        scale_colour_manual(labels = c("Weak", "Semi-Strong"), values = c(colMe, colMe)) + 
-        scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colMe, colMe)) + 
+        scale_colour_manual(labels = c("Random", "Performance-based"), values = c(colMe, colMe)) + 
+        scale_fill_manual(labels = c("Random", "Performance-based"), values = c(colMe, colMe)) + 
         guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = FALSE)
 
 RDD2 <- ggplot(subset(experimentData, IT == 0), aes(x = Productivity, y = Performance, colour = colLo)) +
         geom_point(alpha = 1/3) +
         ggplotStyle +
         geom_smooth(method=lm, aes(fill=Productive), alpha = 1/5) +
-        labs(x = "Weak Incentives", y = "", col="Incentives") +
+        labs(x = "Random", y = "", col="Mechanism") +
         geom_hline(yintercept = 0, alpha= 1/2) +
         geom_vline(xintercept = 0.5, alpha= 1/2, lty = 2) +
         scale_x_continuous(limits=c(0, 1)) +
         scale_y_continuous(limits=c(0, 1)) +
         scale_alpha_manual(values=c(1/3, 1/3)) +
-        scale_colour_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colLo)) + 
-        scale_fill_manual(labels = c("Weak", "Semi-Strong"), values = c(colLo, colLo)) + 
+        scale_colour_manual(labels = c("Random", "Performance-based"), values = c(colLo, colLo)) + 
+        scale_fill_manual(labels = c("Random", "Performance-based"), values = c(colLo, colLo)) + 
         guides(fill=FALSE, shape= FALSE, alpha= FALSE, col = FALSE)
 
 # Create PDF with RDD Plots
@@ -211,7 +211,7 @@ p5 <- ggplot(subset(experimentData, IT == 0), aes(x = IT, alpha = Productive)) +
         ylab("") +
         scale_y_continuous(labels = scales::percent) +
         scale_alpha_manual(name = "Productivity", labels = c("Low", "High"), values = c(.5, 1)) +
-        scale_x_discrete(labels = "Weak") + 
+        scale_x_discrete(labels = "Random") + 
         theme(legend.position="top")
 
 p6 <- ggplot(subset(experimentData, IT == 1), aes(x = IT, alpha = Productive)) +
@@ -222,11 +222,11 @@ p6 <- ggplot(subset(experimentData, IT == 1), aes(x = IT, alpha = Productive)) +
         ylab("") +
         scale_y_continuous(labels = scales::percent) +
         scale_alpha_manual(name = "Productivity", labels = c("Low", "High"), values = c(.5, 1)) +
-        scale_x_discrete(labels = "Semi-Strong") + 
+        scale_x_discrete(labels = "Performance-based") + 
         theme(legend.position="top")
 
 pdf("04_Figures/07_Principal.pdf",width=4,height=4)
-grid.arrange(p5, p6, ncol=2, bottom = textGrob("Incentives", gp=gpar(fontsize = 8, fontfamily = "Courier")),
+grid.arrange(p5, p6, ncol=2, bottom = textGrob("Mechanism", gp=gpar(fontsize = 8, fontfamily = "Courier")),
              left = textGrob("Percentage", rot = 90, vjust = 1,
                              gp = gpar(fontsize = 8, fontfamily = "Courier")))
 dev.off() 
