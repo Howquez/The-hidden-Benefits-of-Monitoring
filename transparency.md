@@ -25,6 +25,12 @@ Because the agent has another action to choose her effort provision (an agent ca
 
 Prior to running the experiment outlined in this repository, my supervisors ran a very similar experiment consisting of the same first stage and a similar second stage which is depicted on the second page of the [game tree .pdf](https://github.com/Howquez/The-hidden-Benefits-of-Monitoring/blob/master/Figures/20170920_GameTree.pdf). They ran the experiment with the same expectations as I outlined above. The data, which I have not seen at this point, did not reject their null hypothesis. As a consequence, we changed a few elements of the game. First, the principal's decision became binary -- she can either choose a high or a low IT in out design. Second, the game added a decision knot for the agent -- she can now choose her workload prior to exerting effort. Finally, the principal is informed about the agent's productivity in Stage 1.
 
+### Sessions 
+
+To make sure that our sample is heterogeneous with respect to the productivity, we manipulate the difficulty of the real-effort task exogenously. Remember that the bo-clicking task consists of a series of 25 screens where each of them contains 35 randomly ordered boxes which the subjects should click away. The more boxes they click away, the more productive they are. However, each of these screens has a timer running down from 11 seconds for instance. After these 11 seconds, the screen disappears and the subsequent screen comes up. Given this, we can manipulate the difficulty of the task by manipulating the average time a screen was displayed *between* sessions. Note that we did neither change the amount of boxes per screen nor the number of screens. The following table prints the average timings of the screens for each session.
+
+|SˇSe
+
 
 ### Notes
 
