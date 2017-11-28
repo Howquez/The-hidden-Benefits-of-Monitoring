@@ -34,6 +34,12 @@ Session | Day     | Average Timing
 1       | 27.11.17| 7 seconds
 2       | 28.11.17| 11 seconds
 3       | 28.11.17| 11 seconds
+4       | 29.11.17| 7 seconds
+5       | 29.11.17| 7 seconds
+6       | 30.11.17| 11 seconds
+7       | 30.11.17| 7 seconds
+8       | 01.12.17| 11 seconds
+
 
 
 ### Notes
