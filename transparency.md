@@ -29,7 +29,11 @@ Prior to running the experiment outlined in this repository, my supervisors ran 
 
 To make sure that our sample is heterogeneous with respect to the productivity, we manipulate the difficulty of the real-effort task exogenously. Remember that the bo-clicking task consists of a series of 25 screens where each of them contains 35 randomly ordered boxes which the subjects should click away. The more boxes they click away, the more productive they are. However, each of these screens has a timer running down from 11 seconds for instance. After these 11 seconds, the screen disappears and the subsequent screen comes up. Given this, we can manipulate the difficulty of the task by manipulating the average time a screen was displayed *between* sessions. Note that we did neither change the amount of boxes per screen nor the number of screens. The following table prints the average timings of the screens for each session.
 
-|SˇSe
+Session | Day     | Average Timing
+--------|---------|---------------
+1       | 27.11.17| 7 seconds
+2       | 28.11.17| 11 seconds
+3       | 28.11.17| 11 seconds
 
 
 ### Notes
