@@ -225,7 +225,7 @@ p6 <- ggplot(subset(experimentData, IT == 1), aes(x = IT, alpha = Productive)) +
         scale_x_discrete(labels = "Performance-based") + 
         theme(legend.position="top")
 
-pdf("04_Figures/07_Principal.pdf",width=4,height=4)
+pdf("04_Figures/07_Principal.pdf",width=5, height=4)
 grid.arrange(p5, p6, ncol=2, bottom = textGrob("Mechanism", gp=gpar(fontsize = 8, fontfamily = "Courier")),
              left = textGrob("Percentage", rot = 90, vjust = 1,
                              gp = gpar(fontsize = 8, fontfamily = "Courier")))
