@@ -37,7 +37,7 @@ Session | Day     | Average Timing | Participants
 4       | 29.11.17| 7 seconds      | 28
 5       | 29.11.17| 7 seconds      | 22
 6       | 30.11.17| 7 seconds      | 20
-7       | 30.11.17| 11 seconds     |
+7       | 30.11.17| 11 seconds     | 16
 8       | 01.12.17| 11 seconds     |
 
 
