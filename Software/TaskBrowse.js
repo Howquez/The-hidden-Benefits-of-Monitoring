@@ -15,8 +15,12 @@ var lastTime = 0;
 
 //var timings = [10, 9, 10, 8, 11, 9, 10, 12, 10, 11, 9, 9, 10, 10, 12, 8, 12, 10, 9, 9, 12, 8, 12, 10]; 
 //var timings = [12, 12, 10, 11, 14, 13, 12, 12, 11, 13, 14, 10, 12, 10, 13, 11, 12, 14, 13, 11, 10, 12, 11, 13, 14]; // I clicked on 73% of the boxes with the 8 sec avg.
-var timings = [7, 7, 5, 6, 9, 8, 7, 7, 6, 8, 9, 5, 7, 5, 8, 6, 7, 9, 8, 6, 7, 8, 7, 5, 6]; // I clicked on 47% of the boxes with the 8 sec avg.
+//var timings = [7, 7, 5, 6, 9, 8, 7, 7, 6, 8, 9, 5, 7, 5, 8, 6, 7, 9, 8, 6, 7, 8, 7, 5, 6]; // I clicked on 47% of the boxes with the 6.92 sec avg.
+var timings = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
 var practiceTimings = [8, 10, 12, 9];
+
+var full = timings.slice(0, 5);
+var timingsFull = timings.concat(full);
 
 var maxScreens = timings.length
 var treatment;
@@ -83,7 +87,7 @@ function game() {
 
     if (screenChoice != 9999) {
         for (n = 0; n < screenChoice; n++) {
-            finalTimings.push(timings[n]);
+            finalTimings.push(timingsFull[n]);
         }
         timings = finalTimings
     }
