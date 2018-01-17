@@ -773,7 +773,7 @@
       								Please indicate on how many screens you intend to work in the subsequent box-clicking task. 
       								You can choose any number between 1 and 25. If you decide to work on 25 screens, you will work on 
       								as many screens as you did in the first stage. &lt;br/&gt;"
-      var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="25" />
+      var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="30" />
 
       <message text="On the next page the work task will start. Press 'Next' when you are ready."/>
 
