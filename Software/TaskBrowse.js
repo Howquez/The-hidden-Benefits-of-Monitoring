@@ -14,7 +14,7 @@ var lastTime = 0;
 // e.g. 35 * 23 = 805
 
 //var timings = [10, 9, 10, 8, 11, 9, 10, 12, 10, 11, 9, 9, 10, 10, 12, 8, 12, 10, 9, 9, 12, 8, 12, 10]; 
-//var timings = [12, 12, 10, 11, 14, 13, 12, 12, 11, 13, 14, 10, 12, 10, 13, 11, 12, 14, 13, 11, 10, 12, 11, 13, 14]; // I clicked on 73% of the boxes with the 12 sec avg.
+//var timings = [10, 10, 10, 10, 12, 13, 12, 12, 11, 13, 14, 10, 12, 12, 13, 11, 12, 14, 13, 12, 12, 12, 13, 13, 14]; // I clicked on 73% of the boxes with the 12 sec avg.
 //var timings = [7, 7, 5, 6, 9, 8, 7, 7, 6, 8, 9, 5, 7, 5, 8, 6, 7, 9, 8, 6, 7, 8, 7, 5, 6]; // I clicked on 47% of the boxes with the 6.92 sec avg.
 var timings = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
 var practiceTimings = [8, 10, 12, 9];
