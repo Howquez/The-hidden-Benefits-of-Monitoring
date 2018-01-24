@@ -791,7 +791,7 @@
       <question text="&lt;br/&gt; &lt;br/&gt; &lt;b&gt; Stage 2: Choose your workload &lt;/b&gt; 
       								&lt;br/&gt; &lt;br/&gt;
       								Please indicate on how many screens you intend to work in the subsequent box-clicking task. 
-      								You can choose any number between 1 and 25. If you decide to work on 25 screens, you will work on 
+      								You can choose any number between 1 and 30. If you decide to work on 25 screens, you will work on 
       								as many screens as you did in the first stage. &lt;br/&gt;"
       var="screenChoice" defaultinput="" textbox="true" number="int" min="1" max="30" />
 
