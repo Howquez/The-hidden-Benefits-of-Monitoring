@@ -270,16 +270,19 @@
 										 After you are informed about Person A's choice, you have to make a decision on how much effort to put 
 										 into the box-clicking task in Stage 2. Importantly, you will make this decision in two steps: First, 
 										 you can choose your workload. That is, you can choose the number of screens you intend to work on. You 
-										 can thereby choose any number between 1 and 25 where 25 is the number of screens you also encountered 
-										 in Stage 1. In the second step, the box-clicking task will start with the number of screens you have 
-										 chosen and you can decide, as in Stage 1, how many boxes you want to click away. &lt;br/&gt; &lt;br/&gt;
+										 can thereby choose any number between 1 and 30. Note that you have been working on 25 screens in Stage
+										 1. You can therefore reduce your workload (by choosing a number of screens lower than 25) or increase
+										 your workload (by choosing a number of screens higher than 25). In the second step, the box-clicking 
+										 task will start with the number of screens you have chosen and you can decide, as in Stage 1, how many 
+										 boxes you want to click away. &lt;br/&gt; &lt;br/&gt;
 										 
 										 Note that your performance is measured as the percentage of boxes you clicked away out of all boxes 
-										 you could have clicked away on all 25 screens. If you decided, for example, to work on 20 screens 
-										 (which is 80% of the total number of screens), your performance cannot be higher than 80% even if you 
-										 click on every box that is displayed. You must also know that the time a screen is displayed is not 
-										 affected by your choice. As a consequence, the difficulty of the task remains the same, since you have 
-										 as much time per screen as before."/>
+										 you could have clicked away on 25 screens. If you decided, for example, to work on 20 screens (which
+										 is 80% of the number of screens from Stage 1), your performance cannot be higher than 80% even if you 
+										 click on every box that is displayed. If, in contrast, you decided to work on 30 screens (which is 120%
+										 the number of screens from Stage 1) it might become easier to improve your performance. You must also 
+										 know that the time a screen is displayed is not affected by your choice. As a consequence, the difficulty 
+										 of the task remains the same, since you have as much time per screen as before."/>
 		</screen>
 		
 		<screen backbutton="true" condition="#[ Self.Role == 1 ]#">
@@ -360,6 +363,13 @@
 											screens (20% of the screens), what is your expected performance in Stage 2 in that case? &lt;br/&gt;
 											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
+			
+			<question text="&lt;b&gt; Question 4&lt;/b&gt;: Imagine you clicked away 50% of the boxes on each screen in Stage 1. 
+											Remember that this would translate into a performance of 50%. Imagine further, that you expect to 
+											click the same amount of boxes per screen in Stage 2 and that you choose to work on 30 instead of 25 
+											screens (120% of the screens), what is your expected performance in Stage 2 in that case? &lt;br/&gt;
+											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
+								var="Control2.4" defaultinput="Question 4" textbox="true" number="int" min="60" max="60"/>
 		</screen>
 		
 		<screen backbutton="true" condition="#[ Self.Role == 1 ]#">
@@ -379,7 +389,7 @@
 													decide on whether I receive a performance-based payment or a random payment independent of my 
 													performance. &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.4" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
+								var="Control2.5" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
 			
 			<question text="&lt;b&gt; Question 2&lt;/b&gt;: Assume you expect to click away less than 50% of the boxes in Stage 2.
 											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives you higher 
@@ -391,7 +401,7 @@
 													&lt;li&gt; The random payoff gives me higher expected earnings in Stage 2. &lt;/li&gt;
 													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.5" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
+								var="Control2.6" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
 			
 			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Assume you expect to click away more than 50% of the boxes in Stage 2.
 											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives you higher 
@@ -403,7 +413,7 @@
 													&lt;li&gt; The random payoff gives me higher expected earnings in Stage 2. &lt;/li&gt;
 													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 										 		&lt;/ol&gt; "
-								var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
+								var="Control2.7" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
 			
 			<question text="&lt;b&gt; Question 4&lt;/b&gt;: Imagine you expect to click away 30% of the boxes. Do you receive a
 											higher expected payoff if Person A chooses option 1), i.e. a performance-based payment, or option 2),
@@ -415,7 +425,7 @@
 													&lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
 													&lt;li&gt; Option 2) &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.7" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
+								var="Control2.8" defaultinput="Question 4" textbox="true" number="int" min="3" max="3"/>
 			
 			<question text="&lt;b&gt;Question 5&lt;/b&gt;: Imagine you expect to click away 60% of the boxes. Do you receive a 
 											higher expected payoff if Person A chooses option 1), i.e. a performance-based payment, or option 2), 
@@ -427,7 +437,7 @@
 													&lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
 													&lt;li&gt; Option 2) &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
+								var="Control2.9" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
 		</screen>
 
 <!-- Instructions Stage 2 Role 2/A-->
@@ -497,17 +507,20 @@
       							 After Person B is informed about your choice, Person B has to make a decision on how much effort 
       							 to put into the box-clicking task in Stage 2. Importantly, Person B will make this decision in two 
       							 steps: First, he can choose his workload. That is, Person B can choose the number of screens he intends 
-      							 to work on. Person B can thereby choose any number between 1 and 25 where 25 is the number of screens 
-      							 you also encountered in Stage 1. In the second step, the box-clicking task will start with the number 
-      							 of screens Person B has chosen and he can decide, as in Stage 1, how many boxes he wants to click away. 
+      							 to work on. Person B can thereby choose any number between 1 and 30. Note that both of you have been 
+										 working on 25 screens in Stage 1. Person B can therefore reduce his workload (by choosing a number of 
+										 screens lower than 25) or increase his workload (by choosing a number of screens higher than 25).
+										 In the second step, the box-clicking task will start with the number of screens Person B has chosen and 
+										 he can decide, as in Stage 1, how many boxes he wants to click away. 
       							 &lt;br/&gt; &lt;br/&gt;
 
       							 Note that Person B's performance is measured as the percentage of boxes he clicked away out of all boxes 
-      							 he could have clicked away on all 25 screens. If Person B decided, for example, to work on 20 screens 
+      							 he could have clicked away on 25 screens. If Person B decided, for example, to work on 20 screens 
       							 (which is 80% of the total number of screens), his performance cannot be higher than 80% even if he 
-      							 clicks on every box that is displayed. You must also know that the time a screen is displayed is not 
-      							 affected by his choice. As a consequence, the difficulty of the task remains the same, since he has as much 
-      							 time per screen as before."/>
+      							 clicks on every box that is displayed. If, in contrast, Person B decided to work on 30 screens (which 
+										 is 120% the number of screens from Stage 1) it might become easier to improve his performance. You must 
+										 also know that the time a screen is displayed is not affected by his choice. As a consequence, the 
+										 difficulty of the task remains the same, since he has as much time per screen as before."/>
     </screen>
 
     <screen backbutton="true" condition="#[ Self.Role == 2 ]#">
@@ -587,6 +600,13 @@
 											screens (20% of the screens), what is his expected performance in Stage 2 in that case? &lt;br/&gt;
 											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
 								var="Control2.3" defaultinput="Question 3" textbox="true" number="int" min="15" max="15"/>
+			
+			<question text="&lt;b&gt; Question 4&lt;/b&gt;: Imagine Person B clicked away 50% of the boxes on each screen in Stage 1. 
+											Remember that this would translate into a performance of 50%. Imagine further, that you expect Person B to 
+											click the same amount of boxes per screen in Stage 2 and that he chooses to work on 30 instead of 25 
+											screens (120% of the screens), what is his expected performance in Stage 2 in that case? &lt;br/&gt;
+											Please answer by typing in a number between 0 and 100 where 0 means 0%, 3 means 3% etc. &lt;br/&gt;"
+								var="Control2.4" defaultinput="Question 4" textbox="true" number="int" min="60" max="60"/>
 		</screen>
 		
 		<screen backbutton="true" condition="#[ Self.Role == 2 ]#">
@@ -606,7 +626,7 @@
 													decide on whether Person B receives a performance-based payment or a random payment independent of his 
 													performance. &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.4" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
+								var="Control2.5" defaultinput="Question 1" textbox="true" number="int" min="4" max="4"/>
 			
 			<question text="&lt;b&gt; Question 2&lt;/b&gt;: Assume you expect Person B to click away less than 50% of the boxes in Stage 2.
 											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives Person B higher 
@@ -618,7 +638,7 @@
 													&lt;li&gt; The random payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
 													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 										 		&lt;/ol&gt; "
-								var="Control2.5" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
+								var="Control2.6" defaultinput="Question 2" textbox="true" number="int" min="2" max="2"/>
 			
 			<question text="&lt;b&gt; Question 3&lt;/b&gt;: Assume you expect Person B to click away more than 50% of the boxes in Stage 2.
 											Given this, which of the two payment mechanisms, i.e. random or performance-based, gives Person B higher 
@@ -630,7 +650,7 @@
 													&lt;li&gt; The random payoff gives Person B higher expected earnings in Stage 2. &lt;/li&gt;
 													&lt;li&gt; Both payoffs give me the same expected earnings in Stage 2. &lt;/li&gt;
 										 		&lt;/ol&gt; "
-								var="Control2.6" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
+								var="Control2.7" defaultinput="Question 3" textbox="true" number="int" min="1" max="1"/>
 			
 			<question text="&lt;b&gt;Question 4&lt;/b&gt;: Imagine you expect Person B to click away 30% of the boxes. Does Person
 											B receive a higher expected payoff if you choose option 1), i.e. a performance-based payment, or option 2), 
@@ -654,7 +674,7 @@
 													&lt;li&gt; Both yield the same expected payoff. &lt;/li&gt;
 													&lt;li&gt; Option 2) &lt;/li&gt;
 												&lt;/ol&gt; "
-								var="Control2.8" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
+								var="Control2.9" defaultinput="Question 5" textbox="true" number="int" min="1" max="1"/>
 
     </screen>
 
