@@ -40,7 +40,7 @@ Session | Day     | Average Timing | Participants
 7       | 30.11.17| 11 seconds     | 16
 8       | 01.12.17| 11 seconds     | 18
 9       | 30.01.18| 7  seconds     | 18
-10      | 31.01.18| 11 seconds     |
+10      | 31.01.18| 11 seconds     | 16
 11      | 31.01.18| 11 seconds     |
 
 
