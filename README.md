@@ -1,5 +1,5 @@
 - - - -
-### Note:
+### Note
 Even though this analysis (that is, the R scripts) should process the data as originaly intended, it is outdated. This is due to a last minute adjustment of the experimental design to which I was not able to adjust the analysis accordingly. As a consequence, I had to adjust the majority of my analyses *after* I saw the data. Because this repository was intended to provide a pre-specified analysis plan, I created a new one which you can find [here](https://github.com/Howquez/AnalysisPlan-HBOM).
 - - - -
 
