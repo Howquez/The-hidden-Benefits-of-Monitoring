@@ -1,3 +1,8 @@
+- - - -
+### Note:
+Even though this analysis (that is, the R scripts) should process the data as originaly intended, it is outdated. This is due to a last minute adjustment of the experimental design to which I was not able to adjust the analysis accordingly. As a consequence, I had to adjust the majority of my analyses *after* I saw the data. Because this repository was intended to provide a pre-specified analysis plan, I created a new one which you can find [here](https://github.com/Howquez/AnalysisPlan-HBOM).
+- - - -
+
 Together with [Alexander Sebald](http://www.econ.ku.dk/sebald/) and [Georg Kirchsteiger](http://gkirchst.ulb.ac.be), I ran an experiment investigating agents' reactions to monitoring decisions of their supervisors (principals) in a real-effort task. We hypothesize that the agents' productivity is crucial to understand whether agents like or dislike to be monitored and that some agents act reciprocal. That is, agents pass back kindness if they perceive the principals' decisions as kind. Likewise, we expect them to be unkind towards the principals if they feel treated unjustly. The experiment we designed allows the agents to form second-order beliefs (*i.e. what the agents believe the principals believe the agent would do*) and to punish or reward the principal as a response to her monitoring decision by exerting less or more effort in the working task. We do *not* hypothesize that agents like or dislike to be monitored *per se*. Instead, we expect productive agents to prefer to be monitored while unproductive agents dislike to be monitored. To fully understand the research project, I advise you to read the corresponding paper, which I will archive [here]() as soon as I defended it.
 
  - - - -
